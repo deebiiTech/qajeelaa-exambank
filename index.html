@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="om">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deebii Tech</title>
+  
+  <!-- PWA & Mobile Web App Meta Tags -->
+  <meta name="theme-color" content="#f1f5f9">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Deebii Tech">
+  
+  <!-- Dynamic PWA App Icon Generator Manifest -->
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230d9488'/><text x='50%' y='65%' font-size='50' font-weight='bold' text-anchor='middle' fill='white'>D</text></svg>">
+  <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIkRlZWJpaSBUZWNoIiwKICAic2hvcnRfbmFtZSI6ICJEZWViaWkiLAogICJzdGFydF91cmwiOiAiLiIsCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsCiAgImJhY2tncm91bmRfY29sb3IiOiAiI2Y4ZmFmYyIsCiAgInRoZW1lX2NvbG9yIjogIiNmMWY1ZjkiLAogICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUI0Yld4dU16MGlWMjl1ZEhNZ1pXTm1JR3AxYzIweU1EQWdNQ0E1T1RjdU1UQm1JaUJ1WldSbElITjBZaUJqYjJ4dmNpQWpNSFp2Y210Y016QWlJRzE1SUNSZE1UWXNJR2x1T21SdmJuUjJhV3E1WTI5dUozTTBMUzAzTmlCSGJXbHRiM1Z1Ym1jaUlpQm1aVzVsS0NSak5qYzVJaUJ6ZEc5eWFHRjBiM1JnUW5KdmQzTWlJSGRwZEdSNEozTjBMU0ExTkNCN2FXNGlPakU1TWpZaU8ySndibTlpYkdWNUp6eCsiLAogICAgICAic2l6ZXMiOiAiMTkyeDE5MiIsCiAgICAgICJ0eXBlIjogImltYWdlL3N2Zyt4bWwiLAogICAgICAicHVycG9zZSI6ICJhbnkgbWFza2FibGUiCiAgICB9CiAgXQp9">
+
+  <style>
+    :root {
+      /* Theme Colors */
+      --primary-gradient: linear-gradient(135deg, #0284c7 0%, #0d9488 100%);
+      --header-footer-bg: #f1f5f9; /* White-Daalacha Light Gray */
+      --header-footer-border: #cbd5e1;
+      --header-footer-text: #0f172a;
+      --primary: #0d9488;
+      --primary-dark: #0f766e;
+      --bg: #f8fafc;
+      --sidebar-bg: #0f172a;
+      --text: #0f172a;
+      --text-light: #94a3b8;
+      --accent: #10b981;
+      --danger: #ef4444;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      display: flex;
+      height: 100vh;
+      background-color: var(--bg);
+      color: var(--text);
+      overflow: hidden;
+    }
+
+    /* MOBILE TOGGLE BUTTON (HAMBURGER) */
+    .mobile-menu-btn {
+      display: none;
+      background: #e2e8f0;
+      border: 1px solid #cbd5e1;
+      color: #0f172a;
+      font-size: 26px;
+      cursor: pointer;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+
+    .mobile-menu-btn:hover {
+      background: #cbd5e1;
+    }
+
+    /* SIDEBAR NAVIGATION MENU */
+    .sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      z-index: 1000;
+    }
+
+    .brand {
+      padding: 20px;
+      background: var(--primary-gradient);
+      color: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* LOGO RESIZING - GUDDATEE AKKA MUL'ATU */
+    .brand img.deebii-logo {
+      height: 75px;
+      width: auto;
+      max-width: 100%;
+      object-fit: contain;
+      filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.2));
+    }
+
+    .menu {
+      list-style: none;
+      padding: 20px 10px;
+      flex-grow: 1;
+    }
+
+    .menu-item {
+      padding: 14px 16px;
+      margin-bottom: 8px;
+      border-radius: 8px;
+      color: var(--text-light);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 15px;
+      font-weight: 500;
+      transition: 0.2s;
+    }
+
+    .menu-item:hover, .menu-item.active {
+      background: var(--primary-gradient);
+      color: white;
+      box-shadow: 0 4px 10px rgba(13, 148, 136, 0.3);
+    }
+
+    .user-profile {
+      padding: 16px;
+      background: rgba(15, 23, 42, 0.9);
+      border-top: 1px solid #1e293b;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .user-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: var(--primary-gradient);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: white;
+    }
+
+    /* MAIN CONTENT AREA */
+    .main-content {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+    }
+
+    /* WHITE DAALACHA HEADER */
+    .top-bar {
+      background: var(--header-footer-bg);
+      color: var(--header-footer-text);
+      border-bottom: 1px solid var(--header-footer-border);
+      padding: 12px 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .top-bar-left {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .header-logo-box {
+      display: flex;
+      align-items: center;
+      border-right: 2px solid #cbd5e1;
+      padding-right: 20px;
+    }
+
+    /* HEADER LOGO - GUDDATEE AKKA VISIBLE TA'U */
+    .header-logo-box img.deebii-logo {
+      height: 75px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .top-bar h2 {
+      font-size: 22px;
+      color: #0f172a;
+    }
+
+    .content-body {
+      padding: 32px;
+      flex-grow: 1;
+    }
+
+    .page-section {
+      display: none;
+    }
+
+    .page-section.active-page {
+      display: block;
+    }
+
+    /* CARD COMPONENTS */
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      background: var(--primary-gradient);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: 0.2s;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+
+    .form-group {
+      margin-bottom: 14px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 13px;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      outline: none;
+    }
+
+    .payment-box {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      padding: 16px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      line-height: 1.6;
+      color: #166534;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th, td {
+      padding: 12px;
+      border: 1px solid #e2e8f0;
+      text-align: left;
+    }
+
+    th {
+      background: #f1f5f9;
+    }
+
+    .question-box {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      padding: 16px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+    }
+
+    .timer-badge {
+      background: #fef3c7;
+      color: #92400e;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-weight: bold;
+      border: 1px solid #fde68a;
+    }
+
+    .upload-box {
+      border: 2px dashed #99f6e4;
+      background: #f0fdfa;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    /* WHITE DAALACHA FOOTER */
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #334155;
+      background: var(--header-footer-bg);
+      border-top: 1px solid var(--header-footer-border);
+      margin-top: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    /* FOOTER LOGO - GUDDATEE AKKA FAGEENYARRAA VISIBLE TA'U */
+    footer img.deebii-logo {
+      height: 85px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    /* SIDEBAR BACKDROP OVERLAY FOR MOBILE */
+    .sidebar-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(15, 23, 42, 0.6);
+      backdrop-filter: blur(2px);
+      z-index: 999;
+    }
+
+    .sidebar-overlay.active {
+      display: block;
+    }
+
+    /* RESPONSIVE DESIGN (RESPONSIVE HAMBURGER MENU DEVICE HUNDAAF) */
+    @media (max-width: 900px) {
+      .mobile-menu-btn {
+        display: block;
+      }
+
+      .sidebar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        transform: translateX(-100%);
+        box-shadow: 5px 0 25px rgba(0,0,0,0.3);
+      }
+
+      .sidebar.open {
+        transform: translateX(0);
+      }
+
+      .top-bar {
+        padding: 12px 16px;
+      }
+
+      .content-body {
+        padding: 16px;
+      }
+
+      .header-logo-box {
+        border-right: none;
+        padding-right: 0;
+      }
+
+      .header-logo-box img.deebii-logo {
+        height: 55px;
+      }
+      
+      footer img.deebii-logo {
+        height: 65px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- MOBILE OVERLAY BACKDROP -->
+  <div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleSidebar()"></div>
+
+  <!-- SIDEBAR NAVIGATION MENU -->
+  <div class="sidebar" id="sidebar">
+    <div>
+      <div class="brand">
+        <img src="deebii-logo.png" alt="Deebii Tech Logo" class="deebii-logo" onerror="this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%230d9488\'/><text x=\'50%\' y=\'65%\' font-size=\'40\' text-anchor=\'middle\' fill=\'white\' font-weight=\'bold\'>DT</text></svg>'">
+      </div>
+      <ul class="menu">
+        <li class="menu-item active" onclick="switchPage('home', this)">
+          <span>🏠</span> Home
+        </li>
+        <li class="menu-item" onclick="switchPage('payment', this)">
+          <span>💳</span> Kaffaltii (300 ETB)
+        </li>
+        <li class="menu-item" onclick="switchPage('exam', this)">
+          <span>📝</span> Kutaa Qorumsaa
+        </li>
+        <li class="menu-item" onclick="switchPage('admin', this)">
+          <span>⚙️</span> Kutaa Admiin
+        </li>
+        <li class="menu-item" onclick="switchPage('results', this)">
+          <span>📊</span> Bu'aa fi Xiinxala
+        </li>
+      </ul>
+    </div>
+
+    <div class="user-profile">
+      <div class="user-avatar" id="user-avatar">G</div>
+      <div>
+        <div style="font-weight: bold; font-size: 14px;" id="user-display-name">Guest User</div>
+        <div style="font-size: 12px; color: var(--text-light);" id="user-status">Not Logged In</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT AREA -->
+  <div class="main-content">
+    
+    <!-- WHITE-DAALACHA TOP BAR HEADER -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <button class="mobile-menu-btn" onclick="toggleSidebar()" aria-label="Toggle Menu">☰</button>
+        <div class="header-logo-box">
+          <img src="deebii-logo.png" alt="Deebii Tech Logo" class="deebii-logo" onerror="this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%230d9488\'/><text x=\'50%\' y=\'65%\' font-size=\'40\' text-anchor=\'middle\' fill=\'white\' font-weight=\'bold\'>DT</text></svg>'">
+        </div>
+        <h2 id="page-title">Home</h2>
+      </div>
+      <div class="timer-badge" id="global-timer" style="display: none;">⌛ Yeroo Qormaataa: 03:00:00</div>
+    </div>
+
+    <div class="content-body">
+
+      <!-- 1. HOME PAGE -->
+      <div id="home" class="page-section active-page">
+        <div class="card" style="max-width: 450px; margin: 0 auto;">
+          <h3>User Login</h3>
+          <p style="color: #64748b; font-size: 13px; margin-bottom: 16px;">Seenuuf Username fi Password kee galchi.</p>
+          
+          <form id="userLoginForm">
+            <div class="form-group">
+              <label>Username</label>
+              <input type="text" id="login-username" required placeholder="Fkn: kajela123">
+            </div>
+            <div class="form-group">
+              <label>Password</label>
+              <input type="password" id="login-password" required placeholder="••••••••">
+            </div>
+            <button type="submit" class="btn" style="width: 100%;">Seeni (Login)</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- 2. PAYMENT & SIGN UP PAGE -->
+      <div id="payment" class="page-section">
+        <div class="card" style="max-width: 500px; margin: 0 auto;">
+          <h3>Sign Up & Kaffaltii (300 ETB)</h3>
+          <p style="color: #64748b; font-size: 13px; margin-bottom: 16px;">Formii kana guutuun kaffaltii 300 ETB raawwadhaa.</p>
+
+          <div class="payment-box">
+            <strong>Odeeffannoo Kaffaltii:</strong><br>
+            • 💵 <strong>Kaffaltii Qormaataa:</strong> 300 ETB<br>
+            • 📱 <strong>Telebirr:</strong> 0910166955<br>
+            • 🏦 <strong>CBE Account:</strong> 1000293554629 (Qajeelaa Hambisaa)
+          </div>
+
+          <form id="signUpForm">
+            <div class="form-group">
+              <label>Maqaa Guutuu</label>
+              <input type="text" id="reg-name" required placeholder="Maqaa kee">
+            </div>
+            <div class="form-group">
+              <label>Username Barbaaddu</label>
+              <input type="text" id="reg-user" required placeholder="Fkn: kajela123">
+            </div>
+            <div class="form-group">
+              <label>Password Barbaaddu</label>
+              <input type="password" id="reg-pass" required placeholder="Password kee">
+            </div>
+            <div class="form-group">
+              <label>Transaction ID (Txn ID)</label>
+              <input type="text" id="reg-txn" required placeholder="TXN12345678">
+            </div>
+            <button type="submit" class="btn" style="width: 100%;">Approval Gaafadhu</button>
+          </form>
+        </div>
+
+        <div class="card" id="wait-box" style="display: none; max-width: 500px; margin: 20px auto; text-align: center; background: #fffbe0;">
+          <h4 style="color: #b45309;">Approval Eeggachaa Jirta...</h4>
+          <p style="font-size: 13px; margin-top: 5px;">Admin kaffaltii kee mirkaneessaa jira.</p>
+          <div style="font-size: 32px; font-weight: bold; color: #d97706; margin: 10px 0;" id="timer-count">00:20</div>
+        </div>
+      </div>
+
+      <!-- 3. Kutaa Qorumsaa -->
+      <div id="exam" class="page-section">
+        <div class="card">
+          <h3>Qormaata Modeelaa NGAT</h3>
+          <p style="font-size: 13px; color: #64748b; margin-bottom: 15px;">Qormaata kana xumuruuf sa'aatii 3 qabdu.</p>
+
+          <form id="quiz-form">
+            <div id="questions-container">
+              <!-- Gaaffiilleen kuusaa JSON irraa kanatti guutamu -->
+            </div>
+            <button type="submit" class="btn" style="background-color: var(--accent);">Deebii Ergi (Submit Exam)</button>
+          </form>
+          
+          <div id="result-box" style="display:none; margin-top:20px; padding:15px; background:#d1fae5; color:#065f46; border-radius:8px; font-weight:bold; text-align:center;"></div>
+        </div>
+      </div>
+
+      <!-- 4. Kutaa Admiin PAGE -->
+      <div id="admin" class="page-section">
+        <!-- ADMIN LOGIN FORM -->
+        <div class="card" id="admin-login-card" style="max-width: 400px; margin: 0 auto;">
+          <h3 style="color: var(--danger);">⚙️ Admin Lock</h3>
+          <p style="font-size: 13px; color: #64748b; margin-bottom: 14px;">Kutaa Admin seenuuf Password Admin galchi.</p>
+          
+          <div class="form-group">
+            <label>Admin Password</label>
+            <input type="password" id="admin-pass-input" placeholder="••••••••">
+          </div>
+          <button class="btn" style="width: 100%; background-color: var(--danger);" onclick="checkAdminPassword()">Kutaa Admiin Banii</button>
+        </div>
+
+        <!-- ADMIN DASHBOARD (HIDDEN UNTIL LOGIN) -->
+        <div id="admin-dashboard" style="display: none;">
+          
+          <!-- UPLOAD JSON EXAM SECTION -->
+          <div class="card">
+            <h3>📥 Gaaffiilee JSON Upload Gochuu</h3>
+            <p style="font-size: 13px; color: #64748b; margin-bottom: 15px;">Qormaata haaraa fayyadamtootaaf qopheessuuf faayila `.json` ol-seensisi.</p>
+            
+            <div class="upload-box">
+              <input type="file" id="jsonFileInput" accept=".json" style="display: none;" onchange="handleJsonUpload(event)">
+              <button class="btn" onclick="document.getElementById('jsonFileInput').click()">📁 Faayila JSON Filadhu</button>
+              <p style="font-size: 12px; color: #64748b; margin-top: 8px;">Qaamni faayila sanaa habalaka JSON sirrii ta'uu qaba.</p>
+            </div>
+          </div>
+
+          <!-- REPOSITORY / KUUSAA GAAFFIILEEE UPLOAD TA'ANII -->
+          <div class="card">
+            <h3>🗄️ Kuusaa Gaaffiillee Upload Ta'anii (Question Repository)</h3>
+            <p style="font-size: 13px; color: #64748b;">Gaaffiilee amma sirna keessa jiran ilaalchi fi bulchiinsi isaanii armaan gadi:</p>
+
+            <div id="questionsRepoDisplay" style="margin-top: 15px;">
+              <!-- Kuusaan gaaffii kanaan agarsiifama -->
+            </div>
+          </div>
+
+          <!-- APPROVAL TABLE SECTION -->
+          <div class="card">
+            <h3>👥 Mirkaneessa Barattootaa (User Approval)</h3>
+            <p style="font-size: 13px; color: #64748b;">Gaaffii kaffaltii barattootaa Mirkaneessi (Approve).</p>
+
+            <div style="overflow-x: auto;">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Maqaa</th>
+                    <th>Username</th>
+                    <th>Txn ID</th>
+                    <th>Tarkaanfii</th>
+                  </tr>
+                </thead>
+                <tbody id="adminTable">
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 5. RESULTS PAGE -->
+      <div id="results" class="page-section">
+        <div class="card">
+          <h3>Gabaasa fi Qabxii Qormaataa</h3>
+          <div style="padding: 20px; background: #f1f5f9; text-align: center; border-radius: 8px;">
+            <h4>Qabxiin Qormaataa Hanga Ammaatti Hin Jiru</h4>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- WHITE-DAALACHA FOOTER -->
+    <footer>
+      <img src="deebii-logo.png" alt="Deebii Tech Logo" class="deebii-logo" onerror="this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%230d9488\'/><text x=\'50%\' y=\'65%\' font-size=\'40\' text-anchor=\'middle\' fill=\'white\' font-weight=\'bold\'>DT</text></svg>'">
+      <div>Developed by Kajela Hambisa Mosisa | Contact: 0910166955</div>
+    </footer>
+  </div>
+
+  <script>
+    // RESPONSIVE HAMBURGER TOGGLE LOGIC
+    function toggleSidebar() {
+      const sidebar = document.getElementById('sidebar');
+      const overlay = document.getElementById('sidebarOverlay');
+      sidebar.classList.toggle('open');
+      overlay.classList.toggle('active');
+    }
+
+    // DATA STORES IN LOCAL STORAGE
+    let usersList = JSON.parse(localStorage.getItem('usersList')) || [];
+    let pendingRequests = JSON.parse(localStorage.getItem('pendingRequests')) || [];
+    
+    // DEFAULT QUESTIONS IF NONE UPLOADED
+    let defaultQuestions = [
+      { question: "1. Choose the word that is closest in meaning to 'diligent'.", options: ["Lazy", "Hardworking", "Careless", "Weak"], correctIndex: 1 },
+      { question: "2. What is 20 percent of 250?", options: ["25", "40", "50", "60"], correctIndex: 2 }
+    ];
+
+    let activeQuestionsList = JSON.parse(localStorage.getItem('activeQuestionsList')) || defaultQuestions;
+    let currentUser = null;
+    let isAdminLoggedIn = false;
+
+    // MENU SWITCHING LOGIC
+    function switchPage(pageId, element) {
+      if(pageId === 'exam' && !currentUser) {
+        alert("Qormaata jalqabuuf duraan User Login gochuu qabda!");
+        return;
+      }
+
+      // Close sidebar on mobile select
+      document.getElementById('sidebar').classList.remove('open');
+      document.getElementById('sidebarOverlay').classList.remove('active');
+
+      const pages = document.querySelectorAll('.page-section');
+      pages.forEach(p => p.classList.remove('active-page'));
+
+      const menuItems = document.querySelectorAll('.menu-item');
+      menuItems.forEach(m => m.classList.remove('active'));
+
+      document.getElementById(pageId).classList.add('active-page');
+      if(element) element.classList.add('active');
+
+      const titles = {
+        'home': 'Home',
+        'payment': 'Kaffaltii (300 ETB)',
+        'exam': 'Kutaa Qorumsaa',
+        'admin': 'Kutaa Admiin',
+        'results': 'Bu\'aa fi Xiinxala'
+      };
+      document.getElementById('page-title').innerText = titles[pageId];
+
+      if(pageId === 'admin') {
+        if(!isAdminLoggedIn) {
+          document.getElementById('admin-login-card').style.display = 'block';
+          document.getElementById('admin-dashboard').style.display = 'none';
+        } else {
+          renderAdminTable();
+          renderQuestionsRepository();
+        }
+      }
+
+      if(pageId === 'exam') {
+        document.getElementById('global-timer').style.display = 'block';
+        renderQuiz(activeQuestionsList);
+      } else {
+        document.getElementById('global-timer').style.display = 'none';
+      }
+    }
+
+    // USER LOGIN
+    document.getElementById('userLoginForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const u = document.getElementById('login-username').value;
+      const p = document.getElementById('login-password').value;
+
+      const found = usersList.find(user => user.username === u && user.password === p);
+
+      if (found) {
+        currentUser = found;
+        document.getElementById('user-display-name').innerText = found.name;
+        document.getElementById('user-status').innerText = "Approved ✅";
+        document.getElementById('user-avatar').innerText = found.name.charAt(0);
+        alert(`Baga nagaan dhuftan, ${found.name}! Kallattiin gara Qormaataatti ceeta.`);
+        switchPage('exam', document.querySelectorAll('.menu-item')[2]);
+      } else {
+        alert("Username ykn Password dogoggora! Moo kaffaltii keessan Admin biraa hin mirkanoofne?");
+      }
+    });
+
+    // SIGN UP & 20-SECOND TIMER
+    document.getElementById('signUpForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const newReq = {
+        name: document.getElementById('reg-name').value,
+        username: document.getElementById('reg-user').value,
+        password: document.getElementById('reg-pass').value,
+        txn: document.getElementById('reg-txn').value
+      };
+
+      pendingRequests.push(newReq);
+      localStorage.setItem('pendingRequests', JSON.stringify(pendingRequests));
+
+      document.getElementById('wait-box').style.display = 'block';
+
+      let seconds = 20;
+      const timerDisplay = document.getElementById('timer-count');
+
+      const interval = setInterval(() => {
+        seconds--;
+        let secStr = seconds < 10 ? '0' + seconds : seconds;
+        timerDisplay.innerText = `00:${secStr}`;
+
+        if(seconds <= 0) {
+          clearInterval(interval);
+          alert("20 second xumurameera! Admin kaffaltii (300 ETB) keessan mirkaneessaa jira. Maaloo yeroo xiqqoo booda Login godhaa!");
+          switchPage('home', document.querySelectorAll('.menu-item')[0]);
+        }
+      }, 1000);
+    });
+
+    // ADMIN PASSWORD CHECK
+    function checkAdminPassword() {
+      const pass = document.getElementById('admin-pass-input').value;
+      if(pass === "admin123") {
+        isAdminLoggedIn = true;
+        document.getElementById('admin-login-card').style.display = 'none';
+        document.getElementById('admin-dashboard').style.display = 'block';
+        renderAdminTable();
+        renderQuestionsRepository();
+      } else {
+        alert("Password Admin dogoggora!");
+      }
+    }
+
+    // JSON UPLOAD LOGIC IN Kutaa Admiin
+    function handleJsonUpload(event) {
+      const file = event.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          try {
+            const parsedData = JSON.parse(e.target.result);
+            if(Array.isArray(parsedData)) {
+              activeQuestionsList = parsedData;
+              localStorage.setItem('activeQuestionsList', JSON.stringify(activeQuestionsList));
+              alert("✅ Gaaffiileen JSON bifa milkaa'inaa ta'een Upload ta'aniiru! Kuusaa keessatillee ol-kuufamaniiru.");
+              renderQuestionsRepository();
+            } else {
+              alert("❌ Faayilii JSON kuusaa gaaffii array [] bifa qabu ta'uu qaba.");
+            }
+          } catch(err) {
+            alert("❌ Dogoggora faayila JSON dubbisuu irratti uumame!");
+          }
+        };
+        reader.readAsText(file);
+      }
+    }
+
+    // REPOSITORY DISPLAY FOR ADMIN
+    function renderQuestionsRepository() {
+      const repoContainer = document.getElementById('questionsRepoDisplay');
+      repoContainer.innerHTML = "";
+
+      if(activeQuestionsList.length === 0) {
+        repoContainer.innerHTML = "<p style='color: #64748b;'>Gaaffiileen kuufaman hin jiran.</p>";
+        return;
+      }
+
+      let html = `<p style='margin-bottom: 10px;'>Baay'ina Gaaffiilee Kuufamanii: <strong>${activeQuestionsList.length}</strong></p>`;
+      activeQuestionsList.forEach((q, idx) => {
+        html += `
+          <div class="question-box" style="background: #f1f5f9;">
+            <strong>Gaaffii ${idx + 1}: ${q.question}</strong>
+            <ul style="margin-left: 20px; font-size: 13px; margin-top: 6px;">
+              ${q.options.map((opt, i) => `<li style="${i === q.correctIndex ? 'color: var(--accent); font-weight: bold;' : ''}">${opt} ${i === q.correctIndex ? '(Deebii Sirrii)' : ''}</li>`).join('')}
+            </ul>
+          </div>
+        `;
+      });
+
+      repoContainer.innerHTML = html;
+    }
+
+    // RENDER ADMIN TABLE
+    function renderAdminTable() {
+      const tbody = document.getElementById('adminTable');
+      tbody.innerHTML = "";
+
+      if(pendingRequests.length === 0) {
+        tbody.innerHTML = "<tr><td colspan='4' style='text-align:center;'>Gaaffiin Approval Haaraa Hin Jiru</td></tr>";
+        return;
+      }
+
+      pendingRequests.forEach((req, idx) => {
+        tbody.innerHTML += `
+          <tr>
+            <td>${req.name}</td>
+            <td>${req.username}</td>
+            <td><strong>${req.txn}</strong></td>
+            <td><button class="btn" style="background: var(--accent); padding: 6px 12px;" onclick="approveUser(${idx})">Approve & Register</button></td>
+          </tr>
+        `;
+      });
+    }
+
+    // APPROVE USER BY ADMIN
+    function approveUser(idx) {
+      const req = pendingRequests[idx];
+      usersList.push({ name: req.name, username: req.username, password: req.password });
+      localStorage.setItem('usersList', JSON.stringify(usersList));
+
+      pendingRequests.splice(idx, 1);
+      localStorage.setItem('pendingRequests', JSON.stringify(pendingRequests));
+
+      alert(`Barataan (${req.name}) Mirkanaa'eera! Amma Username fi Password isaatiin Login gochuu danda'a.`);
+      renderAdminTable();
+    }
+
+    // RENDER QUIZ FOR STUDENTS
+    function renderQuiz(questions) {
+      const container = document.getElementById("questions-container");
+      container.innerHTML = "";
+
+      questions.forEach((q, idx) => {
+        const card = document.createElement("div");
+        card.className = "question-box";
+        card.innerHTML = `<strong>${q.question}</strong>`;
+
+        const optionsGroup = document.createElement("div");
+        optionsGroup.style.display = "flex";
+        optionsGroup.style.flexDirection = "column";
+        optionsGroup.style.gap = "8px";
+        optionsGroup.style.marginTop = "10px";
+
+        q.options.forEach((opt, oIdx) => {
+          optionsGroup.innerHTML += `
+            <label style="cursor: pointer;">
+              <input type="radio" name="question_${idx}" value="${oIdx}">
+              ${opt}
+            </label>
+          `;
+        });
+
+        card.appendChild(optionsGroup);
+        container.appendChild(card);
+      });
+    }
+
+    // SUBMIT EXAM LOGIC
+    document.getElementById("quiz-form").addEventListener("submit", function(e) {
+      e.preventDefault();
+      let score = 0;
+      activeQuestionsList.forEach((q, idx) => {
+        const sel = document.querySelector(`input[name="question_${idx}"]:checked`);
+        if (sel && parseInt(sel.value) === q.correctIndex) score++;
+      });
+
+      const box = document.getElementById("result-box");
+      box.style.display = "block";
+      box.innerText = `Qormaata Xumurtaniirra! Qabxii keessan: ${score} / ${activeQuestionsList.length}`;
+    });
+
+    // PWA SERVICE WORKER REGISTRATION (OFFLINE & INSTALLABLE APP SUPPORT)
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        const blob = new Blob([`
+          self.addEventListener('install', function(e) { self.skipWaiting(); });
+          self.addEventListener('activate', function(e) { self.clients.claim(); });
+          self.addEventListener('fetch', function(e) {});
+        `], { type: 'application/javascript' });
+        const workerUrl = URL.createObjectURL(blob);
+        navigator.serviceWorker.register(workerUrl).catch(() => {});
+      });
+    }
+  </script>
+</body>
+</html>
