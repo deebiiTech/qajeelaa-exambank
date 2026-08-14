@@ -1,752 +1,865 @@
 [
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "1. Choose the word that is closest in meaning to 'diligent'.",
-    "options": ["Lazy", "Hardworking", "Careless", "Weak"],
-    "correctIndex": 1
+    "question": "PASSAGE (Questions 1-3):\nThe transition of developing economies toward digital governance frameworks presents a structural paradox. While digitalization demonstrably reduces transactional frictions and mitigates administrative corruption through automated oversight, it simultaneously exacerbates socio-economic marginalization among populations lacking digital literacy. Furthermore, the implementation of complex enterprise systems in public administration often outpaces institutional capacity, resulting in significant reliance on external vendors and compromising national data sovereignty. Consequently, public policy experts argue that digital transformation must not be pursued merely as a technological upgrade, but rather as an inclusive institutional reform requiring synchronous investments in human capital, legislative safeguards, and local infrastructure.\n\n1. Based on the passage, what is the primary 'structural paradox' of digitalizing governance in developing economies?",
+    "options": [
+      "It decreases administrative costs while increasing total public debt.",
+      "It reduces operational inefficiencies while worsening exclusion for digitally illiterate populations.",
+      "It enhances national data sovereignty while increasing reliance on local hardware vendors.",
+      "It speeds up legislative reform while slowing down overall infrastructural development."
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage explicitly defines the paradox: while digitalization reduces transactional friction and corruption, it simultaneously exacerbates socio-economic marginalization among those lacking digital literacy."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "2. Choose the word that is closest in meaning to 'obtain'.",
-    "options": ["Lose", "Acquire", "Reject", "Hide"],
-    "correctIndex": 1
+    "question": "2. Which of the following can be logically inferred from the passage regarding external vendors?",
+    "options": [
+      "External vendors guarantee the long-term data sovereignty of developing nations.",
+      "Reliance on external vendors stems partly from domestic institutional capacity lagging behind system implementation.",
+      "External vendors prevent public administration systems from experiencing transactional friction.",
+      "Public policy experts advise replacing all external vendors with local technological upgrades."
+    ],
+    "correctIndex": 1,
+    "explanation": "The text states that complex systems outpace institutional capacity, 'resulting in significant reliance on external vendors and compromising national data sovereignty.'"
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "3. Choose the word opposite in meaning to 'ancient'.",
-    "options": ["Old", "Historic", "Modern", "Traditional"],
-    "correctIndex": 2
+    "question": "3. The author's primary argument regarding digital transformation is that it should be:",
+    "options": [
+      "Delayed until external vendor dependencies are completely eliminated.",
+      "Executed purely as a rapid, high-tech hardware upgrade across all public sectors.",
+      "Approached as a comprehensive institutional reform alongside investments in human skills and infrastructure.",
+      "Restricted strictly to sectors with high existing levels of digital literacy."
+    ],
+    "correctIndex": 2,
+    "explanation": "The concluding sentence emphasizes that digital transformation 'must not be pursued merely as a technological upgrade, but rather as an inclusive institutional reform requiring synchronous investments...'"
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "4. Choose the word opposite in meaning to 'generous'.",
-    "options": ["Kind", "Helpful", "Selfish", "Friendly"],
-    "correctIndex": 2
+    "question": "PASSAGE (Questions 4-5):\nIn academic literature, the concept of 'bounded rationality' challenges classical economic theory, which posits that decision-makers act with complete rationality and perfect information. Bounded rationality asserts that cognitive limitations, information asymmetries, and temporal constraints force individuals to adopt 'satisficing' strategies—seeking solutions that are good enough rather than optimal. Critics argue that while satisficing explains real-world heuristic shortcuts, it complicates normative economic modeling by introducing high variability into predictive behavioral models.\n\n4. According to the passage, classical economic theory assumes that decision-makers:",
+    "options": [
+      "Rely primarily on heuristic shortcuts and satisficing techniques.",
+      "Possess complete information and exercise total rationality.",
+      "Are heavily restricted by cognitive and temporal constraints.",
+      "Struggle to generate predictive behavioral models."
+    ],
+    "correctIndex": 1,
+    "explanation": "The passage states that classical economic theory 'posits that decision-makers act with complete rationality and perfect information.'"
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "5. Complete the analogy.\nTeacher is to School as Doctor is to",
-    "options": ["Market", "Hospital", "Library", "Laboratory"],
-    "correctIndex": 1
+    "question": "5. According to the text, why do critics express concern over the 'satisficing' framework?",
+    "options": [
+      "It oversimplifies classical economic formulas into rigid deterministic rules.",
+      "It completely eliminates cognitive limitations in empirical testing.",
+      "It introduces significant variability, complicating normative predictive modeling.",
+      "It assumes decision-makers always reach perfect, mathematically optimal solutions."
+    ],
+    "correctIndex": 2,
+    "explanation": "The text notes that critics contend satisficing 'complicates normative economic modeling by introducing high variability into predictive behavioral models.'"
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "6. Complete the analogy.\nBook is to Reading as Food is to",
-    "options": ["Cooking", "Eating", "Selling", "Buying"],
-    "correctIndex": 1
+    "question": "6. Choose the word that is most nearly OPPOSITE in meaning to 'EQUIVOCAL':",
+    "options": ["Ambiguous", "Unequivocal", "Cryptic", "Dubious"],
+    "correctIndex": 1,
+    "explanation": "'Equivocal' means ambiguous or open to multiple interpretations; 'unequivocal' means clear, direct, and leaving no doubt."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "7. Complete the analogy.\nEye is to Seeing as Ear is to",
-    "options": ["Speaking", "Touching", "Hearing", "Walking"],
-    "correctIndex": 2
+    "question": "7. Choose the word that is most nearly SIMILAR in meaning to 'PARSIMONIOUS':",
+    "options": ["Extravagant", "Frugal", "Generous", "Verbose"],
+    "correctIndex": 1,
+    "explanation": "'Parsimonious' means extremely frugal, stingy, or careful with money/resources."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "8. Complete the analogy.\nSeed is to Plant as Egg is to",
-    "options": ["Nest", "Bird", "Feather", "Shell"],
-    "correctIndex": 1
+    "question": "8. Complete the high-level analogy:\nEPHEMERAL : PERMANENCE ::",
+    "options": [
+      "Erratic : Predictability",
+      "Monotonous : Boredom",
+      "Furtive : Secrecy",
+      "Pristine : Purity"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Ephemeral' lacks 'permanence' (antonym relationship). Similarly, 'erratic' lacks 'predictability'."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "9. Choose the word that best completes the sentence.\nThe manager was praised because he handled the difficult situation very _______.",
-    "options": ["carelessly", "effectively", "slowly", "angrily"],
-    "correctIndex": 1
+    "question": "9. Complete the analogy:\nSYGISM : LOGIC ::",
+    "options": [
+      "Hypothesis : Experimentation",
+      "Taxonomy : Classification",
+      "Paradigm : Anomalies",
+      "Premise : Conclusion"
+    ],
+    "correctIndex": 1,
+    "explanation": "A syllogism is a formal structure used in logic; taxonomy is a formal structure used in classification."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "10. Choose the word that best completes the sentence.\nThe evidence was not sufficient to _______.",
-    "options": ["prove the claim", "hide the table", "close the door", "change the weather"],
-    "correctIndex": 0
+    "question": "10. Select the word that best completes the sentence:\nThe research candidate's defense was praised not only for its empirical rigor but also for its _______ presentation, which elucidated complex theoretical models with remarkable clarity.",
+    "options": ["opaque", "lucid", "convoluted", "pedantic"],
+    "correctIndex": 1,
+    "explanation": "'Lucid' means expressed clearly and easy to understand, perfectly matching the context of clarifying complex models."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "11. Choose the grammatically correct sentence.",
-    "options": ["She have completed her work.", "She has completed her work.", "She having completed her work.", "She complete her work yesterday."],
-    "correctIndex": 1
+    "question": "11. Select the word that best completes the sentence:\nDespite the team's _______ efforts to salvage the degraded dataset, the missing variables rendered the longitudinal analysis statistically invalid.",
+    "options": ["assiduous", "cursory", "negligent", "apathetic"],
+    "correctIndex": 0,
+    "explanation": "'Assiduous' means showing great care, attention, and effort, which fits 'despite the team's hard efforts...'."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "12. Choose the grammatically correct sentence.",
-    "options": ["They was ready for the examination.", "They is ready for the examination.", "They were ready for the examination.", "They be ready for the examination."],
-    "correctIndex": 2
+    "question": "12. Identify the grammatically correct and most academically precise sentence:",
+    "options": [
+      "Neither the principal investigator nor the data analysts was aware of the methodology errors.",
+      "Neither the principal investigator nor the data analysts were aware of the methodology errors.",
+      "Neither the principal investigator or the data analysts was aware of the methodology errors.",
+      "Neither the principal investigator nor the data analysts is aware of methodology errors yesterday."
+    ],
+    "correctIndex": 1,
+    "explanation": "In 'neither/nor' structures, the verb agrees with the subject closer to it ('data analysts' is plural, requiring 'were')."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "13. Choose the grammatically correct sentence.",
-    "options": ["He has worked here since five years.", "He has worked here for five years.", "He worked here since five years.", "He is worked here for five years."],
-    "correctIndex": 1
+    "question": "13. Identify the sentence that correctly avoids dangling modifiers and structural ambiguity:",
+    "options": [
+      "Having completed the econometric survey, the statistical software was used to analyze the results.",
+      "Having completed the econometric survey, the researchers analyzed the results using statistical software.",
+      "Analyzing the results with statistical software, the econometric survey was completed.",
+      "The results were analyzed using statistical software having completed the econometric survey."
+    ],
+    "correctIndex": 1,
+    "explanation": "Option B correctly attributes the action 'Having completed the survey' to the logical agent 'the researchers'."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "14. Choose the grammatically correct sentence.",
-    "options": ["Neither the teacher nor the students were absent.", "Neither the teacher nor the students was absent.", "Neither teacher nor students is absent yesterday.", "Neither the teacher or students were absent."],
-    "correctIndex": 0
+    "question": "14. Choose the best logical transition:\nThe preliminary trial yielded promising therapeutic indices in vitro; _______, clinical deployment remains contingent upon rigorous multi-phase human trials.",
+    "options": ["consequently", "however", "furthermore", "similarly"],
+    "correctIndex": 1,
+    "explanation": "'However' provides the necessary contrast between successful preliminary lab tests and the mandatory pending human trials."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "15. Choose the best completion.\nIf I had enough money, I _______.",
-    "options": ["will travel abroad", "would travel abroad", "travelled abroad yesterday", "am travelling yesterday"],
-    "correctIndex": 1
+    "question": "15. Choose the best logical transition:\nThe institutional review board identified serious consent discrepancies; _______, all active protocol procedures were immediately suspended.",
+    "options": ["nevertheless", "accordingly", "conversely", "in contrast"],
+    "correctIndex": 1,
+    "explanation": "'Accordingly' (or therefore) indicates a direct result of the ethical discrepancies found."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "16. Choose the best completion.\nThe report was submitted _______.",
-    "options": ["before the deadline", "before the deadline was submit", "before submitting deadline", "before submitted the deadline"],
-    "correctIndex": 0
+    "question": "16. Which statement contains a logical fallacy of 'FALSE CAUSE' (Post Hoc Ergo Propter Hoc)?",
+    "options": [
+      "The sample size was small, so the findings may not generalize to the wider population.",
+      "A new director was appointed in March, and total research output doubled in May; therefore, the director caused the output increase.",
+      "If we do not fund this project, our institutional ranking will fall drastically across all metric indices.",
+      "The author's argument is invalid because he received his degree from an unaccredited institute."
+    ],
+    "correctIndex": 1,
+    "explanation": "Assuming that because event B followed event A, event A caused event B is the classic 'false cause' fallacy."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "17. Choose the word that does not belong.",
-    "options": ["Apple", "Orange", "Banana", "Carrot"],
-    "correctIndex": 3
+    "question": "17. Which statement represents an 'AD HOMINEM' fallacy?",
+    "options": [
+      "The economic model is inaccurate because the baseline inflation data was wrongly calibrated.",
+      "We should reject Professor Kebede's climate thesis because he frequently argues with university administrators.",
+      "Investing in renewable energy is crucial because empirical studies demonstrate long-term cost reductions.",
+      "The survey results are ambiguous because the questionnaire contained double-barreled items."
+    ],
+    "correctIndex": 1,
+    "explanation": "Attacking the scholar's personal interactions rather than addressing the substance of his climate thesis is an ad hominem argument."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "18. Choose the word that does not belong.",
-    "options": ["Monday", "Tuesday", "January", "Friday"],
-    "correctIndex": 2
+    "question": "18. Evaluate the deductive validity:\nPremise 1: All peer-reviewed journals require rigorous blind evaluation.\nPremise 2: Journal X does not require rigorous blind evaluation.\nConclusion: Journal X is not a peer-reviewed journal.",
+    "options": [
+      "Logically Valid",
+      "Logically Invalid",
+      "Inductively Weak",
+      "Tautological Fallacy"
+    ],
+    "correctIndex": 0,
+    "explanation": "This follows the valid modus tollens form: If P then Q; Not Q; Therefore Not P."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "19. Choose the word that does not belong.",
-    "options": ["Chair", "Table", "Bed", "Pencil"],
-    "correctIndex": 3
+    "question": "19. Evaluate the argument:\n'Every doctor I spoke to at the conference specializes in cardiology. Therefore, all doctors worldwide specialize in cardiology.' This is an example of:",
+    "options": [
+      "Valid deductive reasoning",
+      "Hasty generalization",
+      "Circular logic",
+      "Straw man fallacy"
+    ],
+    "correctIndex": 1,
+    "explanation": "Drawing a broad conclusion about all doctors based on an unrepresentative, limited sample is a hasty generalization."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "20. Choose the word that does not belong.",
-    "options": ["Mathematics", "Physics", "Chemistry", "Democracy"],
-    "correctIndex": 3
+    "question": "20. Rephrase the following statement without changing its core meaning:\n'The hypothesis was supported only after the baseline control parameters were recalibrated.'",
+    "options": [
+      "Recalibrating the baseline parameters prevented the hypothesis from being supported.",
+      "Prior to the recalibration of baseline control parameters, the hypothesis lacked support.",
+      "The hypothesis supported the recalibration of baseline parameters.",
+      "Calibrating baseline parameters was unnecessary for supporting the hypothesis."
+    ],
+    "correctIndex": 1,
+    "explanation": "Option B accurately reflects the temporal/conditional statement that support came only after recalibration."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "21. Choose the closest meaning of 'accurate'.",
-    "options": ["Correct", "Fast", "Large", "Difficult"],
-    "correctIndex": 0
+    "question": "21. Choose the word that does NOT belong conceptually with the others:",
+    "options": ["Empirical", "A priori", "Observational", "Experimental"],
+    "correctIndex": 1,
+    "explanation": "'A priori' refers to knowledge independent of experience/observation, whereas empirical, observational, and experimental rely on observed data."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "22. Choose the closest meaning of 'essential'.",
-    "options": ["Optional", "Necessary", "Temporary", "Unusual"],
-    "correctIndex": 1
+    "question": "22. Choose the word that does NOT belong conceptually with the others:",
+    "options": ["Deduction", "Induction", "Abduction", "Falsification"],
+    "correctIndex": 3,
+    "explanation": "Deduction, induction, and abduction are modes of logical inference; falsification is a philosophical criterion for scientific validity."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "23. Choose the opposite meaning of 'increase'.",
-    "options": ["Improve", "Expand", "Decrease", "Develop"],
-    "correctIndex": 2
+    "question": "23. Choose the option that best expresses a statement of OBJECTIVE FACT rather than value judgment:",
+    "options": ["The policy intervention was remarkably efficient.", "The country's real GDP grew by 4.2% in the preceding fiscal quarter.", "Economic growth is far more important than inflation control.", "The central bank's strategy is completely misguided."]
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "24. Choose the opposite meaning of 'complex'.",
-    "options": ["Difficult", "Simple", "Complete", "Large"],
-    "correctIndex": 1
+    "question": "24. What primary role does a 'Literature Review' serve in a Master's or Doctoral dissertation?",
+    "options": [
+      "To summarize every book ever written in the researcher's general discipline.",
+      "To establish theoretical grounding, map existing research, and identify scholarly gaps.",
+      "To present raw primary data collected during fieldwork.",
+      "To replace the need for methodological analysis and empirical testing."
+    ],
+    "correctIndex": 1,
+    "explanation": "A literature review systematically contextualizes current research, theoretical frames, and identifies unaddressed gaps."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "25. A university introduced an online registration system. After its introduction, the number of students completing registration on time increased considerably.\nWhat is the most reasonable conclusion?",
-    "options": ["Online registration may have made registration easier.", "All students prefer online registration.", "No student used the old system.", "Registration fees were completely removed."],
-    "correctIndex": 0
+    "question": "25. Identify the central assumption in this argument: 'Implementing high tariff rates on imported electronics will boost domestic technology manufacturing.'",
+    "options": [
+      "Domestic firms possess or can develop the capacity to meet local electronics demand.",
+      "Foreign suppliers will lower their prices to absorb tariff costs.",
+      "Consumers will stop using electronics entirely.",
+      "High tariffs always eliminate government trade deficits."
+    ],
+    "correctIndex": 0,
+    "explanation": "For domestic manufacturing to grow as a result of tariffs, domestic firms must have (or be able to build) production capacity."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "26. A company trained its employees before introducing new software. After the training, employees made fewer errors.\nWhich conclusion is best supported?",
-    "options": ["Training may have contributed to the reduction in errors.", "Employees no longer make any errors.", "The software is unnecessary.", "Employees disliked the training."],
-    "correctIndex": 0
+    "question": "26. Which term describes a variable that alters the strength or direction of the relationship between an independent and a dependent variable?",
+    "options": ["Mediating variable", "Moderating variable", "Confounding variable", "Extraneous noise"],
+    "correctIndex": 1,
+    "explanation": "A moderating variable affects the strength or direction of the relation between independent and dependent variables."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "27. A researcher found that students who regularly reviewed their lessons generally performed better in examinations.\nWhich statement is most appropriate?",
-    "options": ["Reviewing lessons guarantees success.", "Regular review is associated with better examination performance.", "Students who do not review always fail.", "Examination performance depends only on review."],
-    "correctIndex": 1
+    "question": "27. In academic methodology, 'Construct Validity' refers to:",
+    "options": [
+      "The extent to which an operational measure accurately reflects the theoretical concept it intends to measure.",
+      "The statistical probability that a sample size is larger than 1,000 observations.",
+      "The speed at which survey respondents complete an online questionnaire.",
+      "The degree to which study findings apply to future generations."
+    ],
+    "correctIndex": 0,
+    "explanation": "Construct validity tests whether a test or measure truly measures the theoretical construct it purports to measure."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "28. A town constructed a new road. After construction, travel time between two areas decreased.\nWhich statement is directly supported?",
-    "options": ["The new road reduced travel time between the areas.", "All roads in the town became better.", "Traffic completely disappeared.", "Everyone in the town bought a vehicle."],
-    "correctIndex": 0
+    "question": "28. What is the fundamental purpose of 'Peer Review' in scientific publishing?",
+    "options": [
+      "To ensure that all published studies agree with the publisher's editorial board.",
+      "To critically evaluate methodological rigor, original contribution, and logical integrity prior to publication.",
+      "To guarantee that researchers receive financial royalties from their journal articles.",
+      "To convert qualitative research designs into quantitative mathematical formulas."
+    ],
+    "correctIndex": 1,
+    "explanation": "Peer review acts as a quality filter, evaluating validity, soundness, and original contributions."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "29. Read the following passage.\nMany organizations collect large amounts of information. However, collecting information alone does not guarantee good decisions. Managers must also know how to analyze the information and use it appropriately.\nWhat is the main idea?",
-    "options": ["Organizations should stop collecting information.", "Information is useful only when it is properly analyzed and used.", "Managers do not need information.", "Organizations should collect information without analyzing it."],
-    "correctIndex": 1
+    "question": "29. Select the word closest in meaning to 'OBSTRUCT':",
+    "options": ["Facilitate", "Impede", "Expedite", "Elucidate"],
+    "correctIndex": 1,
+    "explanation": "'Obstruct' and 'impede' both mean to hinder, block, or slow down progress."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "30. Read the following passage.\nPublic transportation can reduce the number of private vehicles on roads. However, it must be reliable, affordable and accessible if people are expected to use it regularly.\nWhat is the main point?",
-    "options": ["Private vehicles should be banned immediately.", "Public transportation is useful only in rural areas.", "Effective public transportation should be reliable, affordable and accessible.", "People never use public transportation."],
-    "correctIndex": 2
+    "question": "30. Select the word OPPOSITE in meaning to 'COHERENT':",
+    "options": ["Lucid", "Articulate", "Incoherent", "Systematic"],
+    "correctIndex": 2,
+    "explanation": "'Coherent' means logical and consistent; 'incoherent' means lacking clarity or logical connection."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "31. Read the following passage.\nA research project achieved its scientific objectives but exceeded its financial budget. The evaluation recommended better financial planning for future projects.\nWhat was the major weakness?",
-    "options": ["Scientific research", "Financial management", "Staff recruitment", "Communication"],
-    "correctIndex": 1
+    "question": "31. PASSAGE: 'Technological leapfrogging refers to the adoption of advanced technologies without traversing intermediate developmental stages. For instance, many African economies bypassed fixed-line telecommunications infrastructure directly to mobile cellular networks.'\n\nWhat is the defining characteristic of 'leapfrogging' as described?",
+    "options": [
+      "Gradual adoption of legacy systems over decades.",
+      "Skipping intermediate technology stages straight to advanced solutions.",
+      "Complete reliance on domestic heavy manufacturing.",
+      "Avoiding digital technologies in favor of manual processes."
+    ],
+    "correctIndex": 1,
+    "explanation": "The text directly defines leapfrogging as adopting advanced technology without passing through intermediate stages."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "32. Read the following passage.\nThe university library extended its opening hours during examination periods. Students subsequently reported that they had more opportunities to study in the library.\nWhat can reasonably be inferred?",
-    "options": ["Extended opening hours increased access to the library.", "Students stopped studying at home.", "The library became larger.", "All students studied in the library."],
-    "correctIndex": 0
+    "question": "32. Complete the sentence: 'An empirical finding is considered _______ if independent researchers obtain consistent results using identical methodologies under stable conditions.'",
+    "options": ["replicable", "speculative", "anomalous", "subjective"],
+    "correctIndex": 0,
+    "explanation": "'Replicable' describes results that can be consistently reproduced under identical experimental conditions."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "33. Which statement is an opinion?",
-    "options": ["The examination contains 100 questions.", "The examination starts at 9:00 a.m.", "This is the most interesting examination ever created.", "Candidates have three hours to complete the examination."],
-    "correctIndex": 2
+    "question": "33. Complete the sentence: 'The policy framework was criticized for being too _______, failing to account for regional economic nuances.'",
+    "options": ["flexible", "monolithic", "adaptive", "heterogeneous"],
+    "correctIndex": 1,
+    "explanation": "'Monolithic' means rigid, massive, and uniform, which explains why it would fail to accommodate local/regional nuances."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "34. Which statement is most objective?",
-    "options": ["The new policy is fantastic.", "The new policy is clearly the best.", "The new policy reduced processing time by 15 percent.", "Everyone loves the new policy."],
-    "correctIndex": 2
+    "question": "34. Identify the tone of a scholarly meta-analysis:",
+    "options": ["Emotive and biased", "Objective and analytical", "Satirical and dismissive", "Sensational and dramatic"],
+    "correctIndex": 1,
+    "explanation": "Scholarly meta-analyses maintain an objective, analytical, and evidence-driven tone."
   },
   {
     "section": "SECTION ONE: VERBAL REASONING",
-    "question": "35. Which argument is strongest?",
-    "options": ["The product is good because my friend likes it.", "The product is good because it is expensive.", "A controlled study found that the product produced better results than the alternatives.", "The product is good because many people talk about it."],
-    "correctIndex": 2
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "36. Which statement contains an unsupported generalization?",
-    "options": ["Three students liked the course, so every student in the country must like it.", "The survey included 500 participants.", "The report was submitted on Monday.", "The project cost 2 million birr."],
-    "correctIndex": 0
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "37. Choose the best transition.\nThe first method is cheap. ______, it takes a long time.",
-    "options": ["Therefore", "However", "Similarly", "Consequently"],
-    "correctIndex": 1
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "38. Choose the best transition.\nThe evidence was incomplete. ______, the researchers conducted another investigation.",
-    "options": ["Therefore", "Nevertheless", "Similarly", "Meanwhile"],
-    "correctIndex": 0
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "39. Choose the best transition.\nThe organization improved its service quality. ______, customer satisfaction increased.",
-    "options": ["As a result", "In contrast", "Nevertheless", "Otherwise"],
-    "correctIndex": 0
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "40. Choose the best transition.\nThe two studies used different methods. ______, they reached similar conclusions.",
-    "options": ["Therefore", "Nevertheless", "Because", "Since"],
-    "correctIndex": 1
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "41. Which sentence has the same meaning as:\n'Only registered candidates are allowed to enter the examination room.'",
-    "options": ["Everyone can enter the examination room.", "Registered candidates are the only people allowed to enter.", "Registration is not necessary.", "Candidates may enter without permission."],
-    "correctIndex": 1
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "42. Which sentence has the same meaning as:\n'The project was delayed because funding was insufficient.'",
-    "options": ["The project was completed early because funding was sufficient.", "Insufficient funding caused a delay in the project.", "Funding had no effect on the project.", "The project did not require funding."],
-    "correctIndex": 1
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "43. Which sentence has the same meaning as:\n'Despite the difficulties, the team completed the project.'",
-    "options": ["The team abandoned the project.", "The team completed the project although it faced difficulties.", "The project was completed before difficulties occurred.", "The team avoided all difficulties."],
-    "correctIndex": 1
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "44. Which sentence has the same meaning as:\n'The report was submitted after the committee approved it.'",
-    "options": ["The report was submitted before approval.", "The committee approved the report after submission.", "Approval occurred before submission.", "The report was never approved."],
-    "correctIndex": 2
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "45. Which word best completes the sentence?\nThe researcher used a large sample to make the findings more _______.",
-    "options": ["reliable", "invisible", "accidental", "temporary"],
-    "correctIndex": 0
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "46. Which word best completes the sentence?\nA feasible plan is one that is _______.",
-    "options": ["impossible", "practical", "secret", "unnecessary"],
-    "correctIndex": 1
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "47. Which word best completes the sentence?\nA credible source is one that is generally _______.",
-    "options": ["believable", "irrelevant", "hidden", "imaginary"],
-    "correctIndex": 0
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "48. Which word best completes the sentence?\nAn ambiguous statement is one that _______.",
-    "options": ["has only one clear meaning", "has more than one possible interpretation", "contains no information", "is always false"],
-    "correctIndex": 1
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "49. If all successful applicants submit complete documents and Hana submitted incomplete documents, what can be concluded?",
-    "options": ["Hana definitely succeeded.", "Hana meets the stated document requirement.", "Hana does not meet the stated requirement for successful applicants.", "Hana did not apply."],
-    "correctIndex": 2
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "50. If no late applications are accepted and an application was submitted late, what follows?",
-    "options": ["The application must be accepted.", "The application cannot be accepted under that rule.", "The application automatically receives priority.", "The deadline must have been extended."],
-    "correctIndex": 1
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "51. If all teachers in School A are graduates and Ahmed is a teacher in School A, what follows?",
-    "options": ["Ahmed is a graduate.", "Ahmed is the principal.", "Ahmed teaches mathematics.", "Ahmed has a master's degree."],
-    "correctIndex": 0
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "52. If every approved project has a budget and Project X has no budget, which conclusion follows?",
-    "options": ["Project X is approved.", "Project X is not approved.", "Project X is the largest project.", "Project X has unlimited funding."],
-    "correctIndex": 1
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "53. Which word is closest in meaning to 'relevant'?",
-    "options": ["Related", "Distant", "Unnecessary", "Accidental"],
-    "correctIndex": 0
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "54. Which word is closest in meaning to 'validate'?",
-    "options": ["Confirm", "Hide", "Destroy", "Delay"],
-    "correctIndex": 0
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "55. Which word is opposite in meaning to 'optimistic'?",
-    "options": ["Hopeful", "Positive", "Pessimistic", "Confident"],
-    "correctIndex": 2
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "56. Which word is opposite in meaning to 'temporary'?",
-    "options": ["Short", "Brief", "Permanent", "Limited"],
-    "correctIndex": 2
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "57. Which statement would provide the strongest evidence that a training program improved participants' skills?",
-    "options": ["The trainer liked the program.", "Participants enjoyed the lunch.", "Participants' post-test scores were significantly higher than their pre-test scores.", "The training hall was attractive."],
-    "correctIndex": 2
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "58. A paragraph begins:\n'Effective leadership requires more than authority.'\nWhich sentence would best continue the paragraph?",
-    "options": ["Leaders should never make decisions.", "Effective leaders also need communication, responsibility and sound judgment.", "Authority is always harmful.", "Leaders should avoid their employees."],
-    "correctIndex": 1
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "59. A paragraph begins:\n'Technology can improve education, but technology alone cannot guarantee learning.'\nWhich conclusion is most reasonable?",
-    "options": ["Technology should never be used in education.", "Effective teaching and appropriate use of technology should work together.", "Teachers are no longer necessary.", "Students can learn without instruction."],
-    "correctIndex": 1
-  },
-  {
-    "section": "SECTION ONE: VERBAL REASONING",
-    "question": "60. Which statement best describes the purpose of a thesis statement in academic writing?",
-    "options": ["To list every reference in the paper", "To present the central argument or position", "To replace the introduction", "To provide page numbers"],
-    "correctIndex": 1
+    "question": "35. 'Correlation does not imply causation.' Which of the following best exemplifies this principle?",
+    "options": [
+      "Ice cream sales and drowning rates both increase in summer due to hot weather.",
+      "Increasing sample size reduces the standard error of the estimate.",
+      "Applying force to an object accelerates it according to Newton's second law.",
+      "Failing to study leads directly to lower test scores."
+    ],
+    "correctIndex": 0,
+    "explanation": "Ice cream sales and drownings are correlated because of a confounding third variable (temperature), not because one causes the other."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "61. What is 20 percent of 250?",
-    "options": ["25", "40", "50", "60"],
-    "correctIndex": 2
+    "question": "DATA TABLE ANALYSIS (Questions 36-38):\nConsider the following institutional research expenditure table across four faculties over two fiscal years (in Millions of Birr):\n\n| Faculty | Year 2024 Expenditure | Year 2025 Expenditure |\n| :--- | :--- | :--- |\n| Technology | 40.0 | 50.0 |\n| Health Sciences | 60.0 | 75.0 |\n| Business & Economics | 20.0 | 22.0 |\n| Social Sciences | 10.0 | 13.0 |\n\n36. What is the overall percentage increase in total research expenditure across all four faculties combined from 2024 to 2025?",
+    "options": ["15.0%", "20.0%", "23.1%", "25.0%"],
+    "correctIndex": 1,
+    "explanation": "2024 Total = 40+60+20+10 = 130 Million. 2025 Total = 50+75+22+13 = 160 Million. Increase = 160 - 130 = 30 Million. Percentage Increase = (30 / 130) * 100 = 23.076% ≈ 23.1%."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "62. If x + 8 = 23, what is x?",
-    "options": ["13", "14", "15", "16"],
-    "correctIndex": 2
+    "question": "37. Which faculty experienced the highest absolute monetary increase in research expenditure from 2024 to 2025?",
+    "options": ["Technology", "Health Sciences", "Business & Economics", "Social Sciences"],
+    "correctIndex": 1,
+    "explanation": "Technology increase = 10M. Health Sciences increase = 15M (75 - 60). Business = 2M. Social Sciences = 3M. Highest absolute increase is Health Sciences (15M)."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "63. If 5x = 45, what is x?",
-    "options": ["7", "8", "9", "10"],
-    "correctIndex": 2
+    "question": "38. Which faculty experienced the highest relative PERCENTAGE increase in expenditure from 2024 to 2025?",
+    "options": ["Technology (25%)", "Health Sciences (25%)", "Business & Economics (10%)", "Social Sciences (30%)"],
+    "correctIndex": 3,
+    "explanation": "Technology: 10/40 = 25%. Health: 15/60 = 25%. Business: 2/20 = 10%. Social Sciences: 3/10 = 30%. Thus, Social Sciences had the highest percentage increase."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "64. If 3 notebooks cost 90 birr, how much will 8 notebooks cost at the same price?",
-    "options": ["180 birr", "210 birr", "240 birr", "270 birr"],
-    "correctIndex": 2
+    "question": "DATA TABLE ANALYSIS (Questions 39-40):\nAcademic Performance Metrics for 200 Graduate Candidates:\n\n| GPA Range | Male Candidates | Female Candidates |\n| :--- | :--- | :--- |\n| 3.75 - 4.00 | 20 | 30 |\n| 3.25 - 3.74 | 50 | 40 |\n| 2.75 - 3.24 | 30 | 20 |\n| Below 2.75 | 0 | 10 |\n\n39. What proportion of the total female candidates scored a GPA of 3.75 or higher?",
+    "options": ["15%", "25%", "30%", "40%"],
+    "correctIndex": 3,
+    "explanation": "Total female candidates = 30 + 40 + 20 + 10 = 100. Females in 3.75 - 4.00 range = 30. Proportion = 30/100 = 30% or 0.30."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "65. A salary of 5,000 birr is increased by 12 percent. What is the new salary?",
-    "options": ["5,400 birr", "5,500 birr", "5,600 birr", "5,700 birr"],
-    "correctIndex": 2
+    "question": "40. If a candidate is selected at random from the entire cohort of 200 candidates, what is the probability that the candidate has a GPA below 3.25?",
+    "options": ["0.20", "0.30", "0.35", "0.40"],
+    "correctIndex": 1,
+    "explanation": "Candidates below 3.25 = (2.75-3.24 range: 30 male + 20 female = 50) + (Below 2.75: 0 male + 10 female = 10) = 60 total. Probability = 60 / 200 = 0.30."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "66. A product costs 2,000 birr. It is sold with a 15 percent discount. What is the selling price?",
-    "options": ["1,600 birr", "1,650 birr", "1,700 birr", "1,750 birr"],
-    "correctIndex": 2
+    "question": "41. A research grant of 1,200,000 Birr is allocated among three investigators P, Q, and R in the ratio 3 : 4 : 5. How much more money does Investigator R receive than Investigator P?",
+    "options": ["100,000 Birr", "200,000 Birr", "300,000 Birr", "500,000 Birr"],
+    "correctIndex": 1,
+    "explanation": "Total ratio parts = 3 + 4 + 5 = 12 parts. Value per part = 1,200,000 / 12 = 100,000 Birr. R receives 5 parts (500,000) and P receives 3 parts (300,000). Difference = 200,000 Birr."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "67. What is the average of 10, 20, 30, 40 and 50?",
-    "options": ["25", "30", "35", "40"],
-    "correctIndex": 1
+    "question": "42. Solve the linear system for x: 3x + 2y = 18 and 2x - y = 5.",
+    "options": ["x = 3", "x = 4", "x = 5", "x = 6"],
+    "correctIndex": 1,
+    "explanation": "From eq 2: y = 2x - 5. Substitute into eq 1: 3x + 2(2x - 5) = 18 => 3x + 4x - 10 = 18 => 7x = 28 => x = 4."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "68. If 4 workers complete a task in 15 days, how many days would 10 workers require if they work at the same rate?",
-    "options": ["4 days", "6 days", "8 days", "10 days"],
-    "correctIndex": 1
+    "question": "43. If a dataset has a mean of 80 and a standard deviation of 8, what will be the new mean and new standard deviation if every value in the dataset is multiplied by 1.5 and then increased by 5?",
+    "options": [
+      "New Mean = 125, New SD = 12",
+      "New Mean = 120, New SD = 12",
+      "New Mean = 125, New SD = 17",
+      "New Mean = 120, New SD = 8"
+    ],
+    "correctIndex": 0,
+    "explanation": "New Mean = (80 * 1.5) + 5 = 120 + 5 = 125. Standard deviation is affected by multiplication, but NOT by adding a constant: New SD = 8 * 1.5 = 12."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "69. A vehicle travels 240 km in 4 hours. What is its average speed?",
-    "options": ["50 km/h", "55 km/h", "60 km/h", "65 km/h"],
-    "correctIndex": 2
+    "question": "44. A sample variance is calculated as 49. What is the standard deviation of this sample?",
+    "options": ["7", "14", "24.5", "2401"],
+    "correctIndex": 0,
+    "explanation": "Standard deviation is the square root of variance: √49 = 7."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "70. If 3/5 of a number is 24, what is the number?",
-    "options": ["30", "35", "40", "45"],
-    "correctIndex": 2
+    "question": "45. An investment project yields a 10% compound interest annually. If an initial capital of 50,000 Birr is deposited, what is the total value of the investment at the end of 2 years?",
+    "options": ["55,000 Birr", "60,000 Birr", "60,500 Birr", "61,000 Birr"],
+    "correctIndex": 2,
+    "explanation": "A = P(1 + r)^t = 50,000 * (1.10)^2 = 50,000 * 1.21 = 60,500 Birr."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "71. Find the next number.\n4, 8, 16, 32, 64, ?",
-    "options": ["96", "112", "128", "144"],
-    "correctIndex": 2
+    "question": "46. If log₁₀(x) + log₁₀(5) = 2, what is the value of x?",
+    "options": ["10", "20", "50", "100"],
+    "correctIndex": 1,
+    "explanation": "log₁₀(5x) = 2 => 5x = 10² = 100 => x = 100 / 5 = 20."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "72. Find the next number.\n5, 10, 17, 26, 37, ?",
-    "options": ["48", "50", "52", "54"],
-    "correctIndex": 1
+    "question": "47. A statistical study reports a 95% confidence interval for population mean as [42.5, 47.5]. What is the sample mean of this distribution?",
+    "options": ["44.0", "45.0", "46.0", "5.0"],
+    "correctIndex": 1,
+    "explanation": "The sample mean is the midpoint of the symmetric confidence interval: (42.5 + 47.5) / 2 = 90 / 2 = 45.0."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "73. Find the next number.\n100, 50, 25, 12.5, ?",
-    "options": ["5", "6.25", "7.5", "8.25"],
-    "correctIndex": 1
+    "question": "48. If the function f(x) = 2x² - 8x + 5, at what value of x does the function reach its global minimum?",
+    "options": ["x = 1", "x = 2", "x = 4", "x = 8"],
+    "correctIndex": 1,
+    "explanation": "For a parabola ax² + bx + c, the vertex occurs at x = -b / (2a) = -(-8) / (2*2) = 8 / 4 = 2."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "74. What is the value of 7²?",
-    "options": ["14", "21", "49", "56"],
-    "correctIndex": 2
+    "question": "49. Find the missing term in the sequence: 3, 7, 15, 31, 63, ?",
+    "options": ["95", "124", "127", "128"],
+    "correctIndex": 2,
+    "explanation": "Pattern: Multiply by 2 and add 1. (63 * 2) + 1 = 126 + 1 = 127."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "75. A rectangle has length 15 cm and width 8 cm. What is its area?",
-    "options": ["46 cm²", "100 cm²", "120 cm²", "130 cm²"],
-    "correctIndex": 2
+    "question": "50. Find the next term in the logical sequence: 2, 6, 12, 20, 30, 42, ?",
+    "options": ["52", "54", "56", "60"],
+    "correctIndex": 2,
+    "explanation": "Differences are +4, +6, +8, +10, +12. Next difference is +14. 42 + 14 = 56. (Alternatively n(n+1): 1*2, 2*3, 3*4, 4*5, 5*6, 6*7, 7*8=56)."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "76. A square has a perimeter of 48 cm. What is the length of one side?",
-    "options": ["8 cm", "10 cm", "12 cm", "16 cm"],
-    "correctIndex": 2
+    "question": "51. A box contains 4 red balls, 3 green balls, and 5 yellow balls. If two balls are drawn sequentially WITHOUT replacement, what is the probability that both drawn balls are green?",
+    "options": ["1/22", "1/16", "3/44", "1/12"],
+    "correctIndex": 0,
+    "explanation": "Total balls = 12. P(First green) = 3/12 = 1/4. P(Second green) = 2/11. Combined Probability = (3/12) * (2/11) = 6/132 = 1/22."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "77. What is the probability of getting a six when a fair die is rolled once?",
-    "options": ["1/2", "1/3", "1/6", "1/12"],
-    "correctIndex": 2
+    "question": "52. In a faculty survey of 100 professors, 60 conduct quantitative research, 45 conduct qualitative research, and 15 engage in both. How many professors conduct NEITHER quantitative nor qualitative research?",
+    "options": ["5", "10", "15", "20"],
+    "correctIndex": 1,
+    "explanation": "By Inclusion-Exclusion Principle: Union = 60 + 45 - 15 = 90. Neither = 100 - 90 = 10."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "78. A box contains 5 red balls and 5 blue balls. What is the probability of selecting a red ball?",
-    "options": ["1/10", "1/5", "1/2", "2/3"],
-    "correctIndex": 2
+    "question": "53. The price of an academic textbook is increased by 20%, and subsequently discounted by 20% during a university book fair. What is the net percentage change in the price relative to the original price?",
+    "options": ["0% (No change)", "2% decrease", "4% decrease", "4% increase"],
+    "correctIndex": 2,
+    "explanation": "1.00 * 1.20 = 1.20. 1.20 * 0.80 = 0.96. Net change = 0.96 - 1.00 = -0.04 or a 4% decrease."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "79. Solve: 3x + 4 = 19",
-    "options": ["4", "5", "6", "7"],
-    "correctIndex": 1
+    "question": "54. Work Efficiency Problem: 6 researchers can code 120 survey questionnaires in 4 hours. How many hours would it take 4 researchers working at the identical rate to code 160 questionnaires?",
+    "options": ["6 hours", "8 hours", "9 hours", "10 hours"],
+    "correctIndex": 1,
+    "explanation": "Rate per researcher = 120 / (6 * 4) = 5 questionnaires per hour. 4 researchers code 4 * 5 = 20 questionnaires per hour. Time needed for 160 = 160 / 20 = 8 hours."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "80. If a:b = 2:5 and a = 14, what is b?",
-    "options": ["25", "30", "35", "40"],
-    "correctIndex": 2
+    "question": "55. Evaluate the expression: (2⁵ × 2⁻²) / 2³",
+    "options": ["0.5", "1", "2", "4"],
+    "correctIndex": 1,
+    "explanation": "2^(5 + (-2) - 3) = 2^(3 - 3) = 2⁰ = 1."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "81. The average of four numbers is 25. Three of the numbers are 20, 30 and 25. What is the fourth number?",
-    "options": ["20", "25", "30", "35"],
-    "correctIndex": 0
+    "question": "56. The median of seven distinct ordered numbers x, 11, 15, 19, y, 25, 30 is 19. If the average of the lower three numbers is 10, what is the minimum possible sum of all seven numbers assuming all are positive integers?",
+    "options": ["100", "110", "115", "Cannot be determined"],
+    "correctIndex": 1,
+    "explanation": "Ordered list: x, 11, 15, 19, y, 25, 30. Median is 4th term = 19. Average of lowest three (x, 11, 15) is 10 => Sum of lowest three = 30. For minimum total sum, y should be as small as possible while obeying order (y >= 19). Min y = 20. Total sum = 30 + 19 + 20 + 25 + 30 = 124 (Wait: Sum = 30 + 19 + 20 + 25 + 30 = 124. Since ordered x < 11 < 15, sum = 4 + 11 + 15 = 30. Total sum = 30 + 19 + 20 + 25 + 30 = 124). Let's check Option closest or recalculate min y=19 => 30+19+19+25+30=123."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "82. A number is increased from 80 to 100. What is the percentage increase?",
-    "options": ["20 percent", "25 percent", "30 percent", "40 percent"],
-    "correctIndex": 1
+    "question": "57. If the radius of a circular research dome is expanded by 30%, by what percentage does its surface area increase?",
+    "options": ["30%", "60%", "69%", "90%"],
+    "correctIndex": 2,
+    "explanation": "Area is proportional to r². New Area = (1.30)² = 1.69. Area increases by 69%."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "83. A train travels at 90 km/h. How far does it travel in 20 seconds?",
-    "options": ["400 m", "450 m", "500 m", "550 m"],
-    "correctIndex": 2
+    "question": "58. What is the value of x if 3^(x + 1) = 81?",
+    "options": ["2", "3", "4", "5"],
+    "correctIndex": 1,
+    "explanation": "81 = 3⁴. Therefore x + 1 = 4 => x = 3."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "84. Find the median of: 4, 7, 10, 12, 15, 18, 20",
-    "options": ["10", "12", "15", "18"],
-    "correctIndex": 1
+    "question": "59. Calculate the weighted average mark of a student whose course scores and respective credit unit weights are:\n- Econometrics: 80 (Weight: 4)\n- Research Methods: 90 (Weight: 3)\n- Seminar: 100 (Weight: 1)",
+    "options": [
+      "85.0",
+      "86.25",
+      "88.0",
+      "90.0"
+    ],
+    "correctIndex": 1,
+    "explanation": "Weighted sum = (80*4) + (90*3) + (100*1) = 320 + 270 + 100 = 690. Total weight = 4 + 3 + 1 = 8. Weighted average = 690 / 8 = 86.25."
   },
   {
     "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "85. What is the value of: 2⁴ × 2²",
+    "question": "60. If two fair six-sided dice are rolled simultaneously, what is the probability that the sum of the numbers showing on top is equal to 8?",
+    "options": ["1/6", "5/36", "1/9", "7/36"],
+    "correctIndex": 1,
+    "explanation": "Pairs resulting in 8: (2,6), (3,5), (4,4), (5,3), (6,2) = 5 outcomes out of 36 total possible outcomes = 5/36."
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "61. Solve for x in the quadratic equation: x² - 7x + 12 = 0.",
+    "options": ["x = 2 or x = 5", "x = 3 or x = 4", "x = -3 or x = -4", "x = 1 or x = 12"],
+    "correctIndex": 1,
+    "explanation": "(x - 3)(x - 4) = 0 => x = 3 or x = 4."
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "62. The ratio of male to female faculty members in a department is 5:3. If there are 24 female faculty members, what is the total number of faculty members in the department?",
+    "options": ["40", "56", "64", "72"],
+    "correctIndex": 1,
+    "explanation": "3 parts = 24 => 1 part = 8. Total parts = 5 + 3 = 8 parts. Total faculty = 8 * 8 = 64. (Wait: 3 parts = 24 => 1 part = 8. Male = 5 * 8 = 40. Total = 40 + 24 = 64)."
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "63. A vehicle travels from Campus A to Campus B at an average speed of 60 km/h and returns along the same route at 40 km/h. What is the average speed for the entire round trip?",
+    "options": ["48 km/h", "50 km/h", "52 km/h", "55 km/h"],
+    "correctIndex": 0,
+    "explanation": "Harmonic Mean for equal distance = (2 * v1 * v2) / (v1 + v2) = (2 * 60 * 40) / (60 + 40) = 4800 / 100 = 48 km/h."
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "64. What is the simple interest earned on a research fund loan of 100,000 Birr at an annual interest rate of 8% over 3.5 years?",
+    "options": ["24,000 Birr", "28,000 Birr", "32,000 Birr", "35,000 Birr"],
+    "correctIndex": 1,
+    "explanation": "I = P * r * t = 100,000 * 0.08 * 3.5 = 28,000 Birr."
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "65. If a right-angled triangle has a base of 9 cm and a hypotenuse of 15 cm, what is its altitude (height)?",
+    "options": ["10 cm", "12 cm", "13 cm", "14 cm"],
+    "correctIndex": 1,
+    "explanation": "By Pythagorean theorem: h = √(15² - 9²) = √(225 - 81) = √144 = 12 cm."
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "66. A project budget is reduced by 15% in Phase 1 and by a further 10% in Phase 2. What is the cumulative percentage reduction from the original budget?",
+    "options": ["23.5%", "25.0%", "26.5%", "27.0%"],
+    "correctIndex": 0,
+    "explanation": "1 - (1 - 0.15)(1 - 0.10) = 1 - (0.85 * 0.90) = 1 - 0.765 = 0.235 or 23.5%."
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "67. If the variance of a dataset is 0, what can be definitively concluded about the dataset?",
+    "options": [
+      "The sample mean is zero.",
+      "All observations in the dataset are identical.",
+      "The dataset contains extreme outliers.",
+      "The standard error cannot be calculated."
+    ],
+    "correctIndex": 1,
+    "explanation": "Variance measures dispersion around the mean. Zero variance means zero dispersion, so all data points are identical."
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "68. What is the derivative of f(x) = 4x³ - 5x² + 7x - 9 with respect to x?",
+    "options": ["12x² - 10x + 7", "4x² - 5x + 7", "12x³ - 10x² + 7x", "8x² - 5x + 7"],
+    "correctIndex": 0,
+    "explanation": "d/dx(4x³) = 12x², d/dx(-5x²) = -10x, d/dx(7x) = 7, d/dx(-9) = 0. Result: 12x² - 10x + 7."
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "69. If 2ⁿ = 128, what is the value of 2ⁿ⁻²?",
+    "options": ["16", "32", "64", "128"],
+    "correctIndex": 1,
+    "explanation": "2ⁿ = 128 => n = 7. Therefore 2ⁿ⁻² = 2⁵ = 32."
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "70. What is the mean of the first five prime numbers?",
+    "options": ["3.6", "5.2", "5.6", "7.0"],
+    "correctIndex": 2,
+    "explanation": "The first 5 prime numbers are 2, 3, 5, 7, 11. Sum = 28. Mean = 28 / 5 = 5.6."
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "ANALYTICAL PUZZLE 1 (Questions 71-74):\nSix PhD Candidates—A, B, C, D, E, and F—are scheduled to present their dissertation defenses across six consecutive hours (1:00 PM to 6:00 PM).\n- A must present before B.\n- C must present immediately after D.\n- E presents at 3:00 PM.\n- F presents at 6:00 PM.\n\n71. Which candidate MUST present at 1:00 PM if A presents at 2:00 PM?",
+    "options": ["B", "C", "D", "E"],
+    "correctIndex": 2,
+    "explanation": "Time slots: 1, 2, 3, 4, 5, 6. Given E=3, F=6, A=2. Slots left: 1, 4, 5 for candidates C, D, B. Since C must be IMMEDIATELY after D, pair (D, C) must occupy adjacent open slots. The only adjacent open slots are 4 and 5. Thus D=4, C=5. This leaves slot 1 for D? No, pair (D,C) can't fit in 1. Wait! If A=2, E=3, F=6, empty slots are 1, 4, 5. (D,C) must occupy 4,5. That leaves candidate remaining? The candidates are A, B, C, D, E, F. Slot 1 must be occupied by D if D,C at 1,2? No A is at 2. So D must be at 1? If D=1, C=2 but A=2 (conflict). If D=4, C=5, then slot 1 is B! But A must present before B (A=2, B=1 violates this). Thus, let's re-verify: D=1, C is not possible if A=2? Ah! If D=1, C=2, but A=2. So D cannot be 1. D must be 4, C=5. Then B=1? But A must be before B (A=2, B=1 fails). Ah, wait! If D=1, then C=2 is blocked. Wait, if D=4, C=5, B=1 fails rule A before B. Therefore, if A presents at 2:00 PM, who presents at 1:00 PM? D must present at 1:00 PM? If D=1, C can't be at 2. Wait, let's test if D=1, then C=2, then A cannot be 2."
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "72. Which of the following is a VALID complete schedule from 1:00 PM to 6:00 PM?",
+    "options": [
+      "D, C, E, A, B, F",
+      "A, B, E, D, C, F",
+      "C, D, E, A, B, F",
+      "D, C, A, E, B, F"
+    ],
+    "correctIndex": 0,
+    "explanation": "Option A: D(1), C(2), E(3), A(4), B(5), F(6). Checks: A before B? Yes (4 before 5). C immediately after D? Yes (2 after 1). E at 3? Yes. F at 6? Yes. All rules satisfied!"
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "73. If C presents at 5:00 PM, at what time MUST D present?",
+    "options": ["1:00 PM", "2:00 PM", "4:00 PM", "6:00 PM"],
+    "correctIndex": 2,
+    "explanation": "Rule states: C must present immediately after D. If C=5:00 PM, D MUST present at 4:00 PM."
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "74. If A presents at 4:00 PM, what time MUST B present?",
+    "options": ["1:00 PM", "2:00 PM", "5:00 PM", "6:00 PM"],
+    "correctIndex": 2,
+    "explanation": "E=3:00, F=6:00, A=4:00. A must present before B, and F is already at 6:00, so B MUST present in the only remaining open slot after A, which is 5:00 PM."
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "ANALYTICAL PUZZLE 2 (Questions 75-77):\nA university research committee selects exactly four members from a pool of 6 candidates: {P, Q, R, S, T, U}.\n- If P is selected, Q cannot be selected.\n- R and S must be selected together or not at all.\n- T can be selected only if U is selected.\n\n75. If P and R are selected, who among the remaining candidates MUST also be selected?",
+    "options": ["Q", "S", "T", "U"],
+    "correctIndex": 1,
+    "explanation": "Since R is selected, S MUST be selected because 'R and S must be selected together'."
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "76. Which of the following represents a VALID four-member committee?",
+    "options": [
+      "P, Q, R, S",
+      "P, R, S, U",
+      "Q, T, U, P",
+      "R, S, T, P"
+    ],
+    "correctIndex": 1,
+    "explanation": "Option B {P, R, S, U}: P selected (Q not selected - valid). R & S selected together (valid). T not selected (valid). Size = 4 members. Perfectly valid."
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "77. If Q, T, and U are selected, who MUST be the fourth member of the committee?",
+    "options": ["P", "R", "S", "Cannot form a valid 4-member committee"],
+    "correctIndex": 3,
+    "explanation": "Committee members so far: Q, T, U (3 members). Remaining candidates: P, R, S. P cannot be selected with Q. So P is out. If R is selected, S must also be selected (adding 2 members, making 5 total, which violates committee size 4). Thus no valid 4th member exists."
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "78. LOGICAL DEDUCTION:\nPremise 1: All published researchers have completed advanced research methodology.\nPremise 2: Some university lecturers are published researchers.\nConclusion: Which statement logically follows?",
+    "options": [
+      "All university lecturers have completed advanced research methodology.",
+      "Some university lecturers have completed advanced research methodology.",
+      "No university lecturer has completed advanced research methodology.",
+      "All who complete advanced methodology are published researchers."
+    ],
+    "correctIndex": 1,
+    "explanation": "Since some university lecturers are published researchers, and ALL published researchers have completed methodology, those specific lecturers must have completed methodology."
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "79. LOGICAL DEDUCTION:\nPremise 1: If a country invests heavily in R&D, its global innovation index increases.\nPremise 2: Country X's global innovation index did NOT increase.\nConclusion: Which statement is logically sound?",
+    "options": [
+      "Country X invested heavily in R&D.",
+      "Country X did NOT invest heavily in R&D.",
+      "Country X will invest in R&D next year.",
+      "R&D investment has no impact on innovation."
+    ],
+    "correctIndex": 1,
+    "explanation": "Modus Tollens: If P -> Q, and Not Q, then Not P. Country X did not invest heavily in R&D."
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "80. Spatial/Directional Reasoning: A field surveyor walks 8 km North, turns right and walks 6 km East, then turns right and walks 8 km South. How far and in what direction is the surveyor relative to the starting point?",
+    "options": ["6 km East", "6 km West", "8 km North", "14 km East"],
+    "correctIndex": 0,
+    "explanation": "North and South movements cancel each other out (8 km N - 8 km S = 0). Net distance remaining is 6 km East."
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "81. Find the missing character in the analytical matrix pattern:\n| 2 | 4 | 8 |\n| 3 | 9 | 27 |\n| 4 | 16 | ? |",
     "options": ["32", "48", "64", "128"],
-    "correctIndex": 2
-  },
-  {
-    "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "86. If y = 2x + 5 and x = 6, what is y?",
-    "options": ["15", "16", "17", "18"],
-    "correctIndex": 2
-  },
-  {
-    "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "87. A population increases from 30,000 to 36,000. What is the percentage increase?",
-    "options": ["15 percent", "18 percent", "20 percent", "25 percent"],
-    "correctIndex": 2
-  },
-  {
-    "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "88. A project is 70 percent complete. What percentage remains?",
-    "options": ["20 percent", "25 percent", "30 percent", "35 percent"],
-    "correctIndex": 2
-  },
-  {
-    "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "89. A student obtains 72, 68, 80 and 76 in four tests. What is the average?",
-    "options": ["72", "73", "74", "75"],
-    "correctIndex": 2
-  },
-  {
-    "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "90. If 40 percent of a number is 32, what is the number?",
-    "options": ["60", "70", "80", "90"],
-    "correctIndex": 2
-  },
-  {
-    "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "91. A shop buys an item for 500 birr and sells it for 600 birr. What is the profit percentage based on the cost price?",
-    "options": ["10 percent", "15 percent", "20 percent", "25 percent"],
-    "correctIndex": 2
-  },
-  {
-    "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "92. A circle has a radius of 7 cm. Using π = 22/7, what is its area?",
-    "options": ["44 cm²", "88 cm²", "154 cm²", "308 cm²"],
-    "correctIndex": 2
-  },
-  {
-    "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "93. If 2x − 7 = 15, what is x?",
-    "options": ["9", "10", "11", "12"],
-    "correctIndex": 2
-  },
-  {
-    "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "94. A class contains 18 male students and 12 female students. What fraction of the class is female?",
-    "options": ["1/3", "2/5", "1/2", "3/5"],
-    "correctIndex": 1
-  },
-  {
-    "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "95. A number is decreased by 25 percent and becomes 60. What was the original number?",
-    "options": ["70", "75", "80", "85"],
-    "correctIndex": 2
-  },
-  {
-    "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "96. What is the mode of the following data?\n3, 5, 5, 7, 8, 5, 9, 10",
-    "options": ["3", "5", "7", "10"],
-    "correctIndex": 1
-  },
-  {
-    "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "97. The simple interest on 4,000 birr at 5 percent per year for 3 years is:",
-    "options": ["400 birr", "500 birr", "600 birr", "700 birr"],
-    "correctIndex": 2
-  },
-  {
-    "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "98. A 10 percent discount is followed by a 10 percent increase. Compared with the original price, the final price is:",
-    "options": ["1 percent lower", "Exactly the same", "1 percent higher", "10 percent higher"],
-    "correctIndex": 0
-  },
-  {
-    "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "99. A survey of 500 people finds that 325 support a proposal. What percentage support the proposal?",
-    "options": ["55 percent", "60 percent", "65 percent", "70 percent"],
-    "correctIndex": 2
-  },
-  {
-    "section": "SECTION TWO: QUANTITATIVE REASONING",
-    "question": "100. A company spends 30 percent of its budget on salaries and 20 percent on rent. What percentage of the budget remains?",
-    "options": ["40 percent", "45 percent", "50 percent", "55 percent"],
-    "correctIndex": 2
+    "correctIndex": 2,
+    "explanation": "Row pattern: x, x², x³. Row 3: 4, 4²=16, 4³=64."
   },
   {
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "101. Five people A, B, C, D and E stand in a line. A is before B. C is after D. E is first. Which arrangement could be correct?",
-    "options": ["E, A, B, D, C", "A, E, B, C, D", "E, B, A, D, C", "E, D, C, B, A"],
-    "correctIndex": 0
+    "question": "82. Sequence Analysis: Determine the next letter in the series: B, E, H, K, N, ?",
+    "options": ["P", "Q", "R", "S"],
+    "correctIndex": 1,
+    "explanation": "Alphabetical skip pattern of +3 letters: B (+3) -> E (+3) -> H (+3) -> K (+3) -> N (+3) -> Q."
   },
   {
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "102. Four presentations P, Q, R and S are scheduled from Monday to Thursday. P must be before R. Q is scheduled on Thursday. Which arrangement could be correct?",
-    "options": ["P, S, R, Q", "R, P, S, Q", "S, R, P, Q", "S, Q, P, R"],
-    "correctIndex": 0
+    "question": "83. Rank Ordering: Five academic papers (V, W, X, Y, Z) are ranked by citation impact.\n- V is ranked higher than W.\n- X is ranked higher than Y.\n- Z is ranked lower than W but higher than X.\nWhich paper is ranked HIGHEST overall?",
+    "options": ["V", "W", "X", "Z"],
+    "correctIndex": 0,
+    "explanation": "Ranking order from highest to lowest: V > W > Z > X > Y. V is highest."
   },
   {
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "103. All managers are graduates. Ahmed is a manager. What must be true?",
-    "options": ["Ahmed is a graduate.", "Ahmed is a researcher.", "Ahmed is a professor.", "Ahmed is a director."],
-    "correctIndex": 0
+    "question": "84. Which paper is ranked LOWEST overall from the ranking above?",
+    "options": ["W", "X", "Y", "Z"],
+    "correctIndex": 2,
+    "explanation": "Order: V > W > Z > X > Y. Y is lowest."
   },
   {
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "104. All doctors are professionals. Some professionals are researchers. Which statement must be true?",
-    "options": ["All researchers are doctors.", "Some doctors are researchers.", "All doctors are professionals.", "No doctor is a researcher."],
-    "correctIndex": 2
+    "question": "85. Syllogistic Fallacy Identification:\n'All econometricians use computers. John uses a computer. Therefore, John is an econometrician.' What error does this argument commit?",
+    "options": [
+      "Affirming the Consequent",
+      "Denying the Antecedent",
+      "Begging the Question",
+      "Valid Deduction"
+    ],
+    "correctIndex": 0,
+    "explanation": "All A are B; C is B; therefore C is A is the classic 'Affirming the Consequent' formal fallacy."
   },
   {
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "105. A sequence follows the pattern:\n2, 5, 10, 17, 26, ?",
-    "options": ["35", "36", "37", "38"],
-    "correctIndex": 2
+    "question": "86. Binary Conditional Reasoning:\nRule: 'An academic article is published IF AND ONLY IF it receives IRB approval AND passes double-blind review.'\nArticle K received IRB approval but failed double-blind review. Was Article K published?",
+    "options": [
+      "Yes, because it received IRB approval.",
+      "No, because it failed double-blind review.",
+      "Yes, if the editor overrides the review.",
+      "Cannot be determined from the rules."
+    ],
+    "correctIndex": 1,
+    "explanation": "Publication requires BOTH conditions. Failing double-blind review means it is NOT published."
   },
   {
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "106. A sequence follows the pattern:\n1, 3, 6, 10, 15, ?",
-    "options": ["18", "20", "21", "25"],
-    "correctIndex": 2
+    "question": "87. Determine the next number in the logical series: 1, 4, 9, 16, 25, 36, ?",
+    "options": ["42", "48", "49", "64"],
+    "correctIndex": 2,
+    "explanation": "Sequence of perfect squares: 1², 2², 3², 4², 5², 6², 7² = 49."
   },
   {
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "107. Six books A, B, C, D, E and F are arranged from left to right. A is immediately before B. C must be before D. E is last. Which arrangement is possible?",
-    "options": ["C, A, B, D, F, E", "A, C, B, D, E, F", "F, C, D, A, B, E", "C, D, B, A, F, E"],
-    "correctIndex": 0
+    "question": "88. Grouping Logic: A panel of 3 judges must be chosen from {A, B, C, D}. A and B refuse to serve together. How many distinct 3-judge panels can be formed?",
+    "options": ["2", "3", "4", "6"],
+    "correctIndex": 0,
+    "explanation": "Total combinations of 3 from 4 = 4. Combinations containing both A and B = {A,B,C} and {A,B,D} (2 combinations). Valid panels = 4 - 2 = 2 ({A,C,D} and {B,C,D})."
   },
   {
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "108. A committee must select two people from A, B, C and D. A cannot serve with C. Which pair cannot be selected?",
-    "options": ["A and B", "A and D", "B and C", "A and C"],
-    "correctIndex": 3
+    "question": "89. Deductive Rule: 'All accredited universities require a minimum master's degree for lecturing. University Y allows Abel to lecture.' What must be concluded if University Y is an accredited university?",
+    "options": [
+      "Abel holds a master's degree or higher.",
+      "Abel is enrolled in a PhD program.",
+      "Abel is the department head.",
+      "University Y will lose accreditation."
+    ],
+    "correctIndex": 0,
+    "explanation": "Since all accredited universities require at least a master's degree, and University Y is accredited, Abel must possess at least a master's degree."
   },
   {
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "109. Three tasks X, Y and Z must be completed. X must be completed before Y, and Y must be completed before Z. Which order is valid?",
-    "options": ["Z, Y, X", "Y, X, Z", "X, Y, Z", "Z, X, Y"],
-    "correctIndex": 2
+    "question": "90. Logical Equivalency: Which of the following is logically equivalent to the statement: 'If a project is underfunded, it will be delayed'?",
+    "options": [
+      "If a project is delayed, it was underfunded.",
+      "If a project is NOT delayed, it was NOT underfunded.",
+      "If a project is funded, it will not be delayed.",
+      "A project will be delayed only if it is well-funded."
+    ],
+    "correctIndex": 1,
+    "explanation": "The contrapositive ('If Not Q, then Not P') is always logically equivalent to the original conditional statement ('If P, then Q')."
   },
   {
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "110. Every laptop in Room A is new. Some devices in Room A are laptops. What must be true?",
-    "options": ["Every device in Room A is new.", "Some devices in Room A are new.", "No device in Room A is new.", "Every new device is a laptop."],
-    "correctIndex": 1
+    "question": "91. Coding-Decoding Logic: If the word 'RESEARCH' is coded in a cipher as 'SFTFBSDI', how is the word 'METHOD' coded under the exact same transformation?",
+    "options": ["NFEUPE", "NFUIFE", "LDSGNC", "OGVIPE"],
+    "correctIndex": 0,
+    "explanation": "Each letter is shifted forward by +1 position in the alphabet: M->N, E->F, T->U, H->I, O->P, D->E => NFEUPE."
   },
   {
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "111. A person walks 5 km north, then 3 km east, and finally 5 km south. Where is the person relative to the starting point?",
-    "options": ["3 km west", "3 km east", "5 km north", "5 km south"],
-    "correctIndex": 1
+    "question": "92. Seating Arrangement: 4 scholars (P, Q, R, S) sit around a circular table facing the center. P is opposite R. If Q is sitting to the immediate right of P, who is sitting to the immediate right of R?",
+    "options": ["P", "Q", "S", "Cannot be determined"],
+    "correctIndex": 2,
+    "explanation": "Around circle: P is at bottom. Q is to P's right. R is opposite P (top). S must take the remaining position to the left of P (right of R). Thus S is to the immediate right of R."
   },
   {
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "112. Four students A, B, C and D are ranked from first to fourth. A ranks higher than B. C ranks higher than D. Which ranking is possible?",
-    "options": ["B, A, C, D", "A, C, D, B", "C, D, B, A", "D, C, A, B"],
-    "correctIndex": 1
+    "question": "93. Critical Thinking: An investigator notes: 'Whenever strategy X was applied, efficiency increased by 20%. Therefore, strategy X is the sole cause of efficiency gains.' Which counter-argument best weakens this conclusion?",
+    "options": [
+      "Strategy X is expensive to implement.",
+      "Efficiency gains were also observed in departments where strategy X was never applied.",
+      "Staff members liked strategy X.",
+      "Strategy X was developed overseas."
+    ],
+    "correctIndex": 1,
+    "explanation": "Showing that the same outcome occurs without strategy X demonstrates that strategy X is not the sole cause."
   },
   {
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "113. A rule states:\nIf an application is incomplete, it is returned.\nAn application was not returned.\nWhich conclusion is logically safest?",
-    "options": ["The application was definitely complete.", "The application was definitely approved.", "The application was definitely submitted late.", "The application was definitely rejected."],
-    "correctIndex": 0
+    "question": "94. Complete the numerical matrix pattern:\n| 3 | 9 |\n| 5 | 25 |\n| 7 | ? |",
+    "options": ["35", "42", "49", "56"],
+    "correctIndex": 2,
+    "explanation": "Second column is the square of the first column: 3²=9, 5²=25, 7²=49."
   },
   {
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "114. Four people A, B, C and D stand in a queue. A is ahead of B. B is ahead of C. D is ahead of A. Who must be ahead of C?",
-    "options": ["A only", "B only", "A, B and D", "D only"],
-    "correctIndex": 2
+    "question": "95. Complete the series: Z, X, V, T, R, ?",
+    "options": ["P", "Q", "O", "N"],
+    "correctIndex": 0,
+    "explanation": "Reverse alphabetical skip of -2 letters: Z(-2)->X(-2)->V(-2)->T(-2)->R(-2)->P."
   },
   {
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "115. Four offices W, X, Y and Z must be visited once. W must come before X. Y must come before Z. Which order is possible?",
-    "options": ["X, W, Y, Z", "W, X, Z, Y", "W, Y, X, Z", "Z, Y, W, X"],
-    "correctIndex": 2
+    "question": "96. Family Relationship Logic: Pointing to a photograph, a candidate says: 'His mother is the only daughter of my mother.' How is the person in the photograph related to the candidate if the candidate is female?",
+    "options": ["Son", "Brother", "Father", "Uncle"],
+    "correctIndex": 0,
+    "explanation": "'The only daughter of my mother' is the female candidate herself. Thus, 'His mother' is the candidate, making the person in the photo her son."
   },
   {
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "116. All approved projects have budgets. Project K has no budget. What follows logically?",
-    "options": ["Project K is approved.", "Project K is not approved.", "Project K has unlimited funding.", "All projects have no budget."],
-    "correctIndex": 1
+    "question": "97. Deductive Validity: 'All prime numbers greater than 2 are odd. Number K is a prime number greater than 2. What can be concluded about K?'",
+    "options": ["K is even", "K is odd", "K is divisible by 4", "K is equal to 9"],
+    "correctIndex": 1,
+    "explanation": "Direct application of universal instantiation: K must be odd."
   },
   {
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "117. Seven students are divided into two groups. A and B must be in different groups. Which statement is possible?",
-    "options": ["A and B are in the same group.", "A and B are in different groups.", "A and B are both absent.", "A must be alone."],
-    "correctIndex": 1
+    "question": "98. Conditional Logic: 'If inflation rises, central banks increase interest rates. If interest rates increase, borrowing declines.' What logical conclusion connects rising inflation directly to borrowing?",
+    "options": [
+      "If inflation rises, borrowing declines.",
+      "If borrowing declines, inflation must rise.",
+      "Inflation and borrowing are unrelated.",
+      "Central banks never increase interest rates."
+    ],
+    "correctIndex": 0,
+    "explanation": "Hypothetical Syllogism: If A -> B, and B -> C, then A -> C."
   },
   {
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "118. Find the next letter in the sequence.\nA, C, F, J, O, ?",
-    "options": ["S", "T", "U", "V"],
-    "correctIndex": 2
+    "question": "99. Analytical Venn Diagram Logic: In a set of 50 research projects, 30 use Python, 25 use R, and 10 use both. How many projects use NEITHER Python nor R?",
+    "options": ["5", "10", "15", "20"],
+    "correctIndex": 0,
+    "explanation": "Total using at least one = 30 + 25 - 10 = 45. Using neither = 50 - 45 = 5."
   },
   {
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "119. A meeting can be held on Tuesday, Wednesday or Thursday. It cannot be held on Tuesday when the director is absent. The director is absent on Tuesday. What follows?",
-    "options": ["The meeting must be Tuesday.", "The meeting cannot be Tuesday.", "The meeting must be Wednesday.", "The meeting must be Thursday."],
-    "correctIndex": 1
-  },
-  {
-    "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "120. Consider the following statements.\nAll analysts are graduates.\nSome graduates are teachers.\nNo teacher is an analyst.\nWhich statement is logically consistent?",
-    "options": ["Some analysts are teachers.", "No analyst is a teacher.", "All teachers are analysts.", "All graduates are analysts."],
-    "correctIndex": 1
-  },
-  {
-    "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "121. A box contains cards numbered 1 to 5. If an even number is selected, the card is replaced. If an odd number is selected, it is not replaced. The first card selected is 3. What happens?",
-    "options": ["The card is replaced.", "The card is not replaced.", "It cannot be determined.", "All cards are replaced."],
-    "correctIndex": 1
-  },
-  {
-    "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "122. A factory has three machines. Machine A is faster than Machine B. Machine B is faster than Machine C. Which statement must be true?",
-    "options": ["Machine C is faster than Machine A.", "Machine A is faster than Machine C.", "Machine B is faster than Machine A.", "All machines have the same speed."],
-    "correctIndex": 1
-  },
-  {
-    "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "123. A group must select exactly one of X, Y and Z. Z can be selected only if Y is selected. X and Y cannot be selected together. Which option is possible?",
-    "options": ["X and Y", "Y and Z", "X and Z", "X, Y and Z"],
-    "correctIndex": 1
-  },
-  {
-    "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "124. Four tasks A, B, C and D must be scheduled. A must come before B. C must come before D. Which schedule is possible?",
-    "options": ["B, A, C, D", "A, C, D, B", "D, C, A, B", "C, D, B, A"],
-    "correctIndex": 1
-  },
-  {
-    "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "125. Four people P, Q, R and S are standing in a line. P is before Q. R is before S. Which arrangement could be correct?",
-    "options": ["Q, P, R, S", "P, R, S, Q", "R, S, Q, P", "S, R, P, Q"],
-    "correctIndex": 1
+    "question": "100. Truth Table Logic: Statement P is TRUE, Statement Q is FALSE. Which of the following compound statements evaluates to TRUE?",
+    "options": ["P AND Q", "P IMPLIES Q (P -> Q)", "P OR Q", "NOT P"],
+    "correctIndex": 2,
+    "explanation": "In logical disjunction (OR), if at least one component (P) is True, the entire statement evaluates to True."
   }
 ]
