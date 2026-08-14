@@ -1,0 +1,752 @@
+[
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "1. Choose the word that is closest in meaning to 'diligent'.",
+    "options": ["Lazy", "Hardworking", "Careless", "Weak"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "2. Choose the word that is closest in meaning to 'obtain'.",
+    "options": ["Lose", "Acquire", "Reject", "Hide"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "3. Choose the word opposite in meaning to 'ancient'.",
+    "options": ["Old", "Historic", "Modern", "Traditional"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "4. Choose the word opposite in meaning to 'generous'.",
+    "options": ["Kind", "Helpful", "Selfish", "Friendly"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "5. Complete the analogy.\nTeacher is to School as Doctor is to",
+    "options": ["Market", "Hospital", "Library", "Laboratory"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "6. Complete the analogy.\nBook is to Reading as Food is to",
+    "options": ["Cooking", "Eating", "Selling", "Buying"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "7. Complete the analogy.\nEye is to Seeing as Ear is to",
+    "options": ["Speaking", "Touching", "Hearing", "Walking"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "8. Complete the analogy.\nSeed is to Plant as Egg is to",
+    "options": ["Nest", "Bird", "Feather", "Shell"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "9. Choose the word that best completes the sentence.\nThe manager was praised because he handled the difficult situation very _______.",
+    "options": ["carelessly", "effectively", "slowly", "angrily"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "10. Choose the word that best completes the sentence.\nThe evidence was not sufficient to _______.",
+    "options": ["prove the claim", "hide the table", "close the door", "change the weather"],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "11. Choose the grammatically correct sentence.",
+    "options": ["She have completed her work.", "She has completed her work.", "She having completed her work.", "She complete her work yesterday."],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "12. Choose the grammatically correct sentence.",
+    "options": ["They was ready for the examination.", "They is ready for the examination.", "They were ready for the examination.", "They be ready for the examination."],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "13. Choose the grammatically correct sentence.",
+    "options": ["He has worked here since five years.", "He has worked here for five years.", "He worked here since five years.", "He is worked here for five years."],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "14. Choose the grammatically correct sentence.",
+    "options": ["Neither the teacher nor the students were absent.", "Neither the teacher nor the students was absent.", "Neither teacher nor students is absent yesterday.", "Neither the teacher or students were absent."],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "15. Choose the best completion.\nIf I had enough money, I _______.",
+    "options": ["will travel abroad", "would travel abroad", "travelled abroad yesterday", "am travelling yesterday"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "16. Choose the best completion.\nThe report was submitted _______.",
+    "options": ["before the deadline", "before the deadline was submit", "before submitting deadline", "before submitted the deadline"],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "17. Choose the word that does not belong.",
+    "options": ["Apple", "Orange", "Banana", "Carrot"],
+    "correctIndex": 3
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "18. Choose the word that does not belong.",
+    "options": ["Monday", "Tuesday", "January", "Friday"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "19. Choose the word that does not belong.",
+    "options": ["Chair", "Table", "Bed", "Pencil"],
+    "correctIndex": 3
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "20. Choose the word that does not belong.",
+    "options": ["Mathematics", "Physics", "Chemistry", "Democracy"],
+    "correctIndex": 3
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "21. Choose the closest meaning of 'accurate'.",
+    "options": ["Correct", "Fast", "Large", "Difficult"],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "22. Choose the closest meaning of 'essential'.",
+    "options": ["Optional", "Necessary", "Temporary", "Unusual"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "23. Choose the opposite meaning of 'increase'.",
+    "options": ["Improve", "Expand", "Decrease", "Develop"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "24. Choose the opposite meaning of 'complex'.",
+    "options": ["Difficult", "Simple", "Complete", "Large"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "25. A university introduced an online registration system. After its introduction, the number of students completing registration on time increased considerably.\nWhat is the most reasonable conclusion?",
+    "options": ["Online registration may have made registration easier.", "All students prefer online registration.", "No student used the old system.", "Registration fees were completely removed."],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "26. A company trained its employees before introducing new software. After the training, employees made fewer errors.\nWhich conclusion is best supported?",
+    "options": ["Training may have contributed to the reduction in errors.", "Employees no longer make any errors.", "The software is unnecessary.", "Employees disliked the training."],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "27. A researcher found that students who regularly reviewed their lessons generally performed better in examinations.\nWhich statement is most appropriate?",
+    "options": ["Reviewing lessons guarantees success.", "Regular review is associated with better examination performance.", "Students who do not review always fail.", "Examination performance depends only on review."],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "28. A town constructed a new road. After construction, travel time between two areas decreased.\nWhich statement is directly supported?",
+    "options": ["The new road reduced travel time between the areas.", "All roads in the town became better.", "Traffic completely disappeared.", "Everyone in the town bought a vehicle."],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "29. Read the following passage.\nMany organizations collect large amounts of information. However, collecting information alone does not guarantee good decisions. Managers must also know how to analyze the information and use it appropriately.\nWhat is the main idea?",
+    "options": ["Organizations should stop collecting information.", "Information is useful only when it is properly analyzed and used.", "Managers do not need information.", "Organizations should collect information without analyzing it."],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "30. Read the following passage.\nPublic transportation can reduce the number of private vehicles on roads. However, it must be reliable, affordable and accessible if people are expected to use it regularly.\nWhat is the main point?",
+    "options": ["Private vehicles should be banned immediately.", "Public transportation is useful only in rural areas.", "Effective public transportation should be reliable, affordable and accessible.", "People never use public transportation."],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "31. Read the following passage.\nA research project achieved its scientific objectives but exceeded its financial budget. The evaluation recommended better financial planning for future projects.\nWhat was the major weakness?",
+    "options": ["Scientific research", "Financial management", "Staff recruitment", "Communication"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "32. Read the following passage.\nThe university library extended its opening hours during examination periods. Students subsequently reported that they had more opportunities to study in the library.\nWhat can reasonably be inferred?",
+    "options": ["Extended opening hours increased access to the library.", "Students stopped studying at home.", "The library became larger.", "All students studied in the library."],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "33. Which statement is an opinion?",
+    "options": ["The examination contains 100 questions.", "The examination starts at 9:00 a.m.", "This is the most interesting examination ever created.", "Candidates have three hours to complete the examination."],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "34. Which statement is most objective?",
+    "options": ["The new policy is fantastic.", "The new policy is clearly the best.", "The new policy reduced processing time by 15 percent.", "Everyone loves the new policy."],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "35. Which argument is strongest?",
+    "options": ["The product is good because my friend likes it.", "The product is good because it is expensive.", "A controlled study found that the product produced better results than the alternatives.", "The product is good because many people talk about it."],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "36. Which statement contains an unsupported generalization?",
+    "options": ["Three students liked the course, so every student in the country must like it.", "The survey included 500 participants.", "The report was submitted on Monday.", "The project cost 2 million birr."],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "37. Choose the best transition.\nThe first method is cheap. ______, it takes a long time.",
+    "options": ["Therefore", "However", "Similarly", "Consequently"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "38. Choose the best transition.\nThe evidence was incomplete. ______, the researchers conducted another investigation.",
+    "options": ["Therefore", "Nevertheless", "Similarly", "Meanwhile"],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "39. Choose the best transition.\nThe organization improved its service quality. ______, customer satisfaction increased.",
+    "options": ["As a result", "In contrast", "Nevertheless", "Otherwise"],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "40. Choose the best transition.\nThe two studies used different methods. ______, they reached similar conclusions.",
+    "options": ["Therefore", "Nevertheless", "Because", "Since"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "41. Which sentence has the same meaning as:\n'Only registered candidates are allowed to enter the examination room.'",
+    "options": ["Everyone can enter the examination room.", "Registered candidates are the only people allowed to enter.", "Registration is not necessary.", "Candidates may enter without permission."],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "42. Which sentence has the same meaning as:\n'The project was delayed because funding was insufficient.'",
+    "options": ["The project was completed early because funding was sufficient.", "Insufficient funding caused a delay in the project.", "Funding had no effect on the project.", "The project did not require funding."],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "43. Which sentence has the same meaning as:\n'Despite the difficulties, the team completed the project.'",
+    "options": ["The team abandoned the project.", "The team completed the project although it faced difficulties.", "The project was completed before difficulties occurred.", "The team avoided all difficulties."],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "44. Which sentence has the same meaning as:\n'The report was submitted after the committee approved it.'",
+    "options": ["The report was submitted before approval.", "The committee approved the report after submission.", "Approval occurred before submission.", "The report was never approved."],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "45. Which word best completes the sentence?\nThe researcher used a large sample to make the findings more _______.",
+    "options": ["reliable", "invisible", "accidental", "temporary"],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "46. Which word best completes the sentence?\nA feasible plan is one that is _______.",
+    "options": ["impossible", "practical", "secret", "unnecessary"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "47. Which word best completes the sentence?\nA credible source is one that is generally _______.",
+    "options": ["believable", "irrelevant", "hidden", "imaginary"],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "48. Which word best completes the sentence?\nAn ambiguous statement is one that _______.",
+    "options": ["has only one clear meaning", "has more than one possible interpretation", "contains no information", "is always false"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "49. If all successful applicants submit complete documents and Hana submitted incomplete documents, what can be concluded?",
+    "options": ["Hana definitely succeeded.", "Hana meets the stated document requirement.", "Hana does not meet the stated requirement for successful applicants.", "Hana did not apply."],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "50. If no late applications are accepted and an application was submitted late, what follows?",
+    "options": ["The application must be accepted.", "The application cannot be accepted under that rule.", "The application automatically receives priority.", "The deadline must have been extended."],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "51. If all teachers in School A are graduates and Ahmed is a teacher in School A, what follows?",
+    "options": ["Ahmed is a graduate.", "Ahmed is the principal.", "Ahmed teaches mathematics.", "Ahmed has a master's degree."],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "52. If every approved project has a budget and Project X has no budget, which conclusion follows?",
+    "options": ["Project X is approved.", "Project X is not approved.", "Project X is the largest project.", "Project X has unlimited funding."],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "53. Which word is closest in meaning to 'relevant'?",
+    "options": ["Related", "Distant", "Unnecessary", "Accidental"],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "54. Which word is closest in meaning to 'validate'?",
+    "options": ["Confirm", "Hide", "Destroy", "Delay"],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "55. Which word is opposite in meaning to 'optimistic'?",
+    "options": ["Hopeful", "Positive", "Pessimistic", "Confident"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "56. Which word is opposite in meaning to 'temporary'?",
+    "options": ["Short", "Brief", "Permanent", "Limited"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "57. Which statement would provide the strongest evidence that a training program improved participants' skills?",
+    "options": ["The trainer liked the program.", "Participants enjoyed the lunch.", "Participants' post-test scores were significantly higher than their pre-test scores.", "The training hall was attractive."],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "58. A paragraph begins:\n'Effective leadership requires more than authority.'\nWhich sentence would best continue the paragraph?",
+    "options": ["Leaders should never make decisions.", "Effective leaders also need communication, responsibility and sound judgment.", "Authority is always harmful.", "Leaders should avoid their employees."],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "59. A paragraph begins:\n'Technology can improve education, but technology alone cannot guarantee learning.'\nWhich conclusion is most reasonable?",
+    "options": ["Technology should never be used in education.", "Effective teaching and appropriate use of technology should work together.", "Teachers are no longer necessary.", "Students can learn without instruction."],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION ONE: VERBAL REASONING",
+    "question": "60. Which statement best describes the purpose of a thesis statement in academic writing?",
+    "options": ["To list every reference in the paper", "To present the central argument or position", "To replace the introduction", "To provide page numbers"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "61. What is 20 percent of 250?",
+    "options": ["25", "40", "50", "60"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "62. If x + 8 = 23, what is x?",
+    "options": ["13", "14", "15", "16"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "63. If 5x = 45, what is x?",
+    "options": ["7", "8", "9", "10"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "64. If 3 notebooks cost 90 birr, how much will 8 notebooks cost at the same price?",
+    "options": ["180 birr", "210 birr", "240 birr", "270 birr"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "65. A salary of 5,000 birr is increased by 12 percent. What is the new salary?",
+    "options": ["5,400 birr", "5,500 birr", "5,600 birr", "5,700 birr"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "66. A product costs 2,000 birr. It is sold with a 15 percent discount. What is the selling price?",
+    "options": ["1,600 birr", "1,650 birr", "1,700 birr", "1,750 birr"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "67. What is the average of 10, 20, 30, 40 and 50?",
+    "options": ["25", "30", "35", "40"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "68. If 4 workers complete a task in 15 days, how many days would 10 workers require if they work at the same rate?",
+    "options": ["4 days", "6 days", "8 days", "10 days"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "69. A vehicle travels 240 km in 4 hours. What is its average speed?",
+    "options": ["50 km/h", "55 km/h", "60 km/h", "65 km/h"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "70. If 3/5 of a number is 24, what is the number?",
+    "options": ["30", "35", "40", "45"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "71. Find the next number.\n4, 8, 16, 32, 64, ?",
+    "options": ["96", "112", "128", "144"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "72. Find the next number.\n5, 10, 17, 26, 37, ?",
+    "options": ["48", "50", "52", "54"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "73. Find the next number.\n100, 50, 25, 12.5, ?",
+    "options": ["5", "6.25", "7.5", "8.25"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "74. What is the value of 7²?",
+    "options": ["14", "21", "49", "56"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "75. A rectangle has length 15 cm and width 8 cm. What is its area?",
+    "options": ["46 cm²", "100 cm²", "120 cm²", "130 cm²"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "76. A square has a perimeter of 48 cm. What is the length of one side?",
+    "options": ["8 cm", "10 cm", "12 cm", "16 cm"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "77. What is the probability of getting a six when a fair die is rolled once?",
+    "options": ["1/2", "1/3", "1/6", "1/12"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "78. A box contains 5 red balls and 5 blue balls. What is the probability of selecting a red ball?",
+    "options": ["1/10", "1/5", "1/2", "2/3"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "79. Solve: 3x + 4 = 19",
+    "options": ["4", "5", "6", "7"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "80. If a:b = 2:5 and a = 14, what is b?",
+    "options": ["25", "30", "35", "40"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "81. The average of four numbers is 25. Three of the numbers are 20, 30 and 25. What is the fourth number?",
+    "options": ["20", "25", "30", "35"],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "82. A number is increased from 80 to 100. What is the percentage increase?",
+    "options": ["20 percent", "25 percent", "30 percent", "40 percent"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "83. A train travels at 90 km/h. How far does it travel in 20 seconds?",
+    "options": ["400 m", "450 m", "500 m", "550 m"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "84. Find the median of: 4, 7, 10, 12, 15, 18, 20",
+    "options": ["10", "12", "15", "18"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "85. What is the value of: 2⁴ × 2²",
+    "options": ["32", "48", "64", "128"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "86. If y = 2x + 5 and x = 6, what is y?",
+    "options": ["15", "16", "17", "18"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "87. A population increases from 30,000 to 36,000. What is the percentage increase?",
+    "options": ["15 percent", "18 percent", "20 percent", "25 percent"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "88. A project is 70 percent complete. What percentage remains?",
+    "options": ["20 percent", "25 percent", "30 percent", "35 percent"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "89. A student obtains 72, 68, 80 and 76 in four tests. What is the average?",
+    "options": ["72", "73", "74", "75"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "90. If 40 percent of a number is 32, what is the number?",
+    "options": ["60", "70", "80", "90"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "91. A shop buys an item for 500 birr and sells it for 600 birr. What is the profit percentage based on the cost price?",
+    "options": ["10 percent", "15 percent", "20 percent", "25 percent"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "92. A circle has a radius of 7 cm. Using π = 22/7, what is its area?",
+    "options": ["44 cm²", "88 cm²", "154 cm²", "308 cm²"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "93. If 2x − 7 = 15, what is x?",
+    "options": ["9", "10", "11", "12"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "94. A class contains 18 male students and 12 female students. What fraction of the class is female?",
+    "options": ["1/3", "2/5", "1/2", "3/5"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "95. A number is decreased by 25 percent and becomes 60. What was the original number?",
+    "options": ["70", "75", "80", "85"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "96. What is the mode of the following data?\n3, 5, 5, 7, 8, 5, 9, 10",
+    "options": ["3", "5", "7", "10"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "97. The simple interest on 4,000 birr at 5 percent per year for 3 years is:",
+    "options": ["400 birr", "500 birr", "600 birr", "700 birr"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "98. A 10 percent discount is followed by a 10 percent increase. Compared with the original price, the final price is:",
+    "options": ["1 percent lower", "Exactly the same", "1 percent higher", "10 percent higher"],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "99. A survey of 500 people finds that 325 support a proposal. What percentage support the proposal?",
+    "options": ["55 percent", "60 percent", "65 percent", "70 percent"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION TWO: QUANTITATIVE REASONING",
+    "question": "100. A company spends 30 percent of its budget on salaries and 20 percent on rent. What percentage of the budget remains?",
+    "options": ["40 percent", "45 percent", "50 percent", "55 percent"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "101. Five people A, B, C, D and E stand in a line. A is before B. C is after D. E is first. Which arrangement could be correct?",
+    "options": ["E, A, B, D, C", "A, E, B, C, D", "E, B, A, D, C", "E, D, C, B, A"],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "102. Four presentations P, Q, R and S are scheduled from Monday to Thursday. P must be before R. Q is scheduled on Thursday. Which arrangement could be correct?",
+    "options": ["P, S, R, Q", "R, P, S, Q", "S, R, P, Q", "S, Q, P, R"],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "103. All managers are graduates. Ahmed is a manager. What must be true?",
+    "options": ["Ahmed is a graduate.", "Ahmed is a researcher.", "Ahmed is a professor.", "Ahmed is a director."],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "104. All doctors are professionals. Some professionals are researchers. Which statement must be true?",
+    "options": ["All researchers are doctors.", "Some doctors are researchers.", "All doctors are professionals.", "No doctor is a researcher."],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "105. A sequence follows the pattern:\n2, 5, 10, 17, 26, ?",
+    "options": ["35", "36", "37", "38"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "106. A sequence follows the pattern:\n1, 3, 6, 10, 15, ?",
+    "options": ["18", "20", "21", "25"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "107. Six books A, B, C, D, E and F are arranged from left to right. A is immediately before B. C must be before D. E is last. Which arrangement is possible?",
+    "options": ["C, A, B, D, F, E", "A, C, B, D, E, F", "F, C, D, A, B, E", "C, D, B, A, F, E"],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "108. A committee must select two people from A, B, C and D. A cannot serve with C. Which pair cannot be selected?",
+    "options": ["A and B", "A and D", "B and C", "A and C"],
+    "correctIndex": 3
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "109. Three tasks X, Y and Z must be completed. X must be completed before Y, and Y must be completed before Z. Which order is valid?",
+    "options": ["Z, Y, X", "Y, X, Z", "X, Y, Z", "Z, X, Y"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "110. Every laptop in Room A is new. Some devices in Room A are laptops. What must be true?",
+    "options": ["Every device in Room A is new.", "Some devices in Room A are new.", "No device in Room A is new.", "Every new device is a laptop."],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "111. A person walks 5 km north, then 3 km east, and finally 5 km south. Where is the person relative to the starting point?",
+    "options": ["3 km west", "3 km east", "5 km north", "5 km south"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "112. Four students A, B, C and D are ranked from first to fourth. A ranks higher than B. C ranks higher than D. Which ranking is possible?",
+    "options": ["B, A, C, D", "A, C, D, B", "C, D, B, A", "D, C, A, B"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "113. A rule states:\nIf an application is incomplete, it is returned.\nAn application was not returned.\nWhich conclusion is logically safest?",
+    "options": ["The application was definitely complete.", "The application was definitely approved.", "The application was definitely submitted late.", "The application was definitely rejected."],
+    "correctIndex": 0
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "114. Four people A, B, C and D stand in a queue. A is ahead of B. B is ahead of C. D is ahead of A. Who must be ahead of C?",
+    "options": ["A only", "B only", "A, B and D", "D only"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "115. Four offices W, X, Y and Z must be visited once. W must come before X. Y must come before Z. Which order is possible?",
+    "options": ["X, W, Y, Z", "W, X, Z, Y", "W, Y, X, Z", "Z, Y, W, X"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "116. All approved projects have budgets. Project K has no budget. What follows logically?",
+    "options": ["Project K is approved.", "Project K is not approved.", "Project K has unlimited funding.", "All projects have no budget."],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "117. Seven students are divided into two groups. A and B must be in different groups. Which statement is possible?",
+    "options": ["A and B are in the same group.", "A and B are in different groups.", "A and B are both absent.", "A must be alone."],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "118. Find the next letter in the sequence.\nA, C, F, J, O, ?",
+    "options": ["S", "T", "U", "V"],
+    "correctIndex": 2
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "119. A meeting can be held on Tuesday, Wednesday or Thursday. It cannot be held on Tuesday when the director is absent. The director is absent on Tuesday. What follows?",
+    "options": ["The meeting must be Tuesday.", "The meeting cannot be Tuesday.", "The meeting must be Wednesday.", "The meeting must be Thursday."],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "120. Consider the following statements.\nAll analysts are graduates.\nSome graduates are teachers.\nNo teacher is an analyst.\nWhich statement is logically consistent?",
+    "options": ["Some analysts are teachers.", "No analyst is a teacher.", "All teachers are analysts.", "All graduates are analysts."],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "121. A box contains cards numbered 1 to 5. If an even number is selected, the card is replaced. If an odd number is selected, it is not replaced. The first card selected is 3. What happens?",
+    "options": ["The card is replaced.", "The card is not replaced.", "It cannot be determined.", "All cards are replaced."],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "122. A factory has three machines. Machine A is faster than Machine B. Machine B is faster than Machine C. Which statement must be true?",
+    "options": ["Machine C is faster than Machine A.", "Machine A is faster than Machine C.", "Machine B is faster than Machine A.", "All machines have the same speed."],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "123. A group must select exactly one of X, Y and Z. Z can be selected only if Y is selected. X and Y cannot be selected together. Which option is possible?",
+    "options": ["X and Y", "Y and Z", "X and Z", "X, Y and Z"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "124. Four tasks A, B, C and D must be scheduled. A must come before B. C must come before D. Which schedule is possible?",
+    "options": ["B, A, C, D", "A, C, D, B", "D, C, A, B", "C, D, B, A"],
+    "correctIndex": 1
+  },
+  {
+    "section": "SECTION THREE: ANALYTICAL REASONING",
+    "question": "125. Four people P, Q, R and S are standing in a line. P is before Q. R is before S. Which arrangement could be correct?",
+    "options": ["Q, P, R, S", "P, R, S, Q", "R, S, Q, P", "S, R, P, Q"],
+    "correctIndex": 1
+  }
+]
