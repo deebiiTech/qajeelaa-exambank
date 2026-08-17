@@ -1020,7 +1020,12 @@
       html += `</tbody></table>`;
       container.innerHTML = html;
     }
-
+fetch('ngat_questions.json')
+  .then(response => response.json())
+  .then(questions => {
+    // Gaaffiilee 100n isaayyuu render gochuuf
+    displayQuestions(questions); 
+  });
     // PWA SERVICE WORKER REGISTRATION
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
