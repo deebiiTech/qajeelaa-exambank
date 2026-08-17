@@ -15,7 +15,12 @@
     "id": 2,
     "section": "SECTION ONE: VERBAL REASONING",
     "question": "PASSAGE 1 (Continued):\nIn the context of the passage, the word 'hampered' is closest in meaning to:",
-    "options": ["Accelerated", "Impeded", "Standardized", "Transformed"],
+    "options": [
+      "Accelerated",
+      "Impeded",
+      "Standardized",
+      "Transformed"
+    ],
     "correctIndex": 1
   },
   {
@@ -58,56 +63,96 @@
     "id": 6,
     "section": "SECTION ONE: VERBAL REASONING",
     "question": "Choose the word most NEARLY OPPOSITE in meaning to 'EQUIVOCAL':",
-    "options": ["Ambiguous", "Unambiguous", "Dubious", "Elusive"],
+    "options": [
+      "Ambiguous",
+      "Unambiguous",
+      "Dubious",
+      "Elusive"
+    ],
     "correctIndex": 1
   },
   {
     "id": 7,
     "section": "SECTION ONE: VERBAL REASONING",
     "question": "Choose the word most NEARLY OPPOSITE in meaning to 'EPHEMERAL':",
-    "options": ["Transient", "Fleeting", "Perpetual", "Evanescent"],
+    "options": [
+      "Transient",
+      "Fleeting",
+      "Perpetual",
+      "Evanescent"
+    ],
     "correctIndex": 2
   },
   {
     "id": 8,
     "section": "SECTION ONE: VERBAL REASONING",
     "question": "Choose the word most NEARLY SIMILAR in meaning to 'ESOTERIC':",
-    "options": ["Obscure", "Common", "Widespread", "Superficial"],
+    "options": [
+      "Obscure",
+      "Common",
+      "Widespread",
+      "Superficial"
+    ],
     "correctIndex": 0
   },
   {
     "id": 9,
     "section": "SECTION ONE: VERBAL REASONING",
     "question": "Choose the word most NEARLY SIMILAR in meaning to 'PRAGMATIC':",
-    "options": ["Idealistic", "Theoretical", "Practical", "Speculative"],
+    "options": [
+      "Idealistic",
+      "Theoretical",
+      "Practical",
+      "Speculative"
+    ],
     "correctIndex": 2
   },
   {
     "id": 10,
     "section": "SECTION ONE: VERBAL REASONING",
     "question": "Complete the analogy.\nPARADIGM : MODEL :: HYPOTHESIS :",
-    "options": ["Fact", "Postulate", "Proof", "Conclusion"],
+    "options": [
+      "Fact",
+      "Postulate",
+      "Proof",
+      "Conclusion"
+    ],
     "correctIndex": 1
   },
   {
     "id": 11,
     "section": "SECTION ONE: VERBAL REASONING",
     "question": "Complete the analogy.\nEPILOGUE : NOVEL :: CODA :",
-    "options": ["Symphony", "Sculpture", "Painting", "Architecture"],
+    "options": [
+      "Symphony",
+      "Sculpture",
+      "Painting",
+      "Architecture"
+    ],
     "correctIndex": 0
   },
   {
     "id": 12,
     "section": "SECTION ONE: VERBAL REASONING",
     "question": "Complete the analogy.\nMITIGATE : SEVERITY :: ALLEVIATE :",
-    "options": ["Intensity", "Pain", "Symptom", "Cure"],
+    "options": [
+      "Intensity",
+      "Pain",
+      "Symptom",
+      "Cure"
+    ],
     "correctIndex": 1
   },
   {
     "id": 13,
     "section": "SECTION ONE: VERBAL REASONING",
     "question": "Complete the analogy.\nTENACIOUS : YIELDING :: AUDACIOUS :",
-    "options": ["Bold", "Timid", "Rebellious", "Strong"],
+    "options": [
+      "Bold",
+      "Timid",
+      "Rebellious",
+      "Strong"
+    ],
     "correctIndex": 1
   },
   {
@@ -150,21 +195,36 @@
     "id": 17,
     "section": "SECTION ONE: VERBAL REASONING",
     "question": "Choose the most appropriate academic transition:\nThe empirical findings demonstrated a high correlation between public expenditure and literacy. _______, causality cannot be definitively asserted without controlling for socio-economic covariates.",
-    "options": ["Furthermore", "Notwithstanding", "However", "Consequently"],
+    "options": [
+      "Furthermore",
+      "Notwithstanding",
+      "However",
+      "Consequently"
+    ],
     "correctIndex": 2
   },
   {
     "id": 18,
     "section": "SECTION ONE: VERBAL REASONING",
     "question": "Identify the logical fallacy in the statement:\n'Dr. Aris argues that sustainable agriculture is vital for food security, but we should reject his claim because he drives an imported luxury car.'",
-    "options": ["Straw Man", "Ad Hominem", "Begging the Question", "False Dilemma"],
+    "options": [
+      "Straw Man",
+      "Ad Hominem",
+      "Begging the Question",
+      "False Dilemma"
+    ],
     "correctIndex": 1
   },
   {
     "id": 19,
     "section": "SECTION ONE: VERBAL REASONING",
     "question": "Identify the logical fallacy:\n'If we grant students permission to resubmit one assignment, they will soon demand to pass the course without attending any lectures or sitting for exams.'",
-    "options": ["Slippery Slope", "Circular Reasoning", "Red Herring", "Appeal to Authority"],
+    "options": [
+      "Slippery Slope",
+      "Circular Reasoning",
+      "Red Herring",
+      "Appeal to Authority"
+    ],
     "correctIndex": 0
   },
   {
@@ -207,7 +267,12 @@
     "id": 23,
     "section": "SECTION ONE: VERBAL REASONING",
     "question": "Choose the term that best describes a proposition assumed to be true as a premise for further reasoning:",
-    "options": ["Postulate", "Corollary", "Tautology", "Empiricism"],
+    "options": [
+      "Postulate",
+      "Corollary",
+      "Tautology",
+      "Empiricism"
+    ],
     "correctIndex": 0
   },
   {
@@ -250,14 +315,24 @@
     "id": 27,
     "section": "SECTION ONE: VERBAL REASONING",
     "question": "Choose the word closest in meaning to 'OBSTREPEROUS':",
-    "options": ["Unruly", "Submissive", "Silent", "Thoughtful"],
+    "options": [
+      "Unruly",
+      "Submissive",
+      "Silent",
+      "Thoughtful"
+    ],
     "correctIndex": 0
   },
   {
     "id": 28,
     "section": "SECTION ONE: VERBAL REASONING",
     "question": "Choose the word opposite in meaning to 'ACQUIESCE':",
-    "options": ["Comply", "Resist", "Concur", "Consent"],
+    "options": [
+      "Comply",
+      "Resist",
+      "Concur",
+      "Consent"
+    ],
     "correctIndex": 1
   },
   {
@@ -276,7 +351,12 @@
     "id": 30,
     "section": "SECTION ONE: VERBAL REASONING",
     "question": "PASSAGE 4 (Continued):\nIn the context of the passage, the word 'decouple' most nearly means:",
-    "options": ["Separate", "Combine", "Synthesize", "Replicate"],
+    "options": [
+      "Separate",
+      "Combine",
+      "Synthesize",
+      "Replicate"
+    ],
     "correctIndex": 0
   },
   {
@@ -295,14 +375,24 @@
     "id": 32,
     "section": "SECTION ONE: VERBAL REASONING",
     "question": "Choose the word most NEARLY SIMILAR to 'SYCOPHANT':",
-    "options": ["Flatterer", "Critic", "Leader", "Rebel"],
+    "options": [
+      "Flatterer",
+      "Critic",
+      "Leader",
+      "Rebel"
+    ],
     "correctIndex": 0
   },
   {
     "id": 33,
     "section": "SECTION ONE: VERBAL REASONING",
     "question": "Choose the word most NEARLY OPPOSITE to 'PERFUNCTORY':",
-    "options": ["Cursory", "Thorough", "Careless", "Routine"],
+    "options": [
+      "Cursory",
+      "Thorough",
+      "Careless",
+      "Routine"
+    ],
     "correctIndex": 1
   },
   {
@@ -321,224 +411,384 @@
     "id": 35,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "A research fund increased from $80,000 to $112,000 in Year 1, and then decreased by 15% in Year 2. What was the net percentage change in the fund over the two-year period relative to the original amount?",
-    "options": ["+19%", "+20%", "+25%", "+15%"],
+    "options": [
+      "+19%",
+      "+20%",
+      "+25%",
+      "+15%"
+    ],
     "correctIndex": 0
   },
   {
     "id": 36,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "If f(x) = 3x² - 5x + 2, what is the value of f(x - 2)?",
-    "options": ["3x² - 17x + 24", "3x² - 5x + 24", "3x² - 17x + 8", "3x² - 11x + 24"],
+    "options": [
+      "3x² - 17x + 24",
+      "3x² - 5x + 24",
+      "3x² - 17x + 8",
+      "3x² - 11x + 24"
+    ],
     "correctIndex": 0
   },
   {
     "id": 37,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "A dataset contains 5 numbers with a mean of 24 and a standard deviation of 4. If every number in the dataset is multiplied by 3 and then increased by 5, what are the new mean and new standard deviation respectively?",
-    "options": ["Mean = 77, SD = 17", "Mean = 77, SD = 12", "Mean = 72, SD = 12", "Mean = 77, SD = 4"],
+    "options": [
+      "Mean = 77, SD = 17",
+      "Mean = 77, SD = 12",
+      "Mean = 72, SD = 12",
+      "Mean = 77, SD = 4"
+    ],
     "correctIndex": 1
   },
   {
     "id": 38,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "Solve for x in the logarithmic equation: log₂(x + 3) + log₂(x - 3) = 4",
-    "options": ["x = 5", "x = -5", "x = √25", "x = 25"],
+    "options": [
+      "x = 5",
+      "x = -5",
+      "x = √25",
+      "x = 25"
+    ],
     "correctIndex": 0
   },
   {
     "id": 39,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "Worker A can complete an econometric analysis in 12 hours. Worker B can complete the same analysis in 15 hours. If Worker A works alone for 3 hours and is then joined by Worker B, how many total hours will it take to finish the job?",
-    "options": ["5 hours", "8 hours", "7 hours", "6 hours"],
+    "options": [
+      "5 hours",
+      "8 hours",
+      "7 hours",
+      "6 hours"
+    ],
     "correctIndex": 1
   },
   {
     "id": 40,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "A principal investment of 10,000 Birr is deposited in an account earning an annual interest rate of 8% compounded semi-annually. What is the total compound amount after 2 years?",
-    "options": ["11,600.00 Birr", "11,698.58 Birr", "11,664.00 Birr", "11,716.59 Birr"],
+    "options": [
+      "11,600.00 Birr",
+      "11,698.58 Birr",
+      "11,664.00 Birr",
+      "11,716.59 Birr"
+    ],
     "correctIndex": 1
   },
   {
     "id": 41,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "In a probability experiment, two fair six-sided dice are rolled simultaneously. What is the probability that the sum of the two numbers shown is a prime number?",
-    "options": ["15/36", "13/36", "5/12", "7/12"],
+    "options": [
+      "15/36",
+      "13/36",
+      "5/12",
+      "7/12"
+    ],
     "correctIndex": 0
   },
   {
     "id": 42,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "A bag contains 6 red, 4 blue, and 5 green marbles. If 3 marbles are drawn randomly without replacement, what is the probability that all 3 drawn marbles are red?",
-    "options": ["4/91", "24/455", "8/91", "1/20"],
+    "options": [
+      "4/91",
+      "24/455",
+      "8/91",
+      "1/20"
+    ],
     "correctIndex": 0
   },
   {
     "id": 43,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "Matrix A is of dimension 3x4 and Matrix B is of dimension 4x2. If Matrix C = A × B, what is the dimension of Matrix C?",
-    "options": ["4x4", "3x2", "2x3", "Undefined"],
+    "options": [
+      "4x4",
+      "3x2",
+      "2x3",
+      "Undefined"
+    ],
     "correctIndex": 1
   },
   {
     "id": 44,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "A line in the Cartesian plane passes through points (2, -3) and (6, 5). What is the equation of the line in slope-intercept form (y = mx + b)?",
-    "options": ["y = 2x - 7", "y = 2x + 1", "y = 0.5x - 4", "y = -2x + 1"],
+    "options": [
+      "y = 2x - 7",
+      "y = 2x + 1",
+      "y = 0.5x - 4",
+      "y = -2x + 1"
+    ],
     "correctIndex": 0
   },
   {
     "id": 45,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "Evaluate the definite integral: ∫ from 1 to 3 of (3x² - 2x + 1) dx",
-    "options": ["20", "18", "22", "24"],
+    "options": [
+      "20",
+      "18",
+      "22",
+      "24"
+    ],
     "correctIndex": 0
   },
   {
     "id": 46,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "If 2^(2x + 1) = 32^(x - 1), what is the value of x?",
-    "options": ["x = 2", "x = 7/3", "x = 3", "x = 5/3"],
+    "options": [
+      "x = 2",
+      "x = 7/3",
+      "x = 3",
+      "x = 5/3"
+    ],
     "correctIndex": 1
   },
   {
     "id": 47,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "The geometric mean of three numbers 4, 8, and k is 8. What is the value of k?",
-    "options": ["12", "16", "24", "32"],
+    "options": [
+      "12",
+      "16",
+      "24",
+      "32"
+    ],
     "correctIndex": 3
   },
   {
     "id": 48,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "In a survey of 200 graduate applicants, 120 studied Economics, 90 studied Mathematics, and 40 studied both. How many applicants studied neither Economics nor Mathematics?",
-    "options": ["30", "40", "50", "10"],
+    "options": [
+      "30",
+      "40",
+      "50",
+      "10"
+    ],
     "correctIndex": 0
   },
   {
     "id": 49,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "A train 180 meters long moving at 72 km/h completely crosses a bridge in 25 seconds. What is the length of the bridge?",
-    "options": ["320 meters", "500 meters", "320 kilometers", "180 meters"],
+    "options": [
+      "320 meters",
+      "500 meters",
+      "320 kilometers",
+      "180 meters"
+    ],
     "correctIndex": 0
   },
   {
     "id": 50,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "Find the derivative f'(x) of f(x) = (2x + 1) / (x - 3) using the quotient rule:",
-    "options": ["-7 / (x - 3)²", "7 / (x - 3)²", "-5 / (x - 3)²", "1 / (x - 3)²"],
+    "options": [
+      "-7 / (x - 3)²",
+      "7 / (x - 3)²",
+      "-5 / (x - 3)²",
+      "1 / (x - 3)²"
+    ],
     "correctIndex": 0
   },
   {
     "id": 51,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "In a right-angled triangle, the length of the hypotenuse is 13 cm and one leg is 5 cm. What is the area of the triangle?",
-    "options": ["65 cm²", "30 cm²", "60 cm²", "32.5 cm²"],
+    "options": [
+      "65 cm²",
+      "30 cm²",
+      "60 cm²",
+      "32.5 cm²"
+    ],
     "correctIndex": 1
   },
   {
     "id": 52,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "How many distinct 4-letter permutations can be formed using the letters of the word 'RESEARCH'?",
-    "options": ["1680", "840", "2016", "336"],
+    "options": [
+      "1680",
+      "840",
+      "2016",
+      "336"
+    ],
     "correctIndex": 0
   },
   {
     "id": 53,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "Solve the system of linear equations:\n2x + 3y = 13\n5x - 2y = 4",
-    "options": ["x = 2, y = 3", "x = 3, y = 2", "x = 1, y = 4", "x = 4, y = 1"],
+    "options": [
+      "x = 2, y = 3",
+      "x = 3, y = 2",
+      "x = 1, y = 4",
+      "x = 4, y = 1"
+    ],
     "correctIndex": 0
   },
   {
     "id": 54,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "The population of a city follows an exponential growth model P(t) = P₀ * e^(0.04t). How many years will it take for the population to double (ln 2 ≈ 0.693)?",
-    "options": ["17.32 years", "25.00 years", "12.50 years", "20.00 years"],
+    "options": [
+      "17.32 years",
+      "25.00 years",
+      "12.50 years",
+      "20.00 years"
+    ],
     "correctIndex": 0
   },
   {
     "id": 55,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "If a sample variance of 25 observations is calculated as 16, what is the standard error of the mean?",
-    "options": ["0.8", "3.2", "4.0", "0.64"],
+    "options": [
+      "0.8",
+      "3.2",
+      "4.0",
+      "0.64"
+    ],
     "correctIndex": 0
   },
   {
     "id": 56,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "Find the sum of the infinite geometric series: 12 + 4 + 4/3 + 4/9 + ...",
-    "options": ["18", "16", "20", "24"],
+    "options": [
+      "18",
+      "16",
+      "20",
+      "24"
+    ],
     "correctIndex": 0
   },
   {
     "id": 57,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "An item's price is increased by x% and subsequently reduced by x%. If the final price is 4% lower than the original price, what is x?",
-    "options": ["10", "20", "15", "25"],
+    "options": [
+      "10",
+      "20",
+      "15",
+      "25"
+    ],
     "correctIndex": 1
   },
   {
     "id": 58,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "What is the perimeter of a sector of a circle with radius 14 cm and central angle 90° (π = 22/7)?",
-    "options": ["50 cm", "22 cm", "44 cm", "58 cm"],
+    "options": [
+      "50 cm",
+      "22 cm",
+      "44 cm",
+      "58 cm"
+    ],
     "correctIndex": 0
   },
   {
     "id": 59,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "A firm's total cost function is TC = 500 + 10Q + 2Q². What is the Marginal Cost (MC) when output Q = 15?",
-    "options": ["70", "100", "40", "310"],
+    "options": [
+      "70",
+      "100",
+      "40",
+      "310"
+    ],
     "correctIndex": 0
   },
   {
     "id": 60,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "Determine the roots of the quadratic equation: 2x² - 7x + 3 = 0",
-    "options": ["x = 3, x = 1/2", "x = -3, x = -1/2", "x = 2, x = 3/2", "x = 7, x = 3"],
+    "options": [
+      "x = 3, x = 1/2",
+      "x = -3, x = -1/2",
+      "x = 2, x = 3/2",
+      "x = 7, x = 3"
+    ],
     "correctIndex": 0
   },
   {
     "id": 61,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "If vector A = (3, -4) and vector B = (5, 12), what is the dot product A · B?",
-    "options": ["-33", "63", "33", "-63"],
+    "options": [
+      "-33",
+      "63",
+      "33",
+      "-63"
+    ],
     "correctIndex": 0
   },
   {
     "id": 62,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "The mean age of a group of 10 professors is 48 years. When a new professor joins, the average age becomes 47. How old is the new professor?",
-    "options": ["37 years", "38 years", "40 years", "42 years"],
+    "options": [
+      "37 years",
+      "38 years",
+      "40 years",
+      "42 years"
+    ],
     "correctIndex": 0
   },
   {
     "id": 63,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "In a 30-60-90 right triangle, if the side opposite the 30° angle is 8 cm, what is the length of the hypotenuse and the side opposite 60°?",
-    "options": ["Hypotenuse = 16 cm, Opposite 60° = 8√3 cm", "Hypotenuse = 16 cm, Opposite 60° = 16√3 cm", "Hypotenuse = 12 cm, Opposite 60° = 8√2 cm", "Hypotenuse = 8√3 cm, Opposite 60° = 16 cm"],
+    "options": [
+      "Hypotenuse = 16 cm, Opposite 60° = 8√3 cm",
+      "Hypotenuse = 16 cm, Opposite 60° = 16√3 cm",
+      "Hypotenuse = 12 cm, Opposite 60° = 8√2 cm",
+      "Hypotenuse = 8√3 cm, Opposite 60° = 16 cm"
+    ],
     "correctIndex": 0
   },
   {
     "id": 64,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "A container holds 80 liters of pure alcohol. 20 liters are removed and replaced with water. Then 20 liters of the mixture are removed and replaced with water. What volume of pure alcohol remains?",
-    "options": ["45 liters", "40 liters", "50 liters", "35 liters"],
+    "options": [
+      "45 liters",
+      "40 liters",
+      "50 liters",
+      "35 liters"
+    ],
     "correctIndex": 0
   },
   {
     "id": 65,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "Solve for x: |3x - 5| ≥ 10",
-    "options": ["x ≥ 5 or x ≤ -5/3", "x ≥ 5 and x ≤ -5/3", "-5/3 ≤ x ≤ 5", "x ≥ 15 or x ≤ -5"],
+    "options": [
+      "x ≥ 5 or x ≤ -5/3",
+      "x ≥ 5 and x ≤ -5/3",
+      "-5/3 ≤ x ≤ 5",
+      "x ≥ 15 or x ≤ -5"
+    ],
     "correctIndex": 0
   },
   {
     "id": 66,
     "section": "SECTION TWO: QUANTITATIVE REASONING",
     "question": "If 5^x = 100, what is 5^(x - 2)?",
-    "options": ["4", "20", "25", "10"],
+    "options": [
+      "4",
+      "20",
+      "25",
+      "10"
+    ],
     "correctIndex": 0
   },
   {
@@ -557,7 +807,12 @@
     "id": 68,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "PROBLEM SET 1 (Continued):\nRefer to the conditions above. If B and D are interviewed on Monday, on which day MUST E be interviewed?",
-    "options": ["Monday", "Tuesday", "Wednesday", "Cannot be determined"],
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Cannot be determined"
+    ],
     "correctIndex": 1
   },
   {
@@ -576,14 +831,24 @@
     "id": 70,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "PROBLEM SET 2:\nA research committee must select 4 members from a pool of 7 scientists: 4 Biologists (B1, B2, B3, B4) and 3 Chemists (C1, C2, C3).\n- At least 2 Biologists must be selected.\n- B1 and C1 cannot serve together.\n- If B2 is selected, C2 MUST also be selected.\n- C3 is automatically selected.\n\nIf B2 is chosen for the committee, which person CANNOT be selected?",
-    "options": ["C2", "B1", "C1", "Both B1 (if C1 is in) and C1"],
+    "options": [
+      "C2",
+      "B1",
+      "C1",
+      "Both B1 (if C1 is in) and C1"
+    ],
     "correctIndex": 2
   },
   {
     "id": 71,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "PROBLEM SET 2 (Continued):\nIf the committee consists of 3 Biologists and 1 Chemist, which Chemist MUST be selected?",
-    "options": ["C1", "C2", "C3", "Either C1 or C2"],
+    "options": [
+      "C1",
+      "C2",
+      "C3",
+      "Either C1 or C2"
+    ],
     "correctIndex": 2
   },
   {
@@ -602,14 +867,24 @@
     "id": 73,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "PROBLEM SET 3:\nFive scholars—P, Q, R, S, and T—sit in a row of 5 chairs facing north.\n- P sit to the immediate left of Q.\n- R sits to the right of S, but not necessarily adjacent.\n- T does not sit at either extreme end of the row.\n\nIf S sits in Chair 1 (far left), which scholar MUST sit in Chair 5 (far right)?",
-    "options": ["P", "Q", "R", "T"],
+    "options": [
+      "P",
+      "Q",
+      "R",
+      "T"
+    ],
     "correctIndex": 2
   },
   {
     "id": 74,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "PROBLEM SET 3 (Continued):\nIf P is in Chair 3 and Q is in Chair 4, in which chair MUST T sit?",
-    "options": ["Chair 1", "Chair 2", "Chair 5", "Cannot sit anywhere validly"],
+    "options": [
+      "Chair 1",
+      "Chair 2",
+      "Chair 5",
+      "Cannot sit anywhere validly"
+    ],
     "correctIndex": 1
   },
   {
@@ -640,56 +915,96 @@
     "id": 77,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "A software company evaluates 4 modules: M1, M2, M3, M4.\n- M1 is faster than M2.\n- M3 is slower than M2.\n- M4 is faster than M1.\nWhich list orders the modules from FASTEST to SLOWEST?",
-    "options": ["M4, M1, M2, M3", "M1, M4, M2, M3", "M4, M2, M1, M3", "M3, M2, M1, M4"],
+    "options": [
+      "M4, M1, M2, M3",
+      "M1, M4, M2, M3",
+      "M4, M2, M1, M3",
+      "M3, M2, M1, M4"
+    ],
     "correctIndex": 0
   },
   {
     "id": 78,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "Find the next term in the complex sequence: 3, 7, 16, 35, 74, ?",
-    "options": ["153", "148", "149", "150"],
+    "options": [
+      "153",
+      "148",
+      "149",
+      "150"
+    ],
     "correctIndex": 0
   },
   {
     "id": 79,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "Find the missing alphanumeric term: 2A, 5C, 10F, 17J, ?",
-    "options": ["26O", "25N", "26N", "27P"],
+    "options": [
+      "26O",
+      "25N",
+      "26N",
+      "27P"
+    ],
     "correctIndex": 0
   },
   {
     "id": 80,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "If 'RESEARCH' is coded in a secret system as 'SFTFBSDI', how is 'DOCTORATE' coded in that same system?",
-    "options": ["EPDVPSBUF", "EODUPSBUF", "EPDUPSBUF", "EQDVPSCVF"],
+    "options": [
+      "EPDVPSBUF",
+      "EODUPSBUF",
+      "EPDUPSBUF",
+      "EQDVPSCVF"
+    ],
     "correctIndex": 2
   },
   {
     "id": 81,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "A traveler walks 10 km North, turns right and walks 6 km, then turns right again and walks 18 km, then turns left and walks 2 km. What is the shortest distance from the starting point to the final position?",
-    "options": ["10 km", "12 km", "8 km", "14 km"],
+    "options": [
+      "10 km",
+      "12 km",
+      "8 km",
+      "14 km"
+    ],
     "correctIndex": 0
   },
   {
     "id": 82,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "In an office, 5 colleagues (K, L, M, N, O) earn different salaries.\n- K earns more than L but less than M.\n- N earns more than O but less than L.\nWho is the HIGHEST earner and LOWEST earner respectively?",
-    "options": ["Highest: M, Lowest: O", "Highest: K, Lowest: N", "Highest: M, Lowest: N", "Highest: L, Lowest: O"],
+    "options": [
+      "Highest: M, Lowest: O",
+      "Highest: K, Lowest: N",
+      "Highest: M, Lowest: N",
+      "Highest: L, Lowest: O"
+    ],
     "correctIndex": 0
   },
   {
     "id": 83,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "PROBLEM SET 4:\nFour courses—Economics (E), Policy (P), Statistics (S), and Management (M)—are taught in 4 consecutive slots (1, 2, 3, 4).\n- E is taught immediately before S.\n- M is not taught in Slot 1.\n- P is taught in Slot 4.\nIn which slot MUST Economics (E) be taught?",
-    "options": ["Slot 1", "Slot 2", "Slot 3", "Slot 4"],
+    "options": [
+      "Slot 1",
+      "Slot 2",
+      "Slot 3",
+      "Slot 4"
+    ],
     "correctIndex": 0
   },
   {
     "id": 84,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "PROBLEM SET 4 (Continued):\nRefer to the setup above. Which course is taught in Slot 3?",
-    "options": ["Economics", "Policy", "Statistics", "Management"],
+    "options": [
+      "Economics",
+      "Policy",
+      "Statistics",
+      "Management"
+    ],
     "correctIndex": 3
   },
   {
@@ -720,21 +1035,36 @@
     "id": 87,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "A family tree analysis shows: 'X is the brother of Y. Y is the mother of Z. W is the father of X.' How is W related to Z?",
-    "options": ["Maternal Grandfather", "Paternal Grandfather", "Uncle", "Father"],
+    "options": [
+      "Maternal Grandfather",
+      "Paternal Grandfather",
+      "Uncle",
+      "Father"
+    ],
     "correctIndex": 0
   },
   {
     "id": 88,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "Six boxes are stacked vertically: B1, B2, B3, B4, B5, B6.\n- B1 is immediately above B2.\n- B5 is at the bottom (Position 1).\n- B3 is immediately below B6.\n- B4 is in Position 3.\nIf B1 is in Position 5, which box is in Position 2?",
-    "options": ["B2", "B3", "B6", "B4"],
+    "options": [
+      "B2",
+      "B3",
+      "B6",
+      "B4"
+    ],
     "correctIndex": 0
   },
   {
     "id": 89,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "Five cities V, W, X, Y, Z are connected by flight routes:\n- Direct flights exist both ways between V and W, W and X, X and Y, Y and Z.\n- A one-way flight exists from Z to V.\nWhat is the MINIMUM number of flights needed to travel from Z to W?",
-    "options": ["2 flights (Z -> V -> W)", "3 flights", "4 flights", "1 flight"],
+    "options": [
+      "2 flights (Z -> V -> W)",
+      "3 flights",
+      "4 flights",
+      "1 flight"
+    ],
     "correctIndex": 0
   },
   {
@@ -753,7 +1083,12 @@
     "id": 91,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "In a competitive exam, 1 mark is awarded for a correct answer and 0.25 marks are deducted for an incorrect answer. If a student attempts 80 questions and scores 55 marks, how many questions did the student answer correctly?",
-    "options": ["60", "55", "65", "50"],
+    "options": [
+      "60",
+      "55",
+      "65",
+      "50"
+    ],
     "correctIndex": 0
   },
   {
@@ -772,28 +1107,48 @@
     "id": 93,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "Three variables x, y, z satisfy: x > y and y ≥ z. Which inequality MUST be true under all conditions?",
-    "options": ["x > z", "x = z", "x + y > z", "x - y < 0"],
+    "options": [
+      "x > z",
+      "x = z",
+      "x + y > z",
+      "x - y < 0"
+    ],
     "correctIndex": 0
   },
   {
     "id": 94,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "Complete the logical pattern: 2, 6, 12, 20, 30, 42, ?",
-    "options": ["56", "54", "52", "60"],
+    "options": [
+      "56",
+      "54",
+      "52",
+      "60"
+    ],
     "correctIndex": 0
   },
   {
     "id": 95,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "Six people seat around a circular table facing the center. A sits opposite B. C is to the immediate right of A. D is between B and C. Who sits to the immediate left of A?",
-    "options": ["E (the remaining person)", "D", "C", "B"],
+    "options": [
+      "E (the remaining person)",
+      "D",
+      "C",
+      "B"
+    ],
     "correctIndex": 0
   },
   {
     "id": 96,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "In a binary logical system where 1 = True and 0 = False, evaluate: (1 AND 0) OR (NOT 0 AND 1)",
-    "options": ["1", "0", "Undefined", "Both 1 and 0"],
+    "options": [
+      "1",
+      "0",
+      "Undefined",
+      "Both 1 and 0"
+    ],
     "correctIndex": 0
   },
   {
@@ -811,8 +1166,13 @@
   {
     "id": 98,
     "section": "SECTION THREE: ANALYTICAL REASONING",
-    "question": "A project team consists of 3 roles: Lead, Analyst, Developer. \n- A, B, C can each be Lead or Analyst.\n- D, E can only be Developer.\nHow many unique 3-person team combinations (1 Lead, 1 Analyst, 1 Developer) can be formed?",
-    "options": ["12", "6", "18", "24"],
+    "question": "A project team consists of 3 roles: Lead, Analyst, Developer.\n- A, B, C can each be Lead or Analyst.\n- D, E can only be Developer.\nHow many unique 3-person team combinations (1 Lead, 1 Analyst, 1 Developer) can be formed?",
+    "options": [
+      "12",
+      "6",
+      "18",
+      "24"
+    ],
     "correctIndex": 0
   },
   {
@@ -831,7 +1191,12 @@
     "id": 100,
     "section": "SECTION THREE: ANALYTICAL REASONING",
     "question": "An algorithm steps through data: Step 1 doubles the value, Step 2 subtracts 3. If the starting value is x = 5, what is the value after running (Step 1 -> Step 2) twice sequentially?",
-    "options": ["11", "7", "14", "10"],
+    "options": [
+      "11",
+      "7",
+      "14",
+      "10"
+    ],
     "correctIndex": 0
   }
 ]
