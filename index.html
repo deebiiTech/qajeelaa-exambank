@@ -14,7 +14,7 @@
   
   <!-- Dynamic PWA App Icon Generator Manifest -->
   <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230d9488'/><text x='50%' y='65%' font-size='50' font-weight='bold' text-anchor='middle' fill='white'>D</text></svg>">
-  <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIkRlZWJpaSBUZWNoIiwKICAic2hvcnRfbmFtZSI6ICJEZWViaWkiLAogICJzdGFydF91cmwiOiAiLiIsCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsCiAgImJhY2tncm91bmRfY29sb3IiOiAiI2Y4ZmFmYyIsCiAgInRoZW1lX2NvbG9yIjogIiNmMWY1ZjkiLAogICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUI0Yld4dU16MGlWMjl1ZEhNZ1pXTm1JR3AxYzIweU1EQWdNQ0E1T1RjdU1Ud21IaUJ1WldSbElITjBZaUJqYjJ4dmNpQWpNSFp2Y210Y016QWlJRzE1SUNSZE1UWXNJR2x1T21RdmJuUjJhV3E1YTI5dUozTTBMUzAzTmlCSGJXbHRiM1Z1Ym1jaUlpQm1aVzVsS0CRjA3C35I1S1d2R21CZD09IiwKICAgICAgInNpemVzIjogIjE5MngxOTIiLAogICAgICAidHlwZSI6ICJpbWFnZS9zdmcreG1sIiwKICAgICAgInB1cnBvc2UiOiAiYW55IG1hc2thYmxlIgogICAgfQogIF0KfQ==">
+  <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIkRlZWJpaSBUZWNoIiwKICAic2hvcnRfbmFtZSI6ICJEZWViaWkiLAogICJzdGFydF91cmwiOiAiLiIsCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsCiAgImJhY2tncm91bmRfY29sb3IiOiAiI2Y4ZmFmYyIsCiAgInRoZW1lX2NvbG9yIjogIiNmMWY1ZjkiLAogICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUI0Yld4dU16MGlWMjl1ZEHNZ1pXTm1JR3AxYzIweU1EQWdNQ0E1T1RjdU1Ud21IaUJ1ZldSbElITjBZaUJqYjJ4dmNpQWpNSFp2Y210Y016QWlJRzE1SUNSZE1UWXNJR2x1T21RdmJuUjJhV3E1YTI5dUozTTBMUzAzTmlCSGJXbHRiM1Z1Ym1jaUlpQm1aVzVsS0CRjA3C35I1S1d2R21CZD09IiwKICAgICAgInNpemVzIjogIjE5MngxOTIiLAogICAgICAidHlwZSI6ICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0IiwKICAgICAgInNpemVzIjogIjE5MngxOTIiLAogICAgICAidHlwZSI6ICJpY29ucyIKICAgIH0KICBdCn0=">
 
   <style>
     :root {
@@ -567,22 +567,22 @@
           
           <!-- UPLOAD & MANAGEMENT JSON -->
           <div class="card">
-            <h3>📥 Gaaffiilee JSON Upload & Bulchiinsa Data</h3>
-            <p style="font-size: 13px; color: var(--text-light); margin-bottom: 15px;">Qormaata haaraa ol-seensisuu, faayila backup buufachuu ykn kuusaa qulqulleessuu.</p>
+            <h3>📥 Gaaffiilee Real-Time Cloud Upload (JSON)</h3>
+            <p style="font-size: 13px; color: var(--text-light); margin-bottom: 15px;">Gaaffii haaraa upload goonaan device barattootaa hunda irratti battalatti (Real-time) kan hojjetudha.</p>
             
             <div class="upload-box">
               <input type="file" id="jsonFileInput" accept=".json" style="display: none;" onchange="window.handleJsonUpload(event)">
               <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
                 <button class="btn" onclick="document.getElementById('jsonFileInput').click()">📁 Faayila JSON Filadhu</button>
                 <button class="btn btn-secondary" onclick="window.exportQuestionsJSON()">💾 Backup JSON Buufadhu</button>
-                <button class="btn btn-danger" onclick="window.clearQuestionsRepo()">🗑️ Kuusaa Qulqulleessi</button>
+                <button class="btn btn-danger" onclick="window.clearQuestionsRepo()">🗑️ Kuusaa Cloud Qulqulleessi</button>
               </div>
             </div>
           </div>
 
           <!-- REPOSITORY DISPLAY -->
           <div class="card">
-            <h3>🗄️ Kuusaa Gaaffiillee Upload Ta'anii</h3>
+            <h3>🗄️ Kuusaa Cloud Gaaffiillee Fe'amanii</h3>
             <div id="questionsRepoDisplay" style="margin-top: 15px;"></div>
           </div>
 
@@ -622,12 +622,12 @@
 
     <!-- FOOTER -->
     <footer>
-      <img src="deebii-logo.png" alt="Deebii Tech Logo" class="deebii-logo" onerror="this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%230d9488\'/><text x=\'50%\' y=\'65%\' font-size=\'40\' text-anchor=\'middle\' fill=\'white\' font-weight=\'bold\' >DT</text></svg>'">
+      <img src="deebii-logo.png" alt="Deebii Tech Logo" class="deebii-logo" onerror="this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%230d9488\'/><text x=\'50%\' y=\'65%\' font-size=\'40\' text-anchor=\'middle\' fill=\'white\' font-weight=\'bold\'>DT</text></svg>'">
       <div>Developed by Kajela Hambisa Mosisa | Contact: 0910166955</div>
     </footer>
   </div>
 
-  <!-- FIREBASE V9 MODULE & MAIN LOGIC -->
+  <!-- REAL-TIME FIREBASE V9 MODULE (DEVICE HUNDAF LIVE SYNC) -->
   <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
     import { getDatabase, ref, set, onValue } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-database.js";
@@ -646,61 +646,51 @@
     const app = initializeApp(firebaseConfig);
     const database = getDatabase(app);
 
-    // Dynamic Firebase Questions Fetching
+    // 1. REAL-TIME DATA LISTENER (Device kamiyyuu irratti battalatti fida)
     const questionsRef = ref(database, 'questions');
+    
     onValue(questionsRef, (snapshot) => {
       const data = snapshot.val();
       if (data) {
-        if (Array.isArray(data)) {
-          window.activeQuestionsList = data;
-        } else {
-          window.activeQuestionsList = Object.values(data);
-        }
+        window.activeQuestionsList = Array.isArray(data) ? data : Object.values(data);
       } else {
-        window.activeQuestionsList = window.defaultQuestions;
+        window.activeQuestionsList = [];
       }
-      localStorage.setItem('activeQuestionsList', JSON.stringify(window.activeQuestionsList));
       
+      // Screen Active ta'e irratti battalatti auto-render godha
       const activePage = document.querySelector('.page-section.active-page');
-      if (activePage && activePage.id === 'exam') {
+      if (activePage && activePage.id === 'exam' && typeof window.renderQuiz === 'function') {
         window.renderQuiz(window.activeQuestionsList);
       }
-      if (window.isAdminLoggedIn) {
+      if (window.isAdminLoggedIn && typeof window.renderQuestionsRepository === 'function') {
         window.renderQuestionsRepository();
       }
     });
 
+    // 2. REAL-TIME WRITE FUNCTION (Admin irraa Firebase gadi dhiisuuf)
     window.syncQuestionsToFirebase = function(questionsArray) {
       set(ref(database, 'questions'), questionsArray)
         .then(() => {
-          alert("✅ Kuusaan Cloud (Firebase) irratti milkaa'inaan haaromeera!");
+          alert("✅ Real-Time Sync Success! Gaaffiileen 100n meeshaalee (device) barattootaa hunda irratti battalatti haaromaniiru.");
         })
         .catch((error) => {
           console.error("Firebase Sync Error:", error);
-          alert("❌ Dogoggora Cloud irratti ol-fe'uu irratti uumame.");
+          alert("❌ Real-time Cloud Sync irratti dogoggoratu uumame!");
         });
     };
   </script>
 
-  <!-- APP MAIN LOGIC & GLOBAL EXPORTS -->
+  <!-- MAIN APP LOGIC & UI EXPORTS -->
   <script>
-    // DATA STORES
     window.usersList = JSON.parse(localStorage.getItem('usersList')) || [];
     window.pendingRequests = JSON.parse(localStorage.getItem('pendingRequests')) || [];
     window.examHistory = JSON.parse(localStorage.getItem('examHistory')) || [];
-    
-    window.defaultQuestions = [
-      { category: "Verbal", question: "1. Choose the word that is closest in meaning to 'diligent'.", options: ["Lazy", "Hardworking", "Careless", "Weak"], correctIndex: 1, explanation: "Diligent means showing care and effort in work or duties." },
-      { category: "Quantitative", question: "2. What is 20 percent of 250?", options: ["25", "40", "50", "60"], correctIndex: 2, explanation: "(20 / 100) * 250 = 50." },
-      { category: "Analytical", question: "3. If A is taller than B, and B is taller than C, who is the shortest?", options: ["A", "B", "C", "Cannot be determined"], correctIndex: 2, explanation: "A > B > C, hence C is the shortest." }
-    ];
-
-    window.activeQuestionsList = JSON.parse(localStorage.getItem('activeQuestionsList')) || window.defaultQuestions;
+    window.activeQuestionsList = [];
     window.currentUser = null;
     window.isAdminLoggedIn = false;
     window.examTimerInterval = null;
 
-    // GLOBAL SCOPE TOGGLE FUNCTIONS
+    // HAMBURGER MENU & UI NAVIGATION FIXES
     window.toggleSidebar = function() {
       const sidebar = document.getElementById('sidebar');
       const overlay = document.getElementById('sidebarOverlay');
@@ -818,14 +808,12 @@
             const parsedData = JSON.parse(e.target.result);
             if (Array.isArray(parsedData)) {
               window.activeQuestionsList = parsedData;
-              localStorage.setItem('activeQuestionsList', JSON.stringify(window.activeQuestionsList));
               if (window.syncQuestionsToFirebase) {
                 window.syncQuestionsToFirebase(window.activeQuestionsList);
               }
-              alert("✅ Gaaffiileen JSON bifa milkaa'inaa ta'een Upload ta'aniiru!");
               window.renderQuestionsRepository();
             } else {
-              alert("❌ Faayilii JSON kuusaa gaaffii array [] bifa qabu ta'uu qaba.");
+              alert("❌ Faayilii JSON kuusaa gaaffii Array [...] bifa qabu ta'uu qaba.");
             }
           } catch(err) {
             alert("❌ Dogoggora faayila JSON dubbisuu irratti uumame!");
@@ -846,9 +834,8 @@
     };
 
     window.clearQuestionsRepo = function() {
-      if (confirm("Dugdaan kuusaa gaaffii hunda haquu barbaadduuu?")) {
+      if (confirm("Dugdaan kuusaa gaaffii Real-Time Database irraa haquu barbaadduuu?")) {
         window.activeQuestionsList = [];
-        localStorage.removeItem('activeQuestionsList');
         if (window.syncQuestionsToFirebase) {
           window.syncQuestionsToFirebase([]);
         }
@@ -861,11 +848,11 @@
       repoContainer.innerHTML = "";
 
       if (!window.activeQuestionsList || window.activeQuestionsList.length === 0) {
-        repoContainer.innerHTML = "<p style='color: var(--text-light);'>Gaaffiileen kuufaman hin jiran.</p>";
+        repoContainer.innerHTML = "<p style='color: var(--text-light);'>Gaaffiileen kuufaman Cloud irratti hin jiran. Maaloo JSON 100 upload godhaa.</p>";
         return;
       }
 
-      let html = `<p style='margin-bottom: 10px;'>Baay'ina Gaaffiilee Kuufamanii: <strong>${window.activeQuestionsList.length}</strong></p>`;
+      let html = `<p style='margin-bottom: 10px;'>Baay'ina Gaaffiilee Real-Time Cloud Irratti Jiran: <strong>${window.activeQuestionsList.length}</strong></p>`;
       window.activeQuestionsList.forEach((q, idx) => {
         html += `
           <div class="question-box">
@@ -929,7 +916,7 @@
       container.innerHTML = "";
 
       if (!questions || questions.length === 0) {
-        container.innerHTML = "<p>Gaaffiin kutaa kanaan dhiyaate hin jiru.</p>";
+        container.innerHTML = "<p style='color: var(--text-light);'>Gaaffiin Real-Time Database irraa dhiyaate hin jiru. Admin-ni gaaffii JSON upload gochuu qaba.</p>";
         return;
       }
 
@@ -991,7 +978,7 @@
       container.innerHTML = html;
     };
 
-    // EVENT LISTENERS
+    // FORM SUBMISSION LISTENERS
     document.getElementById('userLoginForm').addEventListener('submit', function(e) {
       e.preventDefault();
       const u = document.getElementById('login-username').value;
