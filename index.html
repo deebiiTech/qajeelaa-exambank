@@ -14,7 +14,7 @@
   
   <!-- Dynamic PWA App Icon Generator Manifest -->
   <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230d9488'/><text x='50%' y='65%' font-size='50' font-weight='bold' text-anchor='middle' fill='white'>D</text></svg>">
-  <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIkRlZWJpaSBUZWNoIiwKICAic2hvcnRfbmFtZSI6ICJEZWViaWkiLAogICJzdGFydF91cmwiOiAiLiIsCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsCiAgImJhY2tncm91bmRfY29sb3IiOiAiI2Y4ZmFmYyIsCiAgInRoZW1lX2NvbG9yIjogIiNmMWY1ZjkiLAogICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUI0Yld4dU16MGlWMjl1ZEhNZ1pXTm1JR3AxYzIweU1EQWdNQ0E1T1RjdU1Ud21IaUJ1WldSbElITjBZaUJqYjJ4dmNpQWpNSFp2Y210Y016QWlJRzE1SUNSZE1UWXNJR2x1T21RdmJuUjJhV3E1YTI5dUozTTBMUzAzTmlCSGJXbHRiM1Z1Ym1jaUlpQm1aVzVsS0NSak5qYzVJaUJ6ZEc5eWFHRjBiM1JnUW5KdmQzTWlJSGRwZEdSNEojTjBMU0ExTkNCN2FXNGlPakU1TWpZaU8ySndibTlpYkdWNUp6eCsiLAogICAgICAic2l6ZXMiOiAiMTkyeDE5MiIsCiAgICAgICJ0eXBlIjogImltYWdlL3N2Zyt4bWwiLAogICAgICAicHVycG9zZSI6ICJhbnkgbWFza2FibGUiCiAgICB9CiAgXQp9">
+  <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIkRlZWJpaSBUZWNoIiwKICAic2hvcnRfbmFtZSI6ICJEZWViaWkiLAogICJzdGFydF91cmwiOiAiLiIsCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsCiAgImJhY2tncm91bmRfY29sb3IiOiAiI2Y4ZmFmYyIsCiAgInRoZW1lX2NvbG9yIjogIiNmMWY1ZjkiLAogICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUI0Yld4dU16MGlWMjl1ZEhNZ1pXTm1JR3AxYzIweU1EQWdNQ0E1T1RjdU1Ud21IaUJ1WldSbElITjBZaUJqYjJ4dmNpQWpNSFp2Y210Y016QWlJRzE1SUNSZE1UWXNJR2x1T21RdmJuUjJhV3E1YTI5dUozTTBMUzAzTmlCSGJXbHRiM1Z1Ym1jaUlpQm1aVzVsS0CRjA3C35I1S1d2R21CZD09IiwKICAgICAgInNpemVzIjogIjE5MngxOTIiLAogICAgICAidHlwZSI6ICJpbWFnZS9zdmcreG1sIiwKICAgICAgInB1cnBvc2UiOiAiYW55IG1hc2thYmxlIgogICAgfQogIF0KfQ==">
 
   <style>
     :root {
@@ -401,7 +401,7 @@
 <body>
 
   <!-- MOBILE OVERLAY BACKDROP -->
-  <div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleSidebar()"></div>
+  <div class="sidebar-overlay" id="sidebarOverlay" onclick="window.toggleSidebar()"></div>
 
   <!-- SIDEBAR NAVIGATION MENU -->
   <div class="sidebar" id="sidebar">
@@ -410,19 +410,19 @@
         <img src="deebii-logo.png" alt="Deebii Tech Logo" class="deebii-logo" onerror="this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%230d9488\'/><text x=\'50%\' y=\'65%\' font-size=\'40\' text-anchor=\'middle\' fill=\'white\' font-weight=\'bold\'>DT</text></svg>'">
       </div>
       <ul class="menu">
-        <li class="menu-item active" onclick="switchPage('home', this)">
+        <li class="menu-item active" onclick="window.switchPage('home', this)">
           <span>🏠</span> Home
         </li>
-        <li class="menu-item" onclick="switchPage('payment', this)">
+        <li class="menu-item" onclick="window.switchPage('payment', this)">
           <span>💳</span> Kaffaltii (300 ETB)
         </li>
-        <li class="menu-item" onclick="switchPage('exam', this)">
+        <li class="menu-item" onclick="window.switchPage('exam', this)">
           <span>📝</span> Kutaa Qorumsaa
         </li>
-        <li class="menu-item" onclick="switchPage('admin', this)">
+        <li class="menu-item" onclick="window.switchPage('admin', this)">
           <span>⚙️</span> Kutaa Admiin
         </li>
-        <li class="menu-item" onclick="switchPage('results', this)">
+        <li class="menu-item" onclick="window.switchPage('results', this)">
           <span>📊</span> Bu'aa fi Xiinxala
         </li>
       </ul>
@@ -443,7 +443,7 @@
     <!-- TOP BAR HEADER -->
     <div class="top-bar">
       <div class="top-bar-left">
-        <button class="mobile-menu-btn" onclick="toggleSidebar()" aria-label="Toggle Menu">☰</button>
+        <button class="mobile-menu-btn" onclick="window.toggleSidebar()" aria-label="Toggle Menu">☰</button>
         <div class="header-logo-box">
           <img src="deebii-logo.png" alt="Deebii Tech Logo" class="deebii-logo" onerror="this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%230d9488\'/><text x=\'50%\' y=\'65%\' font-size=\'40\' text-anchor=\'middle\' fill=\'white\' font-weight=\'bold\'>DT</text></svg>'">
         </div>
@@ -451,7 +451,7 @@
       </div>
 
       <div style="display: flex; align-items: center; gap: 12px;">
-        <button class="theme-toggle-btn" onclick="toggleDarkMode()">🌓 Bifa Mode</button>
+        <button class="theme-toggle-btn" onclick="window.toggleDarkMode()">🌓 Bifa Mode</button>
         <div class="timer-badge" id="global-timer" style="display: none;">⌛ Yeroo Qormaataa: 03:00:00</div>
       </div>
     </div>
@@ -528,7 +528,7 @@
               <p style="font-size: 13px; color: var(--text-light);">Qormaata kana xumuruuf sa'aatii 3 qabdu.</p>
             </div>
             <div class="form-group" style="margin-bottom:0; width: 220px;">
-              <select id="categoryFilter" onchange="filterQuestionsByCategory()">
+              <select id="categoryFilter" onchange="window.filterQuestionsByCategory()">
                 <option value="All">Kutaalee Hunda (All Category)</option>
                 <option value="Verbal">Verbal Reasoning</option>
                 <option value="Quantitative">Quantitative Reasoning</option>
@@ -559,23 +559,23 @@
             <label>Admin Password</label>
             <input type="password" id="admin-pass-input" placeholder="••••••••">
           </div>
-          <button class="btn" style="width: 100%; background-color: var(--danger);" onclick="checkAdminPassword()">Kutaa Admiin Banii</button>
+          <button class="btn" style="width: 100%; background-color: var(--danger);" onclick="window.checkAdminPassword()">Kutaa Admiin Banii</button>
         </div>
 
         <!-- ADMIN DASHBOARD -->
         <div id="admin-dashboard" style="display: none;">
           
-          <!-- UPLOAD & MANAGEMNET JSON -->
+          <!-- UPLOAD & MANAGEMENT JSON -->
           <div class="card">
             <h3>📥 Gaaffiilee JSON Upload & Bulchiinsa Data</h3>
             <p style="font-size: 13px; color: var(--text-light); margin-bottom: 15px;">Qormaata haaraa ol-seensisuu, faayila backup buufachuu ykn kuusaa qulqulleessuu.</p>
             
             <div class="upload-box">
-              <input type="file" id="jsonFileInput" accept=".json" style="display: none;" onchange="handleJsonUpload(event)">
+              <input type="file" id="jsonFileInput" accept=".json" style="display: none;" onchange="window.handleJsonUpload(event)">
               <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
                 <button class="btn" onclick="document.getElementById('jsonFileInput').click()">📁 Faayila JSON Filadhu</button>
-                <button class="btn btn-secondary" onclick="exportQuestionsJSON()">💾 Backup JSON Buufadhu</button>
-                <button class="btn btn-danger" onclick="clearQuestionsRepo()">🗑️ Kuusaa Qulqulleessi</button>
+                <button class="btn btn-secondary" onclick="window.exportQuestionsJSON()">💾 Backup JSON Buufadhu</button>
+                <button class="btn btn-danger" onclick="window.clearQuestionsRepo()">🗑️ Kuusaa Qulqulleessi</button>
               </div>
             </div>
           </div>
@@ -630,9 +630,8 @@
   <!-- FIREBASE V9 MODULE & MAIN LOGIC -->
   <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
-    import { getDatabase, ref, set, push, onValue, remove } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-database.js";
+    import { getDatabase, ref, set, onValue } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-database.js";
 
-    // Firebase Config
     const firebaseConfig = {
       apiKey: "AIzaSyDX9FvddYtLMtM0s1aMOPKsG2g1sQ3j9ts",
       authDomain: "qajeelaa-exambank.firebaseapp.com",
@@ -671,7 +670,6 @@
       }
     });
 
-    // Save questions to Firebase Realtime DB
     window.syncQuestionsToFirebase = function(questionsArray) {
       set(ref(database, 'questions'), questionsArray)
         .then(() => {
@@ -684,45 +682,48 @@
     };
   </script>
 
+  <!-- APP MAIN LOGIC & GLOBAL EXPORTS -->
   <script>
-    // SIDEBAR TOGGLE
-    function toggleSidebar() {
-      const sidebar = document.getElementById('sidebar');
-      const overlay = document.getElementById('sidebarOverlay');
-      sidebar.classList.toggle('open');
-      overlay.classList.toggle('active');
-    }
-
-    // DARK MODE TOGGLE
-    function toggleDarkMode() {
-      document.body.classList.toggle('dark-mode');
-    }
-
     // DATA STORES
-    let usersList = JSON.parse(localStorage.getItem('usersList')) || [];
-    let pendingRequests = JSON.parse(localStorage.getItem('pendingRequests')) || [];
-    let examHistory = JSON.parse(localStorage.getItem('examHistory')) || [];
+    window.usersList = JSON.parse(localStorage.getItem('usersList')) || [];
+    window.pendingRequests = JSON.parse(localStorage.getItem('pendingRequests')) || [];
+    window.examHistory = JSON.parse(localStorage.getItem('examHistory')) || [];
     
-    var defaultQuestions = [
+    window.defaultQuestions = [
       { category: "Verbal", question: "1. Choose the word that is closest in meaning to 'diligent'.", options: ["Lazy", "Hardworking", "Careless", "Weak"], correctIndex: 1, explanation: "Diligent means showing care and effort in work or duties." },
       { category: "Quantitative", question: "2. What is 20 percent of 250?", options: ["25", "40", "50", "60"], correctIndex: 2, explanation: "(20 / 100) * 250 = 50." },
       { category: "Analytical", question: "3. If A is taller than B, and B is taller than C, who is the shortest?", options: ["A", "B", "C", "Cannot be determined"], correctIndex: 2, explanation: "A > B > C, hence C is the shortest." }
     ];
 
-    var activeQuestionsList = JSON.parse(localStorage.getItem('activeQuestionsList')) || defaultQuestions;
-    let currentUser = null;
-    var isAdminLoggedIn = false;
-    let examTimerInterval = null;
+    window.activeQuestionsList = JSON.parse(localStorage.getItem('activeQuestionsList')) || window.defaultQuestions;
+    window.currentUser = null;
+    window.isAdminLoggedIn = false;
+    window.examTimerInterval = null;
 
-    // SWITCH PAGE
-    function switchPage(pageId, element) {
-      if(pageId === 'exam' && !currentUser) {
+    // GLOBAL SCOPE TOGGLE FUNCTIONS
+    window.toggleSidebar = function() {
+      const sidebar = document.getElementById('sidebar');
+      const overlay = document.getElementById('sidebarOverlay');
+      if (sidebar && overlay) {
+        sidebar.classList.toggle('open');
+        overlay.classList.toggle('active');
+      }
+    };
+
+    window.toggleDarkMode = function() {
+      document.body.classList.toggle('dark-mode');
+    };
+
+    window.switchPage = function(pageId, element) {
+      if (pageId === 'exam' && !window.currentUser) {
         alert("Qormaata jalqabuuf duraan User Login gochuu qabda!");
         return;
       }
 
-      document.getElementById('sidebar').classList.remove('open');
-      document.getElementById('sidebarOverlay').classList.remove('active');
+      const sidebar = document.getElementById('sidebar');
+      const overlay = document.getElementById('sidebarOverlay');
+      if (sidebar) sidebar.classList.remove('open');
+      if (overlay) overlay.classList.remove('active');
 
       const pages = document.querySelectorAll('.page-section');
       pages.forEach(p => p.classList.remove('active-page'));
@@ -730,8 +731,9 @@
       const menuItems = document.querySelectorAll('.menu-item');
       menuItems.forEach(m => m.classList.remove('active'));
 
-      document.getElementById(pageId).classList.add('active-page');
-      if(element) element.classList.add('active');
+      const targetPage = document.getElementById(pageId);
+      if (targetPage) targetPage.classList.add('active-page');
+      if (element) element.classList.add('active');
 
       const titles = {
         'home': 'Home',
@@ -740,38 +742,41 @@
         'admin': 'Kutaa Admiin',
         'results': 'Bu\'aa fi Xiinxala'
       };
-      document.getElementById('page-title').innerText = titles[pageId];
+      
+      const pageTitle = document.getElementById('page-title');
+      if (pageTitle && titles[pageId]) {
+        pageTitle.innerText = titles[pageId];
+      }
 
-      if(pageId === 'admin') {
-        if(!isAdminLoggedIn) {
+      if (pageId === 'admin') {
+        if (!window.isAdminLoggedIn) {
           document.getElementById('admin-login-card').style.display = 'block';
           document.getElementById('admin-dashboard').style.display = 'none';
         } else {
-          renderAdminTable();
-          renderQuestionsRepository();
+          window.renderAdminTable();
+          window.renderQuestionsRepository();
         }
       }
 
-      if(pageId === 'exam') {
+      if (pageId === 'exam') {
         document.getElementById('global-timer').style.display = 'block';
-        startExamTimer(3 * 3600); // 3 Hours
-        renderQuiz(activeQuestionsList);
+        window.startExamTimer(3 * 3600);
+        window.renderQuiz(window.activeQuestionsList);
       } else {
         document.getElementById('global-timer').style.display = 'none';
-        clearInterval(examTimerInterval);
+        if (window.examTimerInterval) clearInterval(window.examTimerInterval);
       }
 
-      if(pageId === 'results') {
-        renderExamHistory();
+      if (pageId === 'results') {
+        window.renderExamHistory();
       }
-    }
+    };
 
-    // EXAM COUNTDOWN TIMER
-    function startExamTimer(seconds) {
-      clearInterval(examTimerInterval);
+    window.startExamTimer = function(seconds) {
+      if (window.examTimerInterval) clearInterval(window.examTimerInterval);
       const timerDisplay = document.getElementById('global-timer');
       
-      examTimerInterval = setInterval(() => {
+      window.examTimerInterval = setInterval(() => {
         let h = Math.floor(seconds / 3600);
         let m = Math.floor((seconds % 3600) / 60);
         let s = seconds % 60;
@@ -783,95 +788,42 @@
         timerDisplay.innerText = `⌛ Yeroo Qormaataa: ${h}:${m}:${s}`;
 
         if (seconds <= 0) {
-          clearInterval(examTimerInterval);
+          clearInterval(window.examTimerInterval);
           alert("⏰ Yeroon Qormaataa Xumurameera! Deebiin keessan offiin ergameera.");
           document.getElementById("quiz-form").dispatchEvent(new Event('submit'));
         }
         seconds--;
       }, 1000);
-    }
+    };
 
-    // USER LOGIN
-    document.getElementById('userLoginForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      const u = document.getElementById('login-username').value;
-      const p = document.getElementById('login-password').value;
-
-      const found = usersList.find(user => user.username === u && user.password === p);
-
-      if (found) {
-        currentUser = found;
-        document.getElementById('user-display-name').innerText = found.name;
-        document.getElementById('user-status').innerText = "Approved ✅";
-        document.getElementById('user-avatar').innerText = found.name.charAt(0).toUpperCase();
-        alert(`Baga nagaan dhuftan, ${found.name}! Kallattiin gara Qormaataatti ceeta.`);
-        switchPage('exam', document.querySelectorAll('.menu-item')[2]);
-      } else {
-        alert("Username ykn Password dogoggora! Moo kaffaltii keessan Admin biraa hin mirkanoofne?");
-      }
-    });
-
-    // SIGN UP & 20-SECOND TIMER
-    document.getElementById('signUpForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      const newReq = {
-        name: document.getElementById('reg-name').value,
-        username: document.getElementById('reg-user').value,
-        password: document.getElementById('reg-pass').value,
-        txn: document.getElementById('reg-txn').value
-      };
-
-      pendingRequests.push(newReq);
-      localStorage.setItem('pendingRequests', JSON.stringify(pendingRequests));
-
-      document.getElementById('wait-box').style.display = 'block';
-
-      let seconds = 20;
-      const timerDisplay = document.getElementById('timer-count');
-
-      const interval = setInterval(() => {
-        seconds--;
-        let secStr = seconds < 10 ? '0' + seconds : seconds;
-        timerDisplay.innerText = `00:${secStr}`;
-
-        if(seconds <= 0) {
-          clearInterval(interval);
-          alert("20 second xumurameera! Admin kaffaltii (300 ETB) keessan mirkaneessaa jira. Maaloo yeroo xiqqoo booda Login godhaa!");
-          switchPage('home', document.querySelectorAll('.menu-item')[0]);
-        }
-      }, 1000);
-    });
-
-    // ADMIN AUTH
-    function checkAdminPassword() {
+    window.checkAdminPassword = function() {
       const pass = document.getElementById('admin-pass-input').value;
-      if(pass === "admin123") {
-        isAdminLoggedIn = true;
+      if (pass === "admin123") {
+        window.isAdminLoggedIn = true;
         document.getElementById('admin-login-card').style.display = 'none';
         document.getElementById('admin-dashboard').style.display = 'block';
-        renderAdminTable();
-        renderQuestionsRepository();
+        window.renderAdminTable();
+        window.renderQuestionsRepository();
       } else {
         alert("Password Admin dogoggora!");
       }
-    }
+    };
 
-    // JSON UPLOAD
-    function handleJsonUpload(event) {
+    window.handleJsonUpload = function(event) {
       const file = event.target.files[0];
       if (file) {
         const reader = new FileReader();
         reader.onload = function(e) {
           try {
             const parsedData = JSON.parse(e.target.result);
-            if(Array.isArray(parsedData)) {
-              activeQuestionsList = parsedData;
-              localStorage.setItem('activeQuestionsList', JSON.stringify(activeQuestionsList));
-              if(window.syncQuestionsToFirebase) {
-                window.syncQuestionsToFirebase(activeQuestionsList);
+            if (Array.isArray(parsedData)) {
+              window.activeQuestionsList = parsedData;
+              localStorage.setItem('activeQuestionsList', JSON.stringify(window.activeQuestionsList));
+              if (window.syncQuestionsToFirebase) {
+                window.syncQuestionsToFirebase(window.activeQuestionsList);
               }
               alert("✅ Gaaffiileen JSON bifa milkaa'inaa ta'een Upload ta'aniiru!");
-              renderQuestionsRepository();
+              window.renderQuestionsRepository();
             } else {
               alert("❌ Faayilii JSON kuusaa gaaffii array [] bifa qabu ta'uu qaba.");
             }
@@ -881,43 +833,40 @@
         };
         reader.readAsText(file);
       }
-    }
+    };
 
-    // EXPORT JSON
-    function exportQuestionsJSON() {
-      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(activeQuestionsList, null, 2));
+    window.exportQuestionsJSON = function() {
+      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(window.activeQuestionsList, null, 2));
       const downloadAnchor = document.createElement('a');
       downloadAnchor.setAttribute("href", dataStr);
       downloadAnchor.setAttribute("download", "deebii_tech_questions.json");
       document.body.appendChild(downloadAnchor);
       downloadAnchor.click();
       downloadAnchor.remove();
-    }
+    };
 
-    // CLEAR REPO
-    function clearQuestionsRepo() {
-      if(confirm("Dugdaan kuusaa gaaffii hunda haquu barbaadduuu?")) {
-        activeQuestionsList = [];
+    window.clearQuestionsRepo = function() {
+      if (confirm("Dugdaan kuusaa gaaffii hunda haquu barbaadduuu?")) {
+        window.activeQuestionsList = [];
         localStorage.removeItem('activeQuestionsList');
-        if(window.syncQuestionsToFirebase) {
+        if (window.syncQuestionsToFirebase) {
           window.syncQuestionsToFirebase([]);
         }
-        renderQuestionsRepository();
+        window.renderQuestionsRepository();
       }
-    }
+    };
 
-    // REPOSITORY DISPLAY
-    function renderQuestionsRepository() {
+    window.renderQuestionsRepository = function() {
       const repoContainer = document.getElementById('questionsRepoDisplay');
       repoContainer.innerHTML = "";
 
-      if(!activeQuestionsList || activeQuestionsList.length === 0) {
+      if (!window.activeQuestionsList || window.activeQuestionsList.length === 0) {
         repoContainer.innerHTML = "<p style='color: var(--text-light);'>Gaaffiileen kuufaman hin jiran.</p>";
         return;
       }
 
-      let html = `<p style='margin-bottom: 10px;'>Baay'ina Gaaffiilee Kuufamanii: <strong>${activeQuestionsList.length}</strong></p>`;
-      activeQuestionsList.forEach((q, idx) => {
+      let html = `<p style='margin-bottom: 10px;'>Baay'ina Gaaffiilee Kuufamanii: <strong>${window.activeQuestionsList.length}</strong></p>`;
+      window.activeQuestionsList.forEach((q, idx) => {
         html += `
           <div class="question-box">
             <span style="font-size: 11px; background: var(--primary); color: white; padding: 2px 8px; border-radius: 4px;">${q.category || 'General'}</span>
@@ -930,58 +879,56 @@
       });
 
       repoContainer.innerHTML = html;
-    }
+    };
 
-    // RENDER ADMIN TABLE
-    function renderAdminTable() {
+    window.renderAdminTable = function() {
       const tbody = document.getElementById('adminTable');
       tbody.innerHTML = "";
 
-      if(pendingRequests.length === 0) {
+      if (window.pendingRequests.length === 0) {
         tbody.innerHTML = "<tr><td colspan='4' style='text-align:center;'>Gaaffiin Approval Haaraa Hin Jiru</td></tr>";
         return;
       }
 
-      pendingRequests.forEach((req, idx) => {
+      window.pendingRequests.forEach((req, idx) => {
         tbody.innerHTML += `
           <tr>
             <td>${req.name}</td>
             <td>${req.username}</td>
             <td><strong>${req.txn}</strong></td>
-            <td><button class="btn" style="background: var(--accent); padding: 6px 12px;" onclick="approveUser(${idx})">Approve & Register</button></td>
+            <td><button class="btn" style="background: var(--accent); padding: 6px 12px;" onclick="window.approveUser(${idx})">Approve & Register</button></td>
           </tr>
         `;
       });
-    }
+    };
 
-    function approveUser(idx) {
-      const req = pendingRequests[idx];
-      usersList.push({ name: req.name, username: req.username, password: req.password });
-      localStorage.setItem('usersList', JSON.stringify(usersList));
+    window.approveUser = function(idx) {
+      const req = window.pendingRequests[idx];
+      window.usersList.push({ name: req.name, username: req.username, password: req.password });
+      localStorage.setItem('usersList', JSON.stringify(window.usersList));
 
-      pendingRequests.splice(idx, 1);
-      localStorage.setItem('pendingRequests', JSON.stringify(pendingRequests));
+      window.pendingRequests.splice(idx, 1);
+      localStorage.setItem('pendingRequests', JSON.stringify(window.pendingRequests));
 
       alert(`Barataan (${req.name}) Mirkanaa'eera!`);
-      renderAdminTable();
-    }
+      window.renderAdminTable();
+    };
 
-    // RENDER QUIZ & FILTER
-    function filterQuestionsByCategory() {
+    window.filterQuestionsByCategory = function() {
       const cat = document.getElementById('categoryFilter').value;
-      if(cat === 'All') {
-        renderQuiz(activeQuestionsList);
+      if (cat === 'All') {
+        window.renderQuiz(window.activeQuestionsList);
       } else {
-        const filtered = activeQuestionsList.filter(q => q.category === cat);
-        renderQuiz(filtered);
+        const filtered = window.activeQuestionsList.filter(q => q.category === cat);
+        window.renderQuiz(filtered);
       }
-    }
+    };
 
-    function renderQuiz(questions) {
+    window.renderQuiz = function(questions) {
       const container = document.getElementById("questions-container");
       container.innerHTML = "";
 
-      if(!questions || questions.length === 0) {
+      if (!questions || questions.length === 0) {
         container.innerHTML = "<p>Gaaffiin kutaa kanaan dhiyaate hin jiru.</p>";
         return;
       }
@@ -1009,45 +956,11 @@
         `;
         container.appendChild(card);
       });
-    }
+    };
 
-    // SUBMIT EXAM LOGIC
-    document.getElementById("quiz-form").addEventListener("submit", function(e) {
-      e.preventDefault();
-      
-      let score = 0;
-      const total = activeQuestionsList.length;
-
-      activeQuestionsList.forEach((q, idx) => {
-        const selected = document.querySelector(`input[name="question_${idx}"]:checked`);
-        if (selected && parseInt(selected.value) === q.correctIndex) {
-          score++;
-        }
-      });
-
-      const percentage = Math.round((score / total) * 100);
-      const resultBox = document.getElementById("result-box");
-      resultBox.style.display = "block";
-      resultBox.innerHTML = `
-        <h3>🎉 Bu'aa Qormaataa Kee</h3>
-        <p style="font-size: 18px; margin-top: 8px;">Qabxii: <strong>${score} / ${total}</strong> (${percentage}%)</p>
-        <p>${percentage >= 50 ? 'Baga gammadde! Qormaata kana milkaa\'inaan darbiteera.' : 'Phaasii hin goone. Irra deebi'iin yaali!'}</p>
-      `;
-
-      // Save History
-      const record = {
-        date: new Date().toLocaleDateString(),
-        score: `${score}/${total}`,
-        percentage: `${percentage}%`
-      };
-      examHistory.push(record);
-      localStorage.setItem('examHistory', JSON.stringify(examHistory));
-    });
-
-    // RENDER HISTORY
-    function renderExamHistory() {
+    window.renderExamHistory = function() {
       const container = document.getElementById('history-container');
-      if (examHistory.length === 0) {
+      if (window.examHistory.length === 0) {
         container.innerHTML = "<p style='color: var(--text-light);'>Seenaa qormaataa kanaan duraa hin jiru.</p>";
         return;
       }
@@ -1064,7 +977,7 @@
           <tbody>
       `;
 
-      examHistory.forEach(h => {
+      window.examHistory.forEach(h => {
         html += `
           <tr>
             <td>${h.date}</td>
@@ -1076,7 +989,88 @@
 
       html += "</tbody></table>";
       container.innerHTML = html;
-    }
+    };
+
+    // EVENT LISTENERS
+    document.getElementById('userLoginForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const u = document.getElementById('login-username').value;
+      const p = document.getElementById('login-password').value;
+
+      const found = window.usersList.find(user => user.username === u && user.password === p);
+
+      if (found) {
+        window.currentUser = found;
+        document.getElementById('user-display-name').innerText = found.name;
+        document.getElementById('user-status').innerText = "Approved ✅";
+        document.getElementById('user-avatar').innerText = found.name.charAt(0).toUpperCase();
+        alert(`Baga nagaan dhuftan, ${found.name}! Kallattiin gara Qormaataatti ceeta.`);
+        window.switchPage('exam', document.querySelectorAll('.menu-item')[2]);
+      } else {
+        alert("Username ykn Password dogoggora! Moo kaffaltii keessan Admin biraa hin mirkanoofne?");
+      }
+    });
+
+    document.getElementById('signUpForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const newReq = {
+        name: document.getElementById('reg-name').value,
+        username: document.getElementById('reg-user').value,
+        password: document.getElementById('reg-pass').value,
+        txn: document.getElementById('reg-txn').value
+      };
+
+      window.pendingRequests.push(newReq);
+      localStorage.setItem('pendingRequests', JSON.stringify(window.pendingRequests));
+
+      document.getElementById('wait-box').style.display = 'block';
+
+      let seconds = 20;
+      const timerDisplay = document.getElementById('timer-count');
+
+      const interval = setInterval(() => {
+        seconds--;
+        let secStr = seconds < 10 ? '0' + seconds : seconds;
+        timerDisplay.innerText = `00:${secStr}`;
+
+        if (seconds <= 0) {
+          clearInterval(interval);
+          alert("20 second xumurameera! Admin kaffaltii (300 ETB) keessan mirkaneessaa jira. Maaloo yeroo xiqqoo booda Login godhaa!");
+          window.switchPage('home', document.querySelectorAll('.menu-item')[0]);
+        }
+      }, 1000);
+    });
+
+    document.getElementById("quiz-form").addEventListener("submit", function(e) {
+      e.preventDefault();
+      
+      let score = 0;
+      const total = window.activeQuestionsList.length;
+
+      window.activeQuestionsList.forEach((q, idx) => {
+        const selected = document.querySelector(`input[name="question_${idx}"]:checked`);
+        if (selected && parseInt(selected.value) === q.correctIndex) {
+          score++;
+        }
+      });
+
+      const percentage = Math.round((score / total) * 100);
+      const resultBox = document.getElementById("result-box");
+      resultBox.style.display = "block";
+      resultBox.innerHTML = `
+        <h3>🎉 Bu'aa Qormaataa Kee</h3>
+        <p style="font-size: 18px; margin-top: 8px;">Qabxii: <strong>${score} / ${total}</strong> (${percentage}%)</p>
+        <p>${percentage >= 50 ? 'Baga gammadde! Qormaata kana milkaa\'inaan darbiteera.' : 'Phaasii hin goone. Irra deebi\'iin yaali!'}</p>
+      `;
+
+      const record = {
+        date: new Date().toLocaleDateString(),
+        score: `${score}/${total}`,
+        percentage: `${percentage}%`
+      };
+      window.examHistory.push(record);
+      localStorage.setItem('examHistory', JSON.stringify(window.examHistory));
+    });
   </script>
 </body>
 </html>
