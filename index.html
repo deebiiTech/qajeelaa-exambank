@@ -14,7 +14,7 @@
   
   <!-- Dynamic PWA App Icon Generator Manifest -->
   <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230d9488'/><text x='50%' y='65%' font-size='50' font-weight='bold' text-anchor='middle' fill='white'>D</text></svg>">
-  <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIkRlZWJpaSBUZWNoIiwKICAic2hvcnRfbmFtZSI6ICJEZWViaWkiLAogICJzdGFydF91cmwiOiAiLiIsCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsCiAgImJhY2tncm91bmRfY29sb3IiOiAiI2Y4ZmFmYyIsCiAgInRoZW1lX2NvbG9yIjogIiNmMWY1ZjkiLAogICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUI0Yld4dU16MGlWMjl1ZEhNZ1pXTm1JR3AxYzIweU1EQWdNQ0E1T1RjdU1UQm1JaUJ1WldSbElITjBZaUJqYjJ4dmNpQWpNSFp2Y210Y016QWlJRzE1SUNSZE1UWXNJR2x1T21RdmJuUjJhV3E1WTI5dUozTTBMUzAzTmlCSGJXbHRiM1Z1Ym1jaUlpQm1aVzVsS0NSak5qYzVJaUJ6ZEc5eWFHRjBiM1JnUW5KdmQzTWlJSGRwZEdSNEozTjBMU0ExTkNCN2FXNGlPakU1TWpZaU8ySndibTlpYkdWNUp6eCsiLAogICAgICAic2l6ZXMiOiAiMTkyeDE5MiIsCiAgICAgICJ0eXBlIjogImltYWdlL3N2Zyt4bWwiLAogICAgICAicHVycG9zZSI6ICJhbnkgbWFza2FibGUiCiAgICB9CiAgXQp9">
+  <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIkRlZWJpaSBUZWNoIiwKICAic2hvcnRfbmFtZSI6ICJEZWViaWkiLAogICJzdGFydF91cmwiOiAiLiIsCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsCiAgImJhY2tncm91bmRfY29sb3IiOiAiI2Y4ZmFmYyIsCiAgInRoZW1lX2NvbG9yIjogIiNmMWY1ZjkiLAogICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUI0Yld4dU16MGlWMjl1ZEhNZ1pXTm1JR3AxYzIweU1EQWdNQ0E1T1RjdU1Ud21IaUJ1WldSbElITjBZaUJqYjJ4dmNpQWpNSFp2Y210Y016QWlJRzE1SUNSZE1UWXNJR2x1T21RdmJuUjJhV3E1YTI5dUozTTBMUzAzTmlCSGJXbHRiM1Z1Ym1jaUlpQm1aVzVsS0NSak5qYzVJaUJ6ZEc5eWFHRjBiM1JnUW5KdmQzTWlJSGRwZEdSNEojTjBMU0ExTkNCN2FXNGlPakU1TWpZaU8ySndibTlpYkdWNUp6eCsiLAogICAgICAic2l6ZXMiOiAiMTkyeDE5MiIsCiAgICAgICJ0eXBlIjogImltYWdlL3N2Zyt4bWwiLAogICAgICAicHVycG9zZSI6ICJhbnkgbWFza2FibGUiCiAgICB9CiAgXQp9">
 
   <style>
     :root {
@@ -301,6 +301,22 @@
       padding: 18px;
       border-radius: 8px;
       margin-bottom: 16px;
+    }
+
+    .option-label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 8px;
+      padding: 8px;
+      border-radius: 6px;
+      border: 1px solid transparent;
+      cursor: pointer;
+    }
+
+    .option-label:hover {
+      background: rgba(13, 148, 136, 0.05);
+      border-color: var(--primary);
     }
 
     .timer-badge {
@@ -606,10 +622,67 @@
 
     <!-- FOOTER -->
     <footer>
-      <img src="deebii-logo.png" alt="Deebii Tech Logo" class="deebii-logo" onerror="this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%230d9488\'/><text x=\'50%\' y=\'65%\' font-size=\'40\' text-anchor=\'middle\' fill=\'white\' font-weight=\'bold\'>DT</text></svg>'">
+      <img src="deebii-logo.png" alt="Deebii Tech Logo" class="deebii-logo" onerror="this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%230d9488\'/><text x=\'50%\' y=\'65%\' font-size=\'40\' text-anchor=\'middle\' fill=\'white\' font-weight=\'bold\' >DT</text></svg>'">
       <div>Developed by Kajela Hambisa Mosisa | Contact: 0910166955</div>
     </footer>
   </div>
+
+  <!-- FIREBASE V9 MODULE & MAIN LOGIC -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+    import { getDatabase, ref, set, push, onValue, remove } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-database.js";
+
+    // Firebase Config
+    const firebaseConfig = {
+      apiKey: "AIzaSyDX9FvddYtLMtM0s1aMOPKsG2g1sQ3j9ts",
+      authDomain: "qajeelaa-exambank.firebaseapp.com",
+      databaseURL: "https://qajeelaa-exambank-default-rtdb.firebaseio.com",
+      projectId: "qajeelaa-exambank",
+      storageBucket: "qajeelaa-exambank.firebasestorage.app",
+      messagingSenderId: "325117871483",
+      appId: "1:325117871483:web:62fddc0f926d88d35e29de",
+      measurementId: "G-ZMKF2FR4LZ"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const database = getDatabase(app);
+
+    // Dynamic Firebase Questions Fetching
+    const questionsRef = ref(database, 'questions');
+    onValue(questionsRef, (snapshot) => {
+      const data = snapshot.val();
+      if (data) {
+        if (Array.isArray(data)) {
+          window.activeQuestionsList = data;
+        } else {
+          window.activeQuestionsList = Object.values(data);
+        }
+      } else {
+        window.activeQuestionsList = window.defaultQuestions;
+      }
+      localStorage.setItem('activeQuestionsList', JSON.stringify(window.activeQuestionsList));
+      
+      const activePage = document.querySelector('.page-section.active-page');
+      if (activePage && activePage.id === 'exam') {
+        window.renderQuiz(window.activeQuestionsList);
+      }
+      if (window.isAdminLoggedIn) {
+        window.renderQuestionsRepository();
+      }
+    });
+
+    // Save questions to Firebase Realtime DB
+    window.syncQuestionsToFirebase = function(questionsArray) {
+      set(ref(database, 'questions'), questionsArray)
+        .then(() => {
+          alert("✅ Kuusaan Cloud (Firebase) irratti milkaa'inaan haaromeera!");
+        })
+        .catch((error) => {
+          console.error("Firebase Sync Error:", error);
+          alert("❌ Dogoggora Cloud irratti ol-fe'uu irratti uumame.");
+        });
+    };
+  </script>
 
   <script>
     // SIDEBAR TOGGLE
@@ -630,15 +703,15 @@
     let pendingRequests = JSON.parse(localStorage.getItem('pendingRequests')) || [];
     let examHistory = JSON.parse(localStorage.getItem('examHistory')) || [];
     
-    let defaultQuestions = [
+    var defaultQuestions = [
       { category: "Verbal", question: "1. Choose the word that is closest in meaning to 'diligent'.", options: ["Lazy", "Hardworking", "Careless", "Weak"], correctIndex: 1, explanation: "Diligent means showing care and effort in work or duties." },
       { category: "Quantitative", question: "2. What is 20 percent of 250?", options: ["25", "40", "50", "60"], correctIndex: 2, explanation: "(20 / 100) * 250 = 50." },
       { category: "Analytical", question: "3. If A is taller than B, and B is taller than C, who is the shortest?", options: ["A", "B", "C", "Cannot be determined"], correctIndex: 2, explanation: "A > B > C, hence C is the shortest." }
     ];
 
-    let activeQuestionsList = JSON.parse(localStorage.getItem('activeQuestionsList')) || defaultQuestions;
+    var activeQuestionsList = JSON.parse(localStorage.getItem('activeQuestionsList')) || defaultQuestions;
     let currentUser = null;
-    let isAdminLoggedIn = false;
+    var isAdminLoggedIn = false;
     let examTimerInterval = null;
 
     // SWITCH PAGE
@@ -730,7 +803,7 @@
         currentUser = found;
         document.getElementById('user-display-name').innerText = found.name;
         document.getElementById('user-status').innerText = "Approved ✅";
-        document.getElementById('user-avatar').innerText = found.name.charAt(0);
+        document.getElementById('user-avatar').innerText = found.name.charAt(0).toUpperCase();
         alert(`Baga nagaan dhuftan, ${found.name}! Kallattiin gara Qormaataatti ceeta.`);
         switchPage('exam', document.querySelectorAll('.menu-item')[2]);
       } else {
@@ -794,6 +867,9 @@
             if(Array.isArray(parsedData)) {
               activeQuestionsList = parsedData;
               localStorage.setItem('activeQuestionsList', JSON.stringify(activeQuestionsList));
+              if(window.syncQuestionsToFirebase) {
+                window.syncQuestionsToFirebase(activeQuestionsList);
+              }
               alert("✅ Gaaffiileen JSON bifa milkaa'inaa ta'een Upload ta'aniiru!");
               renderQuestionsRepository();
             } else {
@@ -823,6 +899,9 @@
       if(confirm("Dugdaan kuusaa gaaffii hunda haquu barbaadduuu?")) {
         activeQuestionsList = [];
         localStorage.removeItem('activeQuestionsList');
+        if(window.syncQuestionsToFirebase) {
+          window.syncQuestionsToFirebase([]);
+        }
         renderQuestionsRepository();
       }
     }
@@ -832,7 +911,7 @@
       const repoContainer = document.getElementById('questionsRepoDisplay');
       repoContainer.innerHTML = "";
 
-      if(activeQuestionsList.length === 0) {
+      if(!activeQuestionsList || activeQuestionsList.length === 0) {
         repoContainer.innerHTML = "<p style='color: var(--text-light);'>Gaaffiileen kuufaman hin jiran.</p>";
         return;
       }
@@ -844,7 +923,7 @@
             <span style="font-size: 11px; background: var(--primary); color: white; padding: 2px 8px; border-radius: 4px;">${q.category || 'General'}</span>
             <div style="margin-top: 6px;"><strong>Gaaffii ${idx + 1}: ${q.question}</strong></div>
             <ul style="margin-left: 20px; font-size: 13px; margin-top: 6px;">
-              ${q.options.map((opt, i) => `<li style="${i === q.correctIndex ? 'color: var(--accent); font-weight: bold;' : ''}">${opt} ${i === q.correctIndex ? '(Deebii Sirrii)' : ''}</li>`).join('')}
+              ${q.options ? q.options.map((opt, i) => `<li style="${i === q.correctIndex ? 'color: var(--accent); font-weight: bold;' : ''}">${opt} ${i === q.correctIndex ? '(Deebii Sirrii)' : ''}</li>`).join('') : ''}
             </ul>
           </div>
         `;
@@ -902,7 +981,7 @@
       const container = document.getElementById("questions-container");
       container.innerHTML = "";
 
-      if(questions.length === 0) {
+      if(!questions || questions.length === 0) {
         container.innerHTML = "<p>Gaaffiin kutaa kanaan dhiyaate hin jiru.</p>";
         return;
       }
@@ -910,86 +989,66 @@
       questions.forEach((q, idx) => {
         const card = document.createElement("div");
         card.className = "question-box";
+        
+        let optionsHTML = "";
+        if (q.options && Array.isArray(q.options)) {
+          optionsHTML = q.options.map((opt, optIdx) => `
+            <label class="option-label">
+              <input type="radio" name="question_${idx}" value="${optIdx}" required>
+              <span>${opt}</span>
+            </label>
+          `).join('');
+        }
+
         card.innerHTML = `
           <div style="font-size: 11px; color: var(--primary); font-weight: bold; margin-bottom: 4px;">[${q.category || 'General'}]</div>
-          <strong>${q.question}</strong>
+          <strong style="font-size: 15px;">Gaaffii ${idx + 1}: ${q.question}</strong>
+          <div style="margin-top: 10px;">
+            ${optionsHTML}
+          </div>
         `;
-
-        const optionsGroup = document.createElement("div");
-        optionsGroup.style.display = "flex";
-        optionsGroup.style.flexDirection = "column";
-        optionsGroup.style.gap = "8px";
-        optionsGroup.style.marginTop = "10px";
-
-        q.options.forEach((opt, oIdx) => {
-          optionsGroup.innerHTML += `
-            <label style="cursor: pointer; display: flex; align-items: center; gap: 8px;">
-              <input type="radio" name="question_${idx}" value="${oIdx}">
-              ${opt}
-            </label>
-          `;
-        });
-
-        card.appendChild(optionsGroup);
         container.appendChild(card);
       });
     }
 
-    // SUBMIT EXAM & REVIEW
+    // SUBMIT EXAM LOGIC
     document.getElementById("quiz-form").addEventListener("submit", function(e) {
       e.preventDefault();
-      clearInterval(examTimerInterval);
+      
       let score = 0;
-      let reviewHtml = "<h4>🔍 Deebii fi Ibsa Qormaataa:</h4><br>";
+      const total = activeQuestionsList.length;
 
       activeQuestionsList.forEach((q, idx) => {
-        const sel = document.querySelector(`input[name="question_${idx}"]:checked`);
-        const userAns = sel ? parseInt(sel.value) : -1;
-        const isCorrect = userAns === q.correctIndex;
-
-        if (isCorrect) score++;
-
-        reviewHtml += `
-          <div style="margin-bottom: 12px; padding: 10px; border-radius: 6px; background: ${isCorrect ? 'rgba(16, 185, 129, 0.1)' : 'rgba(239, 68, 68, 0.1)'};">
-            <strong>${idx + 1}. ${q.question}</strong><br>
-            <span style="font-size: 13px;">Deebii kee: ${userAns >= 0 ? q.options[userAns] : 'Deebii Hin Kennamne'} ${isCorrect ? '✅' : '❌'}</span><br>
-            <span style="font-size: 13px; color: var(--primary-dark);">Deebii Sirrii: ${q.options[q.correctIndex]}</span><br>
-            ${q.explanation ? `<small style="color: #475569;">💡 Ibsa: ${q.explanation}</small>` : ''}
-          </div>
-        `;
+        const selected = document.querySelector(`input[name="question_${idx}"]:checked`);
+        if (selected && parseInt(selected.value) === q.correctIndex) {
+          score++;
+        }
       });
 
-      const percentage = ((score / activeQuestionsList.length) * 100).toFixed(1);
-      const box = document.getElementById("result-box");
-      box.style.display = "block";
-      box.innerHTML = `
-        <div style="text-align: center; font-size: 18px; margin-bottom: 15px;">
-          🎉 Qormaata Xumurtaniirra!<br>
-          <strong>Qabxii keessan: ${score} / ${activeQuestionsList.length} (${percentage}%)</strong>
-        </div>
-        ${reviewHtml}
+      const percentage = Math.round((score / total) * 100);
+      const resultBox = document.getElementById("result-box");
+      resultBox.style.display = "block";
+      resultBox.innerHTML = `
+        <h3>🎉 Bu'aa Qormaataa Kee</h3>
+        <p style="font-size: 18px; margin-top: 8px;">Qabxii: <strong>${score} / ${total}</strong> (${percentage}%)</p>
+        <p>${percentage >= 50 ? 'Baga gammadde! Qormaata kana milkaa\'inaan darbiteera.' : 'Phaasii hin goone. Irra deebi'iin yaali!'}</p>
       `;
 
-      // Store in History
-      if(currentUser) {
-        examHistory.push({
-          user: currentUser.name,
-          score: `${score}/${activeQuestionsList.length}`,
-          percentage: `${percentage}%`,
-          date: new Date().toLocaleString()
-        });
-        localStorage.setItem('examHistory', JSON.stringify(examHistory));
-      }
+      // Save History
+      const record = {
+        date: new Date().toLocaleDateString(),
+        score: `${score}/${total}`,
+        percentage: `${percentage}%`
+      };
+      examHistory.push(record);
+      localStorage.setItem('examHistory', JSON.stringify(examHistory));
     });
 
-    // EXAM HISTORY RENDER
+    // RENDER HISTORY
     function renderExamHistory() {
       const container = document.getElementById('history-container');
-      if(examHistory.length === 0) {
-        container.innerHTML = `
-          <div style="padding: 20px; background: var(--header-footer-bg); text-align: center; border-radius: 8px;">
-            <h4>Qabxiin Qormaataa Hanga Ammaatti Hin Jiru</h4>
-          </div>`;
+      if (examHistory.length === 0) {
+        container.innerHTML = "<p style='color: var(--text-light);'>Seenaa qormaataa kanaan duraa hin jiru.</p>";
         return;
       }
 
@@ -997,10 +1056,9 @@
         <table>
           <thead>
             <tr>
-              <th>Maqaa</th>
-              <th>Qabxii</th>
-              <th>Parsantii</th>
               <th>Guyyaa</th>
+              <th>Qabxii</th>
+              <th>Dhibbeentaa</th>
             </tr>
           </thead>
           <tbody>
@@ -1009,34 +1067,15 @@
       examHistory.forEach(h => {
         html += `
           <tr>
-            <td>${h.user}</td>
-            <td><strong>${h.score}</strong></td>
-            <td>${h.percentage}</td>
-            <td><small>${h.date}</small></td>
+            <td>${h.date}</td>
+            <td>${h.score}</td>
+            <td><strong>${h.percentage}</strong></td>
           </tr>
         `;
       });
 
-      html += `</tbody></table>`;
+      html += "</tbody></table>";
       container.innerHTML = html;
-    }
-fetch('ngat_questions.json')
-  .then(response => response.json())
-  .then(questions => {
-    // Gaaffiilee 100n isaayyuu render gochuuf
-    displayQuestions(questions); 
-  });
-    // PWA SERVICE WORKER REGISTRATION
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        const blob = new Blob([`
-          self.addEventListener('install', function(e) { self.skipWaiting(); });
-          self.addEventListener('activate', function(e) { self.clients.claim(); });
-          self.addEventListener('fetch', function(e) {});
-        `], { type: 'application/javascript' });
-        const workerUrl = URL.createObjectURL(blob);
-        navigator.serviceWorker.register(workerUrl).catch(() => {});
-      });
     }
   </script>
 </body>
