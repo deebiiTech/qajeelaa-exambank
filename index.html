@@ -3,28 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Deebii Tech - Pro Portal</title>
+  <title>Deebii Tech - Realtime Portal</title>
   
-  <!-- PWA & Mobile Web App Meta Tags -->
   <meta name="theme-color" content="#f1f5f9">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="Deebii Tech">
-  
-  <!-- Dynamic PWA App Icon Generator Manifest -->
-  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230d9488'/><text x='50%' y='65%' font-size='50' font-weight='bold' text-anchor='middle' fill='white'>D</text></svg>">
-  <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIkRlZWJpaSBUZWNoIiwKICAic2hvcnRfbmFtZSI6ICJEZWViaWkiLAogICJzdGFydF91cmwiOiAiLiIsCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsCiAgImJhY2tncm91bmRfY29sb3IiOiAiI2Y4ZmFmYyIsCiAgInRoZW1lX2NvbG9yIjogIiNmMWY1ZjkiLAogICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUI0Yld4dU16MGlWMjl1ZEHNZ1pXTm1JR3AxYzIweU1EQWdNQ0E1T1RjdU1Ud21IaUJ1ZldSbElITjBZaUJqYjJ4dmNpQWpNSFp2Y210Y016QWlJRzE1SUNSZE1UWXNJR2x1T21RdmJuUjJhV3E1YTI5dUozTTBMUzAzTmlCSGJXbHRiM1Z1Ym1jaUlpQm1aVzVsS0CRjA3C35I1S1d2R21CZD09IiwKICAgICAgInNpemVzIjogIjE5MngxOTIiLAogICAgICAidHlwZSI6ICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0IiwKICAgICAgInNpemVzIjogIjE5MngxOTIiLAogICAgICAidHlwZSI6ICJpY29ucyIKICAgIH0KICBdCn0=">
-
   <style>
     :root {
-      /* Theme Colors */
       --primary-gradient: linear-gradient(135deg, #0284c7 0%, #0d9488 100%);
       --header-footer-bg: #f1f5f9; 
       --header-footer-border: #cbd5e1;
-      --header-footer-text: #0f172a;
       --primary: #0d9488;
-      --primary-dark: #0f766e;
       --bg: #f8fafc;
       --sidebar-bg: #0f172a;
       --card-bg: #ffffff;
@@ -32,602 +19,149 @@
       --text-light: #94a3b8;
       --accent: #10b981;
       --danger: #ef4444;
-      --warning: #f59e0b;
     }
 
-    /* DARK MODE STYLES */
     body.dark-mode {
       --bg: #0f172a;
       --card-bg: #1e293b;
       --text: #f8fafc;
       --header-footer-bg: #1e293b;
       --header-footer-border: #334155;
-      --header-footer-text: #f8fafc;
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, -apple-system, sans-serif; }
+    body { display: flex; height: 100vh; background-color: var(--bg); color: var(--text); overflow: hidden; }
 
-    body {
-      display: flex;
-      height: 100vh;
-      background-color: var(--bg);
-      color: var(--text);
-      overflow: hidden;
-      transition: background-color 0.3s, color 0.3s;
-    }
+    .mobile-menu-btn { display: none; background: #e2e8f0; border: 1px solid #cbd5e1; font-size: 20px; padding: 4px 10px; border-radius: 6px; cursor: pointer; }
+    
+    .sidebar { width: 280px; background: var(--sidebar-bg); color: white; display: flex; flex-direction: column; justify-content: space-between; z-index: 1000; transition: transform 0.3s; }
+    .brand { padding: 20px; background: var(--primary-gradient); text-align: center; font-weight: bold; font-size: 20px; }
+    .menu { list-style: none; padding: 15px 10px; flex-grow: 1; }
+    .menu-item { padding: 12px 16px; margin-bottom: 6px; border-radius: 8px; color: var(--text-light); cursor: pointer; display: flex; gap: 10px; font-weight: 500; }
+    .menu-item:hover, .menu-item.active { background: var(--primary-gradient); color: white; }
 
-    /* MOBILE TOGGLE BUTTON (HAMBURGER) */
-    .mobile-menu-btn {
-      display: none;
-      background: #e2e8f0;
-      border: 1px solid #cbd5e1;
-      color: #0f172a;
-      font-size: 24px;
-      cursor: pointer;
-      padding: 6px 12px;
-      border-radius: 6px;
-      transition: background 0.2s;
-    }
+    .main-content { flex-grow: 1; display: flex; flex-direction: column; overflow-y: auto; }
+    .top-bar { background: var(--header-footer-bg); border-bottom: 1px solid var(--header-footer-border); padding: 12px 24px; display: flex; justify-content: space-between; align-items: center; }
+    .content-body { padding: 24px; flex-grow: 1; }
+    
+    .page-section { display: none; }
+    .page-section.active-page { display: block; }
 
-    .mobile-menu-btn:hover {
-      background: #cbd5e1;
-    }
+    .card { background: var(--card-bg); border-radius: 12px; padding: 20px; margin-bottom: 20px; border: 1px solid var(--header-footer-border); box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+    .btn { background: var(--primary-gradient); color: white; border: none; padding: 10px 18px; border-radius: 6px; cursor: pointer; font-weight: 600; display: inline-flex; align-items: center; gap: 8px; }
+    .btn-secondary { background: #64748b; }
+    .btn-danger { background: var(--danger); }
+    
+    .form-group { margin-bottom: 12px; }
+    .form-group label { display: block; font-size: 13px; font-weight: bold; margin-bottom: 4px; }
+    .form-group input, .form-group select { width: 100%; padding: 10px; border: 1px solid var(--header-footer-border); border-radius: 6px; background: var(--card-bg); color: var(--text); }
 
-    /* SIDEBAR NAVIGATION MENU */
-    .sidebar {
-      width: 280px;
-      background: var(--sidebar-bg);
-      color: white;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      z-index: 1000;
-    }
+    .question-box { background: var(--card-bg); border: 1px solid var(--header-footer-border); padding: 16px; border-radius: 8px; margin-bottom: 12px; }
+    .option-label { display: flex; align-items: center; gap: 10px; margin-top: 6px; padding: 6px; border-radius: 4px; cursor: pointer; }
+    .option-label:hover { background: rgba(13, 148, 136, 0.08); }
 
-    .brand {
-      padding: 20px;
-      background: var(--primary-gradient);
-      color: white;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .brand img.deebii-logo {
-      height: 75px;
-      width: auto;
-      max-width: 100%;
-      object-fit: contain;
-      filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.2));
-    }
-
-    .menu {
-      list-style: none;
-      padding: 20px 10px;
-      flex-grow: 1;
-    }
-
-    .menu-item {
-      padding: 14px 16px;
-      margin-bottom: 8px;
-      border-radius: 8px;
-      color: var(--text-light);
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      font-size: 15px;
-      font-weight: 500;
-      transition: 0.2s;
-    }
-
-    .menu-item:hover, .menu-item.active {
-      background: var(--primary-gradient);
-      color: white;
-      box-shadow: 0 4px 10px rgba(13, 148, 136, 0.3);
-    }
-
-    .user-profile {
-      padding: 16px;
-      background: rgba(15, 23, 42, 0.9);
-      border-top: 1px solid #1e293b;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .user-avatar {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background: var(--primary-gradient);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: bold;
-      color: white;
-    }
-
-    /* MAIN CONTENT AREA */
-    .main-content {
-      flex-grow: 1;
-      display: flex;
-      flex-direction: column;
-      overflow-y: auto;
-    }
-
-    .top-bar {
-      background: var(--header-footer-bg);
-      color: var(--header-footer-text);
-      border-bottom: 1px solid var(--header-footer-border);
-      padding: 12px 32px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    }
-
-    .top-bar-left {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-    }
-
-    .header-logo-box {
-      display: flex;
-      align-items: center;
-      border-right: 2px solid #cbd5e1;
-      padding-right: 20px;
-    }
-
-    .header-logo-box img.deebii-logo {
-      height: 65px;
-      width: auto;
-      object-fit: contain;
-    }
-
-    .top-bar h2 {
-      font-size: 22px;
-    }
-
-    .content-body {
-      padding: 32px;
-      flex-grow: 1;
-    }
-
-    .page-section {
-      display: none;
-    }
-
-    .page-section.active-page {
-      display: block;
-    }
-
-    /* CARD COMPONENTS */
-    .card {
-      background: var(--card-bg);
-      border-radius: 12px;
-      padding: 24px;
-      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
-      margin-bottom: 24px;
-      border: 1px solid var(--header-footer-border);
-    }
-
-    .btn {
-      background: var(--primary-gradient);
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 6px;
-      cursor: pointer;
-      font-weight: 600;
-      transition: 0.2s;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-    }
-
-    .btn:hover {
-      opacity: 0.9;
-      transform: translateY(-1px);
-    }
-
-    .btn-secondary {
-      background: #64748b;
-    }
-
-    .btn-danger {
-      background: var(--danger);
-    }
-
-    .form-group {
-      margin-bottom: 14px;
-    }
-
-    .form-group label {
-      display: block;
-      font-size: 13px;
-      font-weight: bold;
-      margin-bottom: 6px;
-    }
-
-    .form-group input, .form-group select {
-      width: 100%;
-      padding: 10px;
-      border: 1px solid var(--header-footer-border);
-      border-radius: 6px;
-      outline: none;
-      background: var(--card-bg);
-      color: var(--text);
-    }
-
-    .payment-box {
-      background: #f0fdf4;
-      border: 1px solid #bbf7d0;
-      padding: 16px;
-      border-radius: 8px;
-      margin-bottom: 16px;
-      line-height: 1.6;
-      color: #166534;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 15px;
-    }
-
-    th, td {
-      padding: 12px;
-      border: 1px solid var(--header-footer-border);
-      text-align: left;
-    }
-
-    th {
-      background: var(--header-footer-bg);
-    }
-
-    .question-box {
-      background: var(--card-bg);
-      border: 1px solid var(--header-footer-border);
-      padding: 18px;
-      border-radius: 8px;
-      margin-bottom: 16px;
-    }
-
-    .option-label {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-top: 8px;
-      padding: 8px;
-      border-radius: 6px;
-      border: 1px solid transparent;
-      cursor: pointer;
-    }
-
-    .option-label:hover {
-      background: rgba(13, 148, 136, 0.05);
-      border-color: var(--primary);
-    }
-
-    .timer-badge {
-      background: #fef3c7;
-      color: #92400e;
-      padding: 8px 16px;
-      border-radius: 20px;
-      font-weight: bold;
-      border: 1px solid #fde68a;
-    }
-
-    .upload-box {
-      border: 2px dashed var(--primary);
-      background: rgba(13, 148, 136, 0.05);
-      padding: 20px;
-      border-radius: 8px;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .theme-toggle-btn {
-      background: transparent;
-      border: 1px solid var(--header-footer-border);
-      color: var(--text);
-      padding: 6px 12px;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 14px;
-    }
-
-    /* FOOTER */
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      color: var(--text);
-      background: var(--header-footer-bg);
-      border-top: 1px solid var(--header-footer-border);
-      margin-top: auto;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 12px;
-    }
-
-    footer img.deebii-logo {
-      height: 70px;
-      width: auto;
-      object-fit: contain;
-    }
-
-    .sidebar-overlay {
-      display: none;
-      position: fixed;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: rgba(15, 23, 42, 0.6);
-      backdrop-filter: blur(2px);
-      z-index: 999;
-    }
-
-    .sidebar-overlay.active {
-      display: block;
-    }
+    .status-badge { padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: bold; background: #e0f2fe; color: #0369a1; }
+    footer { text-align: center; padding: 15px; font-size: 13px; background: var(--header-footer-bg); border-top: 1px solid var(--header-footer-border); margin-top: auto; }
 
     @media (max-width: 900px) {
       .mobile-menu-btn { display: block; }
-      .sidebar {
-        position: fixed;
-        left: 0; top: 0; bottom: 0;
-        transform: translateX(-100%);
-        box-shadow: 5px 0 25px rgba(0,0,0,0.3);
-      }
+      .sidebar { position: fixed; top: 0; bottom: 0; left: 0; transform: translateX(-100%); }
       .sidebar.open { transform: translateX(0); }
-      .top-bar { padding: 12px 16px; }
-      .content-body { padding: 16px; }
-      .header-logo-box { border-right: none; padding-right: 0; }
-      .header-logo-box img.deebii-logo { height: 50px; }
-      footer img.deebii-logo { height: 55px; }
     }
   </style>
 </head>
 <body>
 
-  <!-- MOBILE OVERLAY BACKDROP -->
-  <div class="sidebar-overlay" id="sidebarOverlay" onclick="window.toggleSidebar()"></div>
-
-  <!-- SIDEBAR NAVIGATION MENU -->
   <div class="sidebar" id="sidebar">
     <div>
-      <div class="brand">
-        <img src="deebii-logo.png" alt="Deebii Tech Logo" class="deebii-logo" onerror="this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%230d9488\'/><text x=\'50%\' y=\'65%\' font-size=\'40\' text-anchor=\'middle\' fill=\'white\' font-weight=\'bold\'>DT</text></svg>'">
-      </div>
+      <div class="brand">DEEBII TECH</div>
       <ul class="menu">
-        <li class="menu-item active" onclick="window.switchPage('home', this)">
-          <span>🏠</span> Home
-        </li>
-        <li class="menu-item" onclick="window.switchPage('payment', this)">
-          <span>💳</span> Kaffaltii (300 ETB)
-        </li>
-        <li class="menu-item" onclick="window.switchPage('exam', this)">
-          <span>📝</span> Kutaa Qorumsaa
-        </li>
-        <li class="menu-item" onclick="window.switchPage('admin', this)">
-          <span>⚙️</span> Kutaa Admiin
-        </li>
-        <li class="menu-item" onclick="window.switchPage('results', this)">
-          <span>📊</span> Bu'aa fi Xiinxala
-        </li>
+        <li class="menu-item active" onclick="switchPage('home', this)">🏠 Home</li>
+        <li class="menu-item" onclick="switchPage('exam', this)">📝 Kutaa Qorumsaa</li>
+        <li class="menu-item" onclick="switchPage('admin', this)">⚙️ Kutaa Admiin</li>
       </ul>
     </div>
-
-    <div class="user-profile">
-      <div class="user-avatar" id="user-avatar">G</div>
-      <div>
-        <div style="font-weight: bold; font-size: 14px;" id="user-display-name">Guest User</div>
-        <div style="font-size: 12px; color: var(--text-light);" id="user-status">Not Logged In</div>
-      </div>
-    </div>
+    <div style="padding: 15px; font-size: 12px; color: var(--text-light);" id="sync-status">Firebase Status: Connecting...</div>
   </div>
 
-  <!-- MAIN CONTENT AREA -->
   <div class="main-content">
-    
-    <!-- TOP BAR HEADER -->
     <div class="top-bar">
-      <div class="top-bar-left">
-        <button class="mobile-menu-btn" onclick="window.toggleSidebar()" aria-label="Toggle Menu">☰</button>
-        <div class="header-logo-box">
-          <img src="deebii-logo.png" alt="Deebii Tech Logo" class="deebii-logo" onerror="this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%230d9488\'/><text x=\'50%\' y=\'65%\' font-size=\'40\' text-anchor=\'middle\' fill=\'white\' font-weight=\'bold\'>DT</text></svg>'">
-        </div>
-        <h2 id="page-title">Home</h2>
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <button class="mobile-menu-btn" onclick="toggleSidebar()">☰</button>
+        <h3 id="page-title">Home</h3>
       </div>
-
-      <div style="display: flex; align-items: center; gap: 12px;">
-        <button class="theme-toggle-btn" onclick="window.toggleDarkMode()">🌓 Bifa Mode</button>
-        <div class="timer-badge" id="global-timer" style="display: none;">⌛ Yeroo Qormaataa: 03:00:00</div>
+      <div>
+        <span class="status-badge" id="count-badge">Gaaffilee: 0</span>
+        <button class="btn btn-secondary" onclick="document.body.classList.toggle('dark-mode')" style="padding: 4px 10px; font-size: 12px; margin-left: 10px;">Mode</button>
       </div>
     </div>
 
     <div class="content-body">
-
-      <!-- 1. HOME PAGE -->
+      <!-- HOME PAGE -->
       <div id="home" class="page-section active-page">
-        <div class="card" style="max-width: 450px; margin: 0 auto;">
+        <div class="card" style="max-width: 400px; margin: 20px auto;">
           <h3>User Login</h3>
-          <p style="color: var(--text-light); font-size: 13px; margin-bottom: 16px;">Seenuuf Username fi Password kee galchi.</p>
-          
-          <form id="userLoginForm">
-            <div class="form-group">
-              <label>Username</label>
-              <input type="text" id="login-username" required placeholder="Fkn: kajela123">
-            </div>
-            <div class="form-group">
-              <label>Password</label>
-              <input type="password" id="login-password" required placeholder="••••••••">
-            </div>
-            <button type="submit" class="btn" style="width: 100%;">Seeni (Login)</button>
-          </form>
-        </div>
-      </div>
-
-      <!-- 2. PAYMENT & SIGN UP PAGE -->
-      <div id="payment" class="page-section">
-        <div class="card" style="max-width: 500px; margin: 0 auto;">
-          <h3>Sign Up & Kaffaltii (300 ETB)</h3>
-          <p style="color: var(--text-light); font-size: 13px; margin-bottom: 16px;">Formii kana guutuun kaffaltii 300 ETB raawwadhaa.</p>
-
-          <div class="payment-box">
-            <strong>Odeeffannoo Kaffaltii:</strong><br>
-            • 💵 <strong>Kaffaltii Qormaataa:</strong> 300 ETB<br>
-            • 📱 <strong>Telebirr:</strong> 0910166955<br>
-            • 🏦 <strong>CBE Account:</strong> 1000293554629 (Qajeelaa Hambisaa)
+          <p style="font-size: 13px; color: var(--text-light); margin-bottom: 15px;">Enter username to access exam.</p>
+          <div class="form-group">
+            <label>Username</label>
+            <input type="text" id="login-user" value="User1">
           </div>
-
-          <form id="signUpForm">
-            <div class="form-group">
-              <label>Maqaa Guutuu</label>
-              <input type="text" id="reg-name" required placeholder="Maqaa kee">
-            </div>
-            <div class="form-group">
-              <label>Username Barbaaddu</label>
-              <input type="text" id="reg-user" required placeholder="Fkn: kajela123">
-            </div>
-            <div class="form-group">
-              <label>Password Barbaaddu</label>
-              <input type="password" id="reg-pass" required placeholder="Password kee">
-            </div>
-            <div class="form-group">
-              <label>Transaction ID (Txn ID)</label>
-              <input type="text" id="reg-txn" required placeholder="TXN12345678">
-            </div>
-            <button type="submit" class="btn" style="width: 100%;">Approval Gaafadhu</button>
-          </form>
-        </div>
-
-        <div class="card" id="wait-box" style="display: none; max-width: 500px; margin: 20px auto; text-align: center; background: #fffbe0;">
-          <h4 style="color: #b45309;">Approval Eeggachaa Jirta...</h4>
-          <p style="font-size: 13px; margin-top: 5px; color: #78350f;">Admin kaffaltii kee mirkaneessaa jira.</p>
-          <div style="font-size: 32px; font-weight: bold; color: #d97706; margin: 10px 0;" id="timer-count">00:20</div>
+          <button class="btn" style="width: 100%;" onclick="loginUser()">Seeni (Login)</button>
         </div>
       </div>
 
-      <!-- 3. KUTAA QORUMSAA -->
+      <!-- EXAM PAGE -->
       <div id="exam" class="page-section">
         <div class="card">
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; flex-wrap: wrap; gap: 10px;">
-            <div>
-              <h3>Qormaata Modeelaa NGAT</h3>
-              <p style="font-size: 13px; color: var(--text-light);">Qormaata kana xumuruuf sa'aatii 3 qabdu.</p>
-            </div>
-            <div class="form-group" style="margin-bottom:0; width: 220px;">
-              <select id="categoryFilter" onchange="window.filterQuestionsByCategory()">
-                <option value="All">Kutaalee Hunda (All Category)</option>
-                <option value="Verbal">Verbal Reasoning</option>
-                <option value="Quantitative">Quantitative Reasoning</option>
-                <option value="Analytical">Analytical Reasoning</option>
-              </select>
-            </div>
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+            <h3>Qormaata Live Realtime</h3>
+            <select id="catFilter" onchange="renderQuiz()" style="width: auto; padding: 6px;">
+              <option value="All">Hunda (All)</option>
+              <option value="Verbal">Verbal</option>
+              <option value="Quantitative">Quantitative</option>
+              <option value="Analytical">Analytical</option>
+            </select>
           </div>
-
-          <form id="quiz-form">
-            <div id="questions-container">
-              <!-- Gaaffiilleen kanaan guutamu -->
-            </div>
-            <button type="submit" class="btn" style="background-color: var(--accent); margin-top: 15px;">Deebii Ergi (Submit Exam)</button>
+          <form id="quiz-form" onsubmit="submitQuiz(event)">
+            <div id="quiz-container"></div>
+            <button type="submit" class="btn" style="background: var(--accent); margin-top: 15px;">Deebii Ergi</button>
           </form>
-          
-          <div id="result-box" style="display:none; margin-top:20px; padding:20px; background:#d1fae5; color:#065f46; border-radius:8px;"></div>
+          <div id="result-box" style="display:none; margin-top:15px; padding:15px; background:#d1fae5; color:#065f46; border-radius:8px;"></div>
         </div>
       </div>
 
-      <!-- 4. KUTAA ADMIIN PAGE -->
+      <!-- ADMIN PAGE -->
       <div id="admin" class="page-section">
-        <!-- ADMIN LOGIN FORM -->
-        <div class="card" id="admin-login-card" style="max-width: 400px; margin: 0 auto;">
-          <h3 style="color: var(--danger);">⚙️ Admin Lock</h3>
-          <p style="font-size: 13px; color: var(--text-light); margin-bottom: 14px;">Kutaa Admin seenuuf Password Admin galchi.</p>
-          
-          <div class="form-group">
-            <label>Admin Password</label>
-            <input type="password" id="admin-pass-input" placeholder="••••••••">
+        <div class="card" id="admin-lock" style="max-width: 400px; margin: 0 auto;">
+          <h3>⚙️ Admin Access</h3>
+          <div class="form-group" style="margin-top: 10px;">
+            <input type="password" id="admin-pass" placeholder="Password: admin123">
           </div>
-          <button class="btn" style="width: 100%; background-color: var(--danger);" onclick="window.checkAdminPassword()">Kutaa Admiin Banii</button>
+          <button class="btn btn-danger" style="width: 100%;" onclick="unlockAdmin()">Bani</button>
         </div>
 
-        <!-- ADMIN DASHBOARD -->
-        <div id="admin-dashboard" style="display: none;">
-          
-          <!-- UPLOAD & MANAGEMENT JSON -->
+        <div id="admin-panel" style="display: none;">
           <div class="card">
-            <h3>📥 Gaaffiilee Real-Time Cloud Upload (JSON)</h3>
-            <p style="font-size: 13px; color: var(--text-light); margin-bottom: 15px;">Gaaffii haaraa upload goonaan device barattootaa hunda irratti battalatti (Real-time) kan hojjetudha.</p>
-            
-            <div class="upload-box">
-              <input type="file" id="jsonFileInput" accept=".json" style="display: none;" onchange="window.handleJsonUpload(event)">
-              <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-                <button class="btn" onclick="document.getElementById('jsonFileInput').click()">📁 Faayila JSON Filadhu</button>
-                <button class="btn btn-secondary" onclick="window.exportQuestionsJSON()">💾 Backup JSON Buufadhu</button>
-                <button class="btn btn-danger" onclick="window.clearQuestionsRepo()">🗑️ Kuusaa Cloud Qulqulleessi</button>
-              </div>
+            <h3>📥 Gaaffiilee Real-Time Upload (JSON 100)</h3>
+            <p style="font-size: 13px; color: var(--text-light); margin-bottom: 10px;">Upload goonaan battalatti meeshaa barattootaa hunda irratti update ta'a.</p>
+            <input type="file" id="jsonInput" accept=".json" style="display: none;" onchange="uploadJSON(event)">
+            <div style="display: flex; gap: 10px; margin-top: 10px;">
+              <button class="btn" onclick="document.getElementById('jsonInput').click()">📁 Faayila JSON Upload Godhi</button>
+              <button class="btn btn-danger" onclick="clearCloudData()">🗑️ Cloud Reset</button>
             </div>
           </div>
 
-          <!-- REPOSITORY DISPLAY -->
           <div class="card">
-            <h3>🗄️ Kuusaa Cloud Gaaffiillee Fe'amanii</h3>
-            <div id="questionsRepoDisplay" style="margin-top: 15px;"></div>
-          </div>
-
-          <!-- APPROVAL TABLE SECTION -->
-          <div class="card">
-            <h3>👥 Mirkaneessa Barattootaa (User Approval)</h3>
-            <div style="overflow-x: auto;">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Maqaa</th>
-                    <th>Username</th>
-                    <th>Txn ID</th>
-                    <th>Tarkaanfii</th>
-                  </tr>
-                </thead>
-                <tbody id="adminTable"></tbody>
-              </table>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <!-- 5. RESULTS PAGE -->
-      <div id="results" class="page-section">
-        <div class="card">
-          <h3>📊 Gabaasa fi Qabxii Qormaataa</h3>
-          <p style="font-size: 13px; color: var(--text-light); margin-bottom: 15px;">Seenaa fi bu'aa qormaataa kee asitti hordofi.</p>
-          <div id="history-container">
-            <!-- Results Table/List -->
+            <h3>🗄️ Cloud Repository</h3>
+            <div id="admin-repo-list"></div>
           </div>
         </div>
       </div>
-
     </div>
 
-    <!-- FOOTER -->
-    <footer>
-      <img src="deebii-logo.png" alt="Deebii Tech Logo" class="deebii-logo" onerror="this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%230d9488\'/><text x=\'50%\' y=\'65%\' font-size=\'40\' text-anchor=\'middle\' fill=\'white\' font-weight=\'bold\'>DT</text></svg>'">
-      <div>Developed by Kajela Hambisa Mosisa | Contact: 0910166955</div>
-    </footer>
+    <footer>Deebii Tech & Media Solutions | Realtime Engine</footer>
   </div>
 
-  <!-- REAL-TIME FIREBASE V9 MODULE (DEVICE HUNDAF LIVE SYNC) -->
   <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
     import { getDatabase, ref, set, onValue } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-database.js";
@@ -639,425 +173,161 @@
       projectId: "qajeelaa-exambank",
       storageBucket: "qajeelaa-exambank.firebasestorage.app",
       messagingSenderId: "325117871483",
-      appId: "1:325117871483:web:62fddc0f926d88d35e29de",
-      measurementId: "G-ZMKF2FR4LZ"
+      appId: "1:325117871483:web:62fddc0f926d88d35e29de"
     };
 
     const app = initializeApp(firebaseConfig);
-    const database = getDatabase(app);
+    const db = getDatabase(app);
+    const qRef = ref(db, 'questions');
 
-    // 1. REAL-TIME DATA LISTENER (Device kamiyyuu irratti battalatti fida)
-    const questionsRef = ref(database, 'questions');
-    
-    onValue(questionsRef, (snapshot) => {
+    window.cloudQuestions = [];
+
+    // REAL-TIME LISTENER (FIREBASE DRIVEN ONLY)
+    onValue(qRef, (snapshot) => {
       const data = snapshot.val();
       if (data) {
-        window.activeQuestionsList = Array.isArray(data) ? data : Object.values(data);
+        window.cloudQuestions = Array.isArray(data) ? data : Object.values(data);
       } else {
-        window.activeQuestionsList = [];
+        window.cloudQuestions = [];
       }
+
+      document.getElementById('sync-status').innerText = "Firebase: Live Connected ✅";
+      document.getElementById('count-badge').innerText = `Gaaffilee: ${window.cloudQuestions.length}`;
       
-      // Screen Active ta'e irratti battalatti auto-render godha
-      const activePage = document.querySelector('.page-section.active-page');
-      if (activePage && activePage.id === 'exam' && typeof window.renderQuiz === 'function') {
-        window.renderQuiz(window.activeQuestionsList);
-      }
-      if (window.isAdminLoggedIn && typeof window.renderQuestionsRepository === 'function') {
-        window.renderQuestionsRepository();
-      }
+      // Auto Update UI
+      window.renderQuiz();
+      window.renderAdminRepo();
+    }, (error) => {
+      console.error(error);
+      document.getElementById('sync-status').innerText = "Firebase Error! Rules check godhi.";
     });
 
-    // 2. REAL-TIME WRITE FUNCTION (Admin irraa Firebase gadi dhiisuuf)
-    window.syncQuestionsToFirebase = function(questionsArray) {
-      set(ref(database, 'questions'), questionsArray)
-        .then(() => {
-          alert("✅ Real-Time Sync Success! Gaaffiileen 100n meeshaalee (device) barattootaa hunda irratti battalatti haaromaniiru.");
-        })
-        .catch((error) => {
-          console.error("Firebase Sync Error:", error);
-          alert("❌ Real-time Cloud Sync irratti dogoggoratu uumame!");
-        });
+    // REAL-TIME WRITE TO CLOUD
+    window.saveToFirebase = function(arr) {
+      set(qRef, arr)
+        .then(() => alert("✅ Real-Time Sync Success! Device-oota hunda irratti 100% update ta'eera."))
+        .catch((err) => alert("❌ Firebase Sync Error: " + err.message));
     };
   </script>
 
-  <!-- MAIN APP LOGIC & UI EXPORTS -->
   <script>
-    window.usersList = JSON.parse(localStorage.getItem('usersList')) || [];
-    window.pendingRequests = JSON.parse(localStorage.getItem('pendingRequests')) || [];
-    window.examHistory = JSON.parse(localStorage.getItem('examHistory')) || [];
-    window.activeQuestionsList = [];
-    window.currentUser = null;
-    window.isAdminLoggedIn = false;
-    window.examTimerInterval = null;
+    let loggedIn = false;
 
-    // HAMBURGER MENU & UI NAVIGATION FIXES
-    window.toggleSidebar = function() {
-      const sidebar = document.getElementById('sidebar');
-      const overlay = document.getElementById('sidebarOverlay');
-      if (sidebar && overlay) {
-        sidebar.classList.toggle('open');
-        overlay.classList.toggle('active');
-      }
-    };
+    function toggleSidebar() {
+      document.getElementById('sidebar').classList.toggle('open');
+    }
 
-    window.toggleDarkMode = function() {
-      document.body.classList.toggle('dark-mode');
-    };
-
-    window.switchPage = function(pageId, element) {
-      if (pageId === 'exam' && !window.currentUser) {
-        alert("Qormaata jalqabuuf duraan User Login gochuu qabda!");
-        return;
-      }
-
-      const sidebar = document.getElementById('sidebar');
-      const overlay = document.getElementById('sidebarOverlay');
-      if (sidebar) sidebar.classList.remove('open');
-      if (overlay) overlay.classList.remove('active');
-
-      const pages = document.querySelectorAll('.page-section');
-      pages.forEach(p => p.classList.remove('active-page'));
-
-      const menuItems = document.querySelectorAll('.menu-item');
-      menuItems.forEach(m => m.classList.remove('active'));
-
-      const targetPage = document.getElementById(pageId);
-      if (targetPage) targetPage.classList.add('active-page');
-      if (element) element.classList.add('active');
-
-      const titles = {
-        'home': 'Home',
-        'payment': 'Kaffaltii (300 ETB)',
-        'exam': 'Kutaa Qorumsaa',
-        'admin': 'Kutaa Admiin',
-        'results': 'Bu\'aa fi Xiinxala'
-      };
+    function switchPage(pId, el) {
+      document.querySelectorAll('.page-section').forEach(p => p.classList.remove('active-page'));
+      document.querySelectorAll('.menu-item').forEach(m => m.classList.remove('active'));
       
-      const pageTitle = document.getElementById('page-title');
-      if (pageTitle && titles[pageId]) {
-        pageTitle.innerText = titles[pageId];
-      }
-
-      if (pageId === 'admin') {
-        if (!window.isAdminLoggedIn) {
-          document.getElementById('admin-login-card').style.display = 'block';
-          document.getElementById('admin-dashboard').style.display = 'none';
-        } else {
-          window.renderAdminTable();
-          window.renderQuestionsRepository();
-        }
-      }
-
-      if (pageId === 'exam') {
-        document.getElementById('global-timer').style.display = 'block';
-        window.startExamTimer(3 * 3600);
-        window.renderQuiz(window.activeQuestionsList);
-      } else {
-        document.getElementById('global-timer').style.display = 'none';
-        if (window.examTimerInterval) clearInterval(window.examTimerInterval);
-      }
-
-      if (pageId === 'results') {
-        window.renderExamHistory();
-      }
-    };
-
-    window.startExamTimer = function(seconds) {
-      if (window.examTimerInterval) clearInterval(window.examTimerInterval);
-      const timerDisplay = document.getElementById('global-timer');
+      document.getElementById(pId).classList.add('active-page');
+      if (el) el.classList.add('active');
+      document.getElementById('page-title').innerText = pId.toUpperCase();
       
-      window.examTimerInterval = setInterval(() => {
-        let h = Math.floor(seconds / 3600);
-        let m = Math.floor((seconds % 3600) / 60);
-        let s = seconds % 60;
+      if (pId === 'exam') renderQuiz();
+    }
 
-        h = h < 10 ? '0' + h : h;
-        m = m < 10 ? '0' + m : m;
-        s = s < 10 ? '0' + s : s;
+    function loginUser() {
+      loggedIn = true;
+      alert("Seensa Milkaa'inaa!");
+      switchPage('exam', document.querySelectorAll('.menu-item')[1]);
+    }
 
-        timerDisplay.innerText = `⌛ Yeroo Qormaataa: ${h}:${m}:${s}`;
-
-        if (seconds <= 0) {
-          clearInterval(window.examTimerInterval);
-          alert("⏰ Yeroon Qormaataa Xumurameera! Deebiin keessan offiin ergameera.");
-          document.getElementById("quiz-form").dispatchEvent(new Event('submit'));
-        }
-        seconds--;
-      }, 1000);
-    };
-
-    window.checkAdminPassword = function() {
-      const pass = document.getElementById('admin-pass-input').value;
-      if (pass === "admin123") {
-        window.isAdminLoggedIn = true;
-        document.getElementById('admin-login-card').style.display = 'none';
-        document.getElementById('admin-dashboard').style.display = 'block';
-        window.renderAdminTable();
-        window.renderQuestionsRepository();
+    function unlockAdmin() {
+      if (document.getElementById('admin-pass').value === 'admin123') {
+        document.getElementById('admin-lock').style.display = 'none';
+        document.getElementById('admin-panel').style.display = 'block';
+        renderAdminRepo();
       } else {
-        alert("Password Admin dogoggora!");
+        alert("Password Incorrect!");
       }
-    };
+    }
 
-    window.handleJsonUpload = function(event) {
-      const file = event.target.files[0];
-      if (file) {
-        const reader = new FileReader();
-        reader.onload = function(e) {
-          try {
-            const parsedData = JSON.parse(e.target.result);
-            if (Array.isArray(parsedData)) {
-              window.activeQuestionsList = parsedData;
-              if (window.syncQuestionsToFirebase) {
-                window.syncQuestionsToFirebase(window.activeQuestionsList);
-              }
-              window.renderQuestionsRepository();
-            } else {
-              alert("❌ Faayilii JSON kuusaa gaaffii Array [...] bifa qabu ta'uu qaba.");
-            }
-          } catch(err) {
-            alert("❌ Dogoggora faayila JSON dubbisuu irratti uumame!");
+    function uploadJSON(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = function(evt) {
+        try {
+          const parsed = JSON.parse(evt.target.result);
+          if (Array.isArray(parsed)) {
+            window.saveToFirebase(parsed);
+          } else {
+            alert("Faayilichi JSON Array ta'uu qaba!");
           }
-        };
-        reader.readAsText(file);
-      }
-    };
-
-    window.exportQuestionsJSON = function() {
-      const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(window.activeQuestionsList, null, 2));
-      const downloadAnchor = document.createElement('a');
-      downloadAnchor.setAttribute("href", dataStr);
-      downloadAnchor.setAttribute("download", "deebii_tech_questions.json");
-      document.body.appendChild(downloadAnchor);
-      downloadAnchor.click();
-      downloadAnchor.remove();
-    };
-
-    window.clearQuestionsRepo = function() {
-      if (confirm("Dugdaan kuusaa gaaffii Real-Time Database irraa haquu barbaadduuu?")) {
-        window.activeQuestionsList = [];
-        if (window.syncQuestionsToFirebase) {
-          window.syncQuestionsToFirebase([]);
+        } catch(err) {
+          alert("JSON dubbisuun hin danda'amne!");
         }
-        window.renderQuestionsRepository();
+      };
+      reader.readAsText(file);
+    }
+
+    function clearCloudData() {
+      if (confirm("Garaa laafina malee cloud irratti gaaffii hunda delete gochuu barbaaddaa?")) {
+        window.saveToFirebase([]);
       }
-    };
+    }
 
-    window.renderQuestionsRepository = function() {
-      const repoContainer = document.getElementById('questionsRepoDisplay');
-      repoContainer.innerHTML = "";
+    function renderQuiz() {
+      const box = document.getElementById('quiz-container');
+      if (!box) return;
+      box.innerHTML = "";
 
-      if (!window.activeQuestionsList || window.activeQuestionsList.length === 0) {
-        repoContainer.innerHTML = "<p style='color: var(--text-light);'>Gaaffiileen kuufaman Cloud irratti hin jiran. Maaloo JSON 100 upload godhaa.</p>";
+      const filter = document.getElementById('catFilter').value;
+      const list = filter === 'All' ? window.cloudQuestions : window.cloudQuestions.filter(q => q.category === filter);
+
+      if (!list || list.length === 0) {
+        box.innerHTML = "<p style='color:var(--text-light); padding:20px;'>Gaaffiin Realtime Cloud irraa hin argamne. Admin irraa JSON 100 upload godhaa.</p>";
         return;
       }
 
-      let html = `<p style='margin-bottom: 10px;'>Baay'ina Gaaffiilee Real-Time Cloud Irratti Jiran: <strong>${window.activeQuestionsList.length}</strong></p>`;
-      window.activeQuestionsList.forEach((q, idx) => {
-        html += `
-          <div class="question-box">
-            <span style="font-size: 11px; background: var(--primary); color: white; padding: 2px 8px; border-radius: 4px;">${q.category || 'General'}</span>
-            <div style="margin-top: 6px;"><strong>Gaaffii ${idx + 1}: ${q.question}</strong></div>
-            <ul style="margin-left: 20px; font-size: 13px; margin-top: 6px;">
-              ${q.options ? q.options.map((opt, i) => `<li style="${i === q.correctIndex ? 'color: var(--accent); font-weight: bold;' : ''}">${opt} ${i === q.correctIndex ? '(Deebii Sirrii)' : ''}</li>`).join('') : ''}
-            </ul>
-          </div>
-        `;
-      });
-
-      repoContainer.innerHTML = html;
-    };
-
-    window.renderAdminTable = function() {
-      const tbody = document.getElementById('adminTable');
-      tbody.innerHTML = "";
-
-      if (window.pendingRequests.length === 0) {
-        tbody.innerHTML = "<tr><td colspan='4' style='text-align:center;'>Gaaffiin Approval Haaraa Hin Jiru</td></tr>";
-        return;
-      }
-
-      window.pendingRequests.forEach((req, idx) => {
-        tbody.innerHTML += `
-          <tr>
-            <td>${req.name}</td>
-            <td>${req.username}</td>
-            <td><strong>${req.txn}</strong></td>
-            <td><button class="btn" style="background: var(--accent); padding: 6px 12px;" onclick="window.approveUser(${idx})">Approve & Register</button></td>
-          </tr>
-        `;
-      });
-    };
-
-    window.approveUser = function(idx) {
-      const req = window.pendingRequests[idx];
-      window.usersList.push({ name: req.name, username: req.username, password: req.password });
-      localStorage.setItem('usersList', JSON.stringify(window.usersList));
-
-      window.pendingRequests.splice(idx, 1);
-      localStorage.setItem('pendingRequests', JSON.stringify(window.pendingRequests));
-
-      alert(`Barataan (${req.name}) Mirkanaa'eera!`);
-      window.renderAdminTable();
-    };
-
-    window.filterQuestionsByCategory = function() {
-      const cat = document.getElementById('categoryFilter').value;
-      if (cat === 'All') {
-        window.renderQuiz(window.activeQuestionsList);
-      } else {
-        const filtered = window.activeQuestionsList.filter(q => q.category === cat);
-        window.renderQuiz(filtered);
-      }
-    };
-
-    window.renderQuiz = function(questions) {
-      const container = document.getElementById("questions-container");
-      container.innerHTML = "";
-
-      if (!questions || questions.length === 0) {
-        container.innerHTML = "<p style='color: var(--text-light);'>Gaaffiin Real-Time Database irraa dhiyaate hin jiru. Admin-ni gaaffii JSON upload gochuu qaba.</p>";
-        return;
-      }
-
-      questions.forEach((q, idx) => {
-        const card = document.createElement("div");
-        card.className = "question-box";
+      list.forEach((q, idx) => {
+        const div = document.createElement('div');
+        div.className = 'question-box';
         
-        let optionsHTML = "";
-        if (q.options && Array.isArray(q.options)) {
-          optionsHTML = q.options.map((opt, optIdx) => `
+        let opts = "";
+        if (q.options) {
+          opts = q.options.map((o, i) => `
             <label class="option-label">
-              <input type="radio" name="question_${idx}" value="${optIdx}" required>
-              <span>${opt}</span>
+              <input type="radio" name="q_${idx}" value="${i}" required>
+              <span>${o}</span>
             </label>
           `).join('');
         }
 
-        card.innerHTML = `
-          <div style="font-size: 11px; color: var(--primary); font-weight: bold; margin-bottom: 4px;">[${q.category || 'General'}]</div>
-          <strong style="font-size: 15px;">Gaaffii ${idx + 1}: ${q.question}</strong>
-          <div style="margin-top: 10px;">
-            ${optionsHTML}
-          </div>
+        div.innerHTML = `
+          <div style="font-size:11px; color:var(--primary); font-weight:bold;">[${q.category || 'General'}]</div>
+          <strong>Gaaffii ${idx + 1}: ${q.question}</strong>
+          <div style="margin-top:8px;">${opts}</div>
         `;
-        container.appendChild(card);
+        box.appendChild(div);
       });
-    };
+    }
 
-    window.renderExamHistory = function() {
-      const container = document.getElementById('history-container');
-      if (window.examHistory.length === 0) {
-        container.innerHTML = "<p style='color: var(--text-light);'>Seenaa qormaataa kanaan duraa hin jiru.</p>";
+    function renderAdminRepo() {
+      const box = document.getElementById('admin-repo-list');
+      if (!box) return;
+      
+      if (!window.cloudQuestions || window.cloudQuestions.length === 0) {
+        box.innerHTML = "<p>Cloud irratti data-n hin jiru.</p>";
         return;
       }
 
-      let html = `
-        <table>
-          <thead>
-            <tr>
-              <th>Guyyaa</th>
-              <th>Qabxii</th>
-              <th>Dhibbeentaa</th>
-            </tr>
-          </thead>
-          <tbody>
-      `;
+      box.innerHTML = `<p style="margin-bottom:10px;">Baay'ina Cloud Irratti Jiru: <strong>${window.cloudQuestions.length}</strong></p>`;
+    }
 
-      window.examHistory.forEach(h => {
-        html += `
-          <tr>
-            <td>${h.date}</td>
-            <td>${h.score}</td>
-            <td><strong>${h.percentage}</strong></td>
-          </tr>
-        `;
-      });
-
-      html += "</tbody></table>";
-      container.innerHTML = html;
-    };
-
-    // FORM SUBMISSION LISTENERS
-    document.getElementById('userLoginForm').addEventListener('submit', function(e) {
+    function submitQuiz(e) {
       e.preventDefault();
-      const u = document.getElementById('login-username').value;
-      const p = document.getElementById('login-password').value;
-
-      const found = window.usersList.find(user => user.username === u && user.password === p);
-
-      if (found) {
-        window.currentUser = found;
-        document.getElementById('user-display-name').innerText = found.name;
-        document.getElementById('user-status').innerText = "Approved ✅";
-        document.getElementById('user-avatar').innerText = found.name.charAt(0).toUpperCase();
-        alert(`Baga nagaan dhuftan, ${found.name}! Kallattiin gara Qormaataatti ceeta.`);
-        window.switchPage('exam', document.querySelectorAll('.menu-item')[2]);
-      } else {
-        alert("Username ykn Password dogoggora! Moo kaffaltii keessan Admin biraa hin mirkanoofne?");
-      }
-    });
-
-    document.getElementById('signUpForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      const newReq = {
-        name: document.getElementById('reg-name').value,
-        username: document.getElementById('reg-user').value,
-        password: document.getElementById('reg-pass').value,
-        txn: document.getElementById('reg-txn').value
-      };
-
-      window.pendingRequests.push(newReq);
-      localStorage.setItem('pendingRequests', JSON.stringify(window.pendingRequests));
-
-      document.getElementById('wait-box').style.display = 'block';
-
-      let seconds = 20;
-      const timerDisplay = document.getElementById('timer-count');
-
-      const interval = setInterval(() => {
-        seconds--;
-        let secStr = seconds < 10 ? '0' + seconds : seconds;
-        timerDisplay.innerText = `00:${secStr}`;
-
-        if (seconds <= 0) {
-          clearInterval(interval);
-          alert("20 second xumurameera! Admin kaffaltii (300 ETB) keessan mirkaneessaa jira. Maaloo yeroo xiqqoo booda Login godhaa!");
-          window.switchPage('home', document.querySelectorAll('.menu-item')[0]);
-        }
-      }, 1000);
-    });
-
-    document.getElementById("quiz-form").addEventListener("submit", function(e) {
-      e.preventDefault();
-      
       let score = 0;
-      const total = window.activeQuestionsList.length;
-
-      window.activeQuestionsList.forEach((q, idx) => {
-        const selected = document.querySelector(`input[name="question_${idx}"]:checked`);
-        if (selected && parseInt(selected.value) === q.correctIndex) {
-          score++;
-        }
+      window.cloudQuestions.forEach((q, i) => {
+        const sel = document.querySelector(`input[name="q_${i}"]:checked`);
+        if (sel && parseInt(sel.value) === q.correctIndex) score++;
       });
-
-      const percentage = Math.round((score / total) * 100);
-      const resultBox = document.getElementById("result-box");
-      resultBox.style.display = "block";
-      resultBox.innerHTML = `
-        <h3>🎉 Bu'aa Qormaataa Kee</h3>
-        <p style="font-size: 18px; margin-top: 8px;">Qabxii: <strong>${score} / ${total}</strong> (${percentage}%)</p>
-        <p>${percentage >= 50 ? 'Baga gammadde! Qormaata kana milkaa\'inaan darbiteera.' : 'Phaasii hin goone. Irra deebi\'iin yaali!'}</p>
-      `;
-
-      const record = {
-        date: new Date().toLocaleDateString(),
-        score: `${score}/${total}`,
-        percentage: `${percentage}%`
-      };
-      window.examHistory.push(record);
-      localStorage.setItem('examHistory', JSON.stringify(window.examHistory));
-    });
+      const res = document.getElementById('result-box');
+      res.style.display = 'block';
+      res.innerHTML = `<h4>Bu'aa: ${score} / ${window.cloudQuestions.length}</h4>`;
+    }
   </script>
 </body>
 </html>
