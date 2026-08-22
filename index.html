@@ -5,20 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Deebii Tech - Pro Portal</title>
   
-  <!-- PWA & Mobile Web App Meta Tags -->
+  <!-- PWA Meta Tags -->
   <meta name="theme-color" content="#f1f5f9">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="Deebii Tech">
   
-  <!-- Dynamic PWA App Icon Generator Manifest -->
   <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230d9488'/><text x='50%' y='65%' font-size='50' font-weight='bold' text-anchor='middle' fill='white'>D</text></svg>">
   <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIkRlZWJpaSBUZWNoIiwKICAic2hvcnRfbmFtZSI6ICJEZWViaWkiLAogICJzdGFydF91cmwiOiAiLiIsCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsCiAgImJhY2tncm91bmRfY29sb3IiOiAiI2Y4ZmFmYyIsCiAgInRoZW1lX2NvbG9yIjogIiNmMWY1ZjkiLAogICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUI0Yld4dU16MGlWMjl1ZEHNZ1pXTm1JR3AxYzIweU1EQWdNQ0E1T1RjdU1Ud21IaUJ1ZldSbElITjBZaUJqYjJ4dmNpQWpNSFp2Y210Y016QWlJRzE1SUNSZE1UWXNJR2x1T21RdmJuUjJhV3E1YTI5dUozTTBMUzAzTmlCSGJXbHRiM1Z1Ym1jaUlpQm1aVzVsS0CRjA3C35I1S1d2R21CZD09IiwKICAgICAgInNpemVzIjogIjE5MngxOTIiLAogICAgICAidHlwZSI6ICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0IiwKICAgICAgInNpemVzIjogIjE5MngxOTIiLAogICAgICAidHlwZSI6ICJpY29ucyIKICAgIH0KICBdCn0=">
 
   <style>
     :root {
-      /* Theme Colors */
       --primary-gradient: linear-gradient(135deg, #0284c7 0%, #0d9488 100%);
       --header-footer-bg: #f1f5f9; 
       --header-footer-border: #cbd5e1;
@@ -35,7 +33,6 @@
       --warning: #f59e0b;
     }
 
-    /* DARK MODE STYLES */
     body.dark-mode {
       --bg: #0f172a;
       --card-bg: #1e293b;
@@ -61,7 +58,6 @@
       transition: background-color 0.3s, color 0.3s;
     }
 
-    /* MOBILE TOGGLE BUTTON */
     .mobile-menu-btn {
       display: none;
       background: #e2e8f0;
@@ -74,11 +70,8 @@
       transition: background 0.2s;
     }
 
-    .mobile-menu-btn:hover {
-      background: #cbd5e1;
-    }
+    .mobile-menu-btn:hover { background: #cbd5e1; }
 
-    /* SIDEBAR NAVIGATION MENU */
     .sidebar {
       width: 280px;
       background: var(--sidebar-bg);
@@ -155,7 +148,6 @@
       color: white;
     }
 
-    /* MAIN CONTENT AREA */
     .main-content {
       flex-grow: 1;
       display: flex;
@@ -193,24 +185,11 @@
       object-fit: contain;
     }
 
-    .top-bar h2 {
-      font-size: 22px;
-    }
+    .top-bar h2 { font-size: 22px; }
+    .content-body { padding: 32px; flex-grow: 1; }
+    .page-section { display: none; }
+    .page-section.active-page { display: block; }
 
-    .content-body {
-      padding: 32px;
-      flex-grow: 1;
-    }
-
-    .page-section {
-      display: none;
-    }
-
-    .page-section.active-page {
-      display: block;
-    }
-
-    /* CARD COMPONENTS */
     .card {
       background: var(--card-bg);
       border-radius: 12px;
@@ -235,30 +214,12 @@
       gap: 8px;
     }
 
-    .btn:hover {
-      opacity: 0.9;
-      transform: translateY(-1px);
-    }
+    .btn:hover { opacity: 0.9; transform: translateY(-1px); }
+    .btn-secondary { background: #64748b; }
+    .btn-danger { background: var(--danger); }
 
-    .btn-secondary {
-      background: #64748b;
-    }
-
-    .btn-danger {
-      background: var(--danger);
-    }
-
-    .form-group {
-      margin-bottom: 14px;
-    }
-
-    .form-group label {
-      display: block;
-      font-size: 13px;
-      font-weight: bold;
-      margin-bottom: 6px;
-    }
-
+    .form-group { margin-bottom: 14px; }
+    .form-group label { display: block; font-size: 13px; font-weight: bold; margin-bottom: 6px; }
     .form-group input, .form-group select {
       width: 100%;
       padding: 10px;
@@ -279,21 +240,9 @@
       color: #166534;
     }
 
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 15px;
-    }
-
-    th, td {
-      padding: 12px;
-      border: 1px solid var(--header-footer-border);
-      text-align: left;
-    }
-
-    th {
-      background: var(--header-footer-bg);
-    }
+    table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+    th, td { padding: 12px; border: 1px solid var(--header-footer-border); text-align: left; }
+    th { background: var(--header-footer-bg); }
 
     .question-box {
       background: var(--card-bg);
@@ -347,7 +296,6 @@
       font-size: 14px;
     }
 
-    /* FOOTER */
     footer {
       text-align: center;
       padding: 20px;
@@ -362,11 +310,7 @@
       gap: 12px;
     }
 
-    footer img.deebii-logo {
-      height: 70px;
-      width: auto;
-      object-fit: contain;
-    }
+    footer img.deebii-logo { height: 70px; width: auto; object-fit: contain; }
 
     .sidebar-overlay {
       display: none;
@@ -377,9 +321,7 @@
       z-index: 999;
     }
 
-    .sidebar-overlay.active {
-      display: block;
-    }
+    .sidebar-overlay.active { display: block; }
 
     @media (max-width: 900px) {
       .mobile-menu-btn { display: block; }
@@ -400,10 +342,8 @@
 </head>
 <body>
 
-  <!-- MOBILE OVERLAY BACKDROP -->
   <div class="sidebar-overlay" id="sidebarOverlay" onclick="window.toggleSidebar()"></div>
 
-  <!-- SIDEBAR NAVIGATION MENU -->
   <div class="sidebar" id="sidebar">
     <div>
       <div class="brand">
@@ -437,10 +377,8 @@
     </div>
   </div>
 
-  <!-- MAIN CONTENT AREA -->
   <div class="main-content">
     
-    <!-- TOP BAR HEADER -->
     <div class="top-bar">
       <div class="top-bar-left">
         <button class="mobile-menu-btn" onclick="window.toggleSidebar()" aria-label="Toggle Menu">☰</button>
@@ -539,7 +477,7 @@
 
           <form id="quiz-form">
             <div id="questions-container">
-              <!-- Gaaffiilleen Real-Time Cloud irraa asitti guutamu -->
+              <!-- Gaaffiilleen Firebase Realtime irraa asitti tarreeffamu -->
             </div>
             <button type="submit" class="btn" style="background-color: var(--accent); margin-top: 15px;">Deebii Ergi (Submit Exam)</button>
           </form>
@@ -550,7 +488,6 @@
 
       <!-- 4. KUTAA ADMIIN PAGE -->
       <div id="admin" class="page-section">
-        <!-- ADMIN LOGIN FORM -->
         <div class="card" id="admin-login-card" style="max-width: 400px; margin: 0 auto;">
           <h3 style="color: var(--danger);">⚙️ Admin Lock</h3>
           <p style="font-size: 13px; color: var(--text-light); margin-bottom: 14px;">Kutaa Admin seenuuf Password Admin galchi.</p>
@@ -562,10 +499,8 @@
           <button class="btn" style="width: 100%; background-color: var(--danger);" onclick="window.checkAdminPassword()">Kutaa Admiin Banii</button>
         </div>
 
-        <!-- ADMIN DASHBOARD -->
         <div id="admin-dashboard" style="display: none;">
           
-          <!-- UPLOAD & MANAGEMENT JSON -->
           <div class="card">
             <h3>📥 Gaaffiilee Real-Time Cloud Upload (JSON)</h3>
             <p style="font-size: 13px; color: var(--text-light); margin-bottom: 15px;">Gaaffii haaraa upload goonaan device barattootaa hunda irratti battalatti (Real-time) kan hojjetudha.</p>
@@ -580,13 +515,11 @@
             </div>
           </div>
 
-          <!-- REPOSITORY DISPLAY -->
           <div class="card">
             <h3>🗄️ Kuusaa Cloud Gaaffiillee Fe'amanii</h3>
             <div id="questionsRepoDisplay" style="margin-top: 15px;"></div>
           </div>
 
-          <!-- APPROVAL TABLE SECTION -->
           <div class="card">
             <h3>👥 Mirkaneessa Barattootaa (User Approval)</h3>
             <div style="overflow-x: auto;">
@@ -620,14 +553,13 @@
 
     </div>
 
-    <!-- FOOTER -->
     <footer>
       <img src="deebii-logo.png" alt="Deebii Tech Logo" class="deebii-logo" onerror="this.src='data:image/svg+xml,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'45\' fill=\'%230d9488\'/><text x=\'50%\' y=\'65%\' font-size=\'40\' text-anchor=\'middle\' fill=\'white\' font-weight=\'bold\'>DT</text></svg>'">
-      <div>Developed by Kajela Hambisa Mosisa | Contact: 0910166955</div>
+      <div>Developed by Deebii Tech & Media Solutions | Contact: 0910166955</div>
     </footer>
   </div>
 
-  <!-- REAL-TIME FIREBASE V9 MODULE (LIVE SYNC DEVICE HUNDAAF) -->
+  <!-- REAL-TIME FIREBASE SDK MODULE -->
   <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
     import { getDatabase, ref, set, onValue } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-database.js";
@@ -645,10 +577,9 @@
 
     const app = initializeApp(firebaseConfig);
     const database = getDatabase(app);
-
-    // REAL-TIME DATA LISTENER (Single Source of Truth)
     const questionsRef = ref(database, 'questions');
     
+    // REAL-TIME LISTENER (MEESHAA HUNDA IRRATTI AUTOMATIC-N UPDATE GODHA)
     onValue(questionsRef, (snapshot) => {
       const data = snapshot.val();
       if (data) {
@@ -657,7 +588,6 @@
         window.activeQuestionsList = [];
       }
       
-      // Auto Update Live Screens
       const activePage = document.querySelector('.page-section.active-page');
       if (activePage && activePage.id === 'exam' && typeof window.renderQuiz === 'function') {
         window.renderQuiz(window.activeQuestionsList);
@@ -665,24 +595,22 @@
       if (window.isAdminLoggedIn && typeof window.renderQuestionsRepository === 'function') {
         window.renderQuestionsRepository();
       }
-    }, (error) => {
-      console.error("Firebase Realtime Listener Error:", error);
     });
 
-    // REAL-TIME WRITE FUNCTION (Cloud Write)
+    // REAL-TIME WRITE FUNCTION
     window.syncQuestionsToFirebase = function(questionsArray) {
-      set(ref(database, 'questions'), questionsArray)
+      set(questionsRef, questionsArray)
         .then(() => {
-          alert("✅ Live Data Sync Success! Device-oota hunda irratti battalatti haaromeera.");
+          alert("✅ Real-Time Sync Success! Gaaffiileen meeshaalee (device) barattootaa hunda irratti battalatti haaromaniiru.");
         })
         .catch((error) => {
           console.error("Firebase Sync Error:", error);
-          alert("❌ Real-time Sync irratti dogoggora! Rules Firebase keessaa check godha.");
+          alert("❌ Real-time Cloud Sync irratti dogoggoratu uumame!");
         });
     };
   </script>
 
-  <!-- APP ENGINE & UI LOGIC -->
+  <!-- MAIN APP LOGIC -->
   <script>
     window.usersList = JSON.parse(localStorage.getItem('usersList')) || [];
     window.pendingRequests = JSON.parse(localStorage.getItem('pendingRequests')) || [];
@@ -846,7 +774,6 @@
 
     window.renderQuestionsRepository = function() {
       const repoContainer = document.getElementById('questionsRepoDisplay');
-      if (!repoContainer) return;
       repoContainer.innerHTML = "";
 
       if (!window.activeQuestionsList || window.activeQuestionsList.length === 0) {
@@ -872,7 +799,6 @@
 
     window.renderAdminTable = function() {
       const tbody = document.getElementById('adminTable');
-      if (!tbody) return;
       tbody.innerHTML = "";
 
       if (window.pendingRequests.length === 0) {
@@ -915,17 +841,15 @@
     };
 
     window.renderQuiz = function(questions) {
-      const targetQuestions = questions || window.activeQuestionsList;
       const container = document.getElementById("questions-container");
-      if (!container) return;
       container.innerHTML = "";
 
-      if (!targetQuestions || targetQuestions.length === 0) {
-        container.innerHTML = "<p style='color: var(--text-light); padding:20px;'>Gaaffiin Real-Time Database irraa dhiyaate hin jiru. Admin-ni gaaffii JSON upload gochuu qaba.</p>";
+      if (!questions || questions.length === 0) {
+        container.innerHTML = "<p style='color: var(--text-light);'>Gaaffiin Real-Time Database irraa dhiyaate hin jiru. Admin-ni gaaffii JSON upload gochuu qaba.</p>";
         return;
       }
 
-      targetQuestions.forEach((q, idx) => {
+      questions.forEach((q, idx) => {
         const card = document.createElement("div");
         card.className = "question-box";
         
@@ -952,8 +876,6 @@
 
     window.renderExamHistory = function() {
       const container = document.getElementById('history-container');
-      if (!container) return;
-
       if (window.examHistory.length === 0) {
         container.innerHTML = "<p style='color: var(--text-light);'>Seenaa qormaataa kanaan duraa hin jiru.</p>";
         return;
@@ -985,7 +907,6 @@
       container.innerHTML = html;
     };
 
-    // EVENT LISTENERS
     document.getElementById('userLoginForm').addEventListener('submit', function(e) {
       e.preventDefault();
       const u = document.getElementById('login-username').value;
