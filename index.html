@@ -559,7 +559,7 @@
     </footer>
   </div>
 
-  <!-- REAL-TIME FIREBASE SDK MODULE -->
+ <!-- REAL-TIME FIREBASE SDK MODULE -->
   <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
     import { getDatabase, ref, set, onValue } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-database.js";
@@ -579,7 +579,7 @@
     const database = getDatabase(app);
     const questionsRef = ref(database, 'questions');
     
-    // REAL-TIME LISTENER (MEESHAA HUNDA IRRATTI AUTOMATIC-N UPDATE GODHA)
+    // REAL-TIME LISTENER
     onValue(questionsRef, (snapshot) => {
       const data = snapshot.val();
       if (data) {
@@ -595,17 +595,19 @@
       if (window.isAdminLoggedIn && typeof window.renderQuestionsRepository === 'function') {
         window.renderQuestionsRepository();
       }
+    }, (error) => {
+      console.error("Firebase Read Error:", error);
     });
 
-    // REAL-TIME WRITE FUNCTION
+    // REAL-TIME WRITE FUNCTION WITH DETAILED ERROR LOG
     window.syncQuestionsToFirebase = function(questionsArray) {
       set(questionsRef, questionsArray)
         .then(() => {
-          alert("✅ Real-Time Sync Success! Gaaffiileen meeshaalee (device) barattootaa hunda irratti battalatti haaromaniiru.");
+          alert("✅ Real-Time Sync Success! Gaaffiileen meeshaalee barattootaa hunda irratti battalatti haaromaniiru.");
         })
         .catch((error) => {
-          console.error("Firebase Sync Error:", error);
-          alert("❌ Real-time Cloud Sync irratti dogoggoratu uumame!");
+          console.error("Firebase Sync Detailed Error:", error);
+          alert("❌ Real-time Cloud Sync Error: " + error.message);
         });
     };
   </script>
